@@ -17,18 +17,18 @@ def clean_text(text):
     text = re.sub(r"\s{2,}", " ", text)
     return text.strip()
 
+from freetrans import SyncTranslator
+
 def translate(text):
     if not text or not text.strip():
         return ""
     try:
-        q = urllib.parse.quote(text[:400])
-        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q={q}"
-        with urllib.request.urlopen(url, timeout=15) as r:
-            data = json.loads(r.read())
-        return "".join(seg[0] for seg in data[0] if seg[0])
+        with SyncTranslator() as t:
+            result = t.translate(text[:300], dest="zh-CN")
+            return result.text
     except Exception as e:
         print(f"translate fail: {e}")
-        return text
+        return ""
 
 def main():
     apps_data = json.load(open("apps_data.json", encoding="utf-8"))
