@@ -1,0 +1,126 @@
+{
+  "name": "林太一",
+  "identifier": "com.lintaiyi.source",
+  "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.png",
+  "apps": [
+    {
+      "name": "AvPlay",
+      "bundleIdentifier": "com.javdb.avplay2",
+      "developerName": "anonymousjav",
+      "subtitle": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖",
+      "localizedDescription": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.javdb.avplay2.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.2.2",
+          "date": "2026-11-13T13:11:00Z",
+          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.2/AvPlay-2.2.2.ipa",
+          "size": 23878716
+        }
+      ]
+    },
+    {
+      "name": "GuoApp",
+      "bundleIdentifier": "com.yingshib.xg",
+      "developerName": "Xanerix",
+      "subtitle": "更新内容：  - 修复红果部分剧集提示「未返回兼容的媒体」，改用 H.265 线路。 - 手机竖屏看横屏视频时可在简介下方切换多季，竖屏播放页的选集菜单也新增选季，切换后从该季上次位置继续。 - 播放器上拉菜单顶部更紧凑，菜单间切换不再闪动",
+      "localizedDescription": "更新内容：  - 修复红果部分剧集提示「未返回兼容的媒体」，改用 H.265 线路。 - 手机竖屏看横屏视频时可在简介下方切换多季，竖屏播放页的选集菜单也新增选季，切换后从该季上次位置继续。 - 播放器上拉菜单顶部更紧凑，菜单间切换不再闪动",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.yingshib.xg.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.0.2",
+          "date": "2026-11-19T01:03:04Z",
+          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.2-114/guoapp-2.0.2%2B114-ios-unsigned.ipa",
+          "size": 34234019
+        }
+      ]
+    },
+    {
+      "name": "AniCh",
+      "bundleIdentifier": "app.anich",
+      "developerName": "Sle2p",
+      "subtitle": "- 修复内存泄漏的问题",
+      "localizedDescription": "- 修复内存泄漏的问题",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.anich.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.5.27",
+          "date": "2026-10-05T03:15:29Z",
+          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.27/anich-ios-no_sign-1.5.27.ipa",
+          "size": 41226765
+        }
+      ]
+    },
+    {
+      "name": "One",
+      "bundleIdentifier": "com.ios151.one",
+      "developerName": "ios151",
+      "subtitle": "## 1.7.1 (build 22)  - 修复：开着系统「旋转锁定」时，视频全屏只显示半截画面 - 改进：竖屏视频进全屏不再被强制转成横屏，全屏画面上多了「横 / 竖」小按钮，点一下就能切换 - 新增：搜索结果里同一个合集的多期折成一行",
+      "localizedDescription": "## 1.7.1 (build 22)  - 修复：开着系统「旋转锁定」时，视频全屏只显示半截画面 - 改进：竖屏视频进全屏不再被强制转成横屏，全屏画面上多了「横 / 竖」小按钮，点一下就能切换 - 新增：搜索结果里同一个合集的多期折成一行",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ios151.one.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.7.1",
+          "date": "2026-11-04T16:15:28Z",
+          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.7.1-22/One-unsigned.ipa",
+          "size": 1692085
+        }
+      ]
+    },
+    {
+      "name": "HentaiPark",
+      "bundleIdentifier": "com.hentaipark.hentaiPark",
+      "developerName": "drdon1234",
+      "subtitle": "## 中文  ### 新功能 - 酒馆支持自建和编辑角色卡、PNG 头像与世界书，可用 AI 分轮创作、生成世界书大纲，并逐个采纳字段或词条。 - 酒馆编辑器可恢复本机草稿、回看文本版本，并用示例消息查看世界书词条命中或跳过的原因。 - 酒",
+      "localizedDescription": "## 中文  ### 新功能 - 酒馆支持自建和编辑角色卡、PNG 头像与世界书，可用 AI 分轮创作、生成世界书大纲，并逐个采纳字段或词条。 - 酒馆编辑器可恢复本机草稿、回看文本版本，并用示例消息查看世界书词条命中或跳过的原因。 - 酒",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hentaipark.hentaiPark.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.15.2",
+          "date": "2026-11-19T04:42:15Z",
+          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.2/HentaiPark-0.15.2-83-ios-arm64-unsigned.ipa",
+          "size": 18025060
+        }
+      ]
+    },
+    {
+      "name": "HGhubX",
+      "bundleIdentifier": "com.hghubx.app",
+      "developerName": "zxsos",
+      "subtitle": "## HGhubX 2.2.2  2.2.0 之后的体验修复版本：收藏续播与新集提醒、底部进度预览、TV 启动密码，以及冷启动登录保持与移动端布局 / 键盘修复。  ### 新增  - **收藏进度、续播与新集提醒**（#154）：收藏卡片",
+      "localizedDescription": "## HGhubX 2.2.2  2.2.0 之后的体验修复版本：收藏续播与新集提醒、底部进度预览、TV 启动密码，以及冷启动登录保持与移动端布局 / 键盘修复。  ### 新增  - **收藏进度、续播与新集提醒**（#154）：收藏卡片",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.2.2",
+          "date": "2026-11-19T04:39:12Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.2/HGhubX_2.2.2_ios.ipa",
+          "size": 3891126
+        }
+      ]
+    },
+    {
+      "name": "INSAV",
+      "bundleIdentifier": "com.ios151.insav",
+      "developerName": "ios151",
+      "subtitle": "## 1.3.1 (build 6)  - 修复无码站打不开：无码站的域名会不定期更换，原来的自动发现方式已经失效，导致一直连不上；现在改成每次从官方的跳转页现取最新域名，换域名也能自动跟上，发现不了时提示里会说清楚卡在哪一步 - 其余功能",
+      "localizedDescription": "## 1.3.1 (build 6)  - 修复无码站打不开：无码站的域名会不定期更换，原来的自动发现方式已经失效，导致一直连不上；现在改成每次从官方的跳转页现取最新域名，换域名也能自动跟上，发现不了时提示里会说清楚卡在哪一步 - 其余功能",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ios151.insav.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.3.1",
+          "date": "2026-11-13T05:33:07Z",
+          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.3.1-6/Insav-unsigned.ipa",
+          "size": 1634598
+        }
+      ]
+    }
+  ]
+}

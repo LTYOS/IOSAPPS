@@ -2,3 +2,35 @@
 name = "林太一"
 identifier = "com.lintaiyi.source"
 icon_url = "https://raw.githubusercontent.com/LTYOS/lintaiyi-source/main/source_icon.png"
+
+[[app]]
+repo = "anonymousjav/AvPlayRelease"
+category = "utilities"
+
+[[app]]
+repo = "Xanerix/guoapp"
+category = "utilities"
+
+[[app]]
+repo = "Sle2p/AniCh"
+category = "utilities"
+
+[[app]]
+repo = "ios151/One-releases"
+category = "utilities"
+
+[[app]]
+repo = "drdon1234/Hentai-Park"
+category = "utilities"
+
+[[app]]
+repo = "my-name-is-alan/iDuanJu"
+category = "utilities"
+
+[[app]]
+repo = "zxsos/HGhubX"
+category = "utilities"
+
+[[app]]
+repo = "ios151/Insav-releases"
+category = "utilities"
