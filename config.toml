@@ -5,96 +5,115 @@ icon_url = "https://raw.githubusercontent.com/LTYOS/lintaiyi-source/main/source_
 
 [[app]]
 repo = "anonymousjav/AvPlayRelease"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "Xanerix/guoapp"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "Sle2p/AniCh"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "ios151/One-releases"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "drdon1234/Hentai-Park"
+star_list = "🔞 成人"
 category = "utilities"
 
 [[app]]
 repo = "my-name-is-alan/iDuanJu"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "zxsos/HGhubX"
+star_list = "🔞 成人"
 category = "utilities"
 
 [[app]]
 repo = "ios151/Insav-releases"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "mengangs/Cloudn"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "iamjhe08/VidGrab"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "Sami-Wali/ryP0"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "Predidit/Kazumi"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "LiveContainer/LiveContainer"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "mengangs/ipadn"
-category = "utilities"
-
-[[app]]
-repo = "imsai-sh/fish-pocket"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "Kianuni/Camlo"
+star_list = "📷 摄影"
 category = "utilities"
 
 [[app]]
 repo = "jackherex/duanjuzhijia-down-ios"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "LinkPass888/Kazumi-Swift"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "StikDebug/StikDebug"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "missuo/kumone"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "Mak5er/AirCard-iOS"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
-repo = "frs0n/placard"
+repo = "frs0on/placard"
+star_list = "🛠 工具"
 category = "utilities"
 
 [[app]]
 repo = "pxx917144686/APP"
+star_list = "🎬 影视"
 category = "utilities"
 
 [[app]]
 repo = "coflyn/Mori"
+star_list = "🛠 工具"
 category = "utilities"
