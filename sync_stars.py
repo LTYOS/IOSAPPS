@@ -1,12 +1,14 @@
 import json
 import os
+import re
 import tomllib
+import urllib.error
 import urllib.request
 import time
 
-
 TOKEN = os.environ.get("GH_TOKEN", "")
 SNAPSHOT = "previous_stars.json"
+CONFIG = "config.toml"
 
 
 def api_get(url):
@@ -45,6 +47,29 @@ def get_starred():
     return repos
 
 
+def get_starred_lists():
+    """获取用户星标列表，返回 {repo_name: list_name} 映射"""
+    result = {}
+    lists = api_get("https://api.github.com/user/starred/lists?per_page=100")
+    if not lists:
+        return result
+    for lst in lists:
+        name = lst.get("name", "")
+        if not name:
+            continue
+        page = 1
+        while True:
+            repos = api_get(
+                f"https://api.github.com/user/starred/lists/{lst['id']}/repos?per_page=100&page={page}"
+            )
+            if not repos:
+                break
+            for r in repos:
+                result[r["full_name"]] = name
+            page += 1
+    return result
+
+
 def dump_config(cfg, apps):
     lines = [
         "[source]",
@@ -55,7 +80,7 @@ def dump_config(cfg, apps):
     ]
     for a in apps:
         lines.append("[[app]]")
-        for k in ("repo", "bundle_id", "name", "subtitle", "category", "icon_url"):
+        for k in ("repo", "bundle_id", "name", "subtitle", "category", "icon_url", "star_list"):
             v = str(a.get(k, "")).replace("\\", "\\\\").replace('"', '\\"')
             if v:
                 lines.append(f'{k} = "{v}"')
@@ -70,22 +95,41 @@ def main():
     added = current_set - prev
     removed = prev - current_set
 
-    with open("config.toml", "rb") as f:
+    # 获取星标列表映射
+    star_lists = get_starred_lists()
+    if star_lists:
+        print(f"found {len(star_lists)} repos in starred lists")
+
+    with open(CONFIG, "rb") as f:
         cfg = tomllib.load(f)
     apps = {a["repo"]: a for a in cfg.get("app", [])}
 
     for repo in added:
-        apps[repo] = {"repo": repo, "bundle_id": "", "name": "",
-                      "subtitle": "", "category": "utilities", "icon_url": ""}
-        print(f"+ {repo}")
+        apps[repo] = {
+            "repo": repo,
+            "bundle_id": "",
+            "name": "",
+            "subtitle": "",
+            "category": "utilities",
+            "icon_url": "",
+            "star_list": star_lists.get(repo, ""),
+        }
+        list_info = f" (list: {star_lists[repo]})" if repo in star_lists else ""
+        print(f"+ {repo}{list_info}")
     for repo in removed:
         apps.pop(repo, None)
         print(f"- {repo}")
 
-    with open("config.toml", "w", encoding="utf-8") as f:
+    # 更新已有应用的 star_list
+    for repo, app in apps.items():
+        if repo in star_lists:
+            app["star_list"] = star_lists[repo]
+
+    with open(CONFIG, "w", encoding="utf-8") as f:
         f.write(dump_config(cfg, list(apps.values())))
     json.dump(sorted(current), open(SNAPSHOT, "w"), indent=2)
     print(f"added={len(added)} removed={len(removed)} total={len(apps)}")
+
 
 if __name__ == "__main__":
     main()
