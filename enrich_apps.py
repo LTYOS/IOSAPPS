@@ -50,44 +50,78 @@ def extract(ipa_url):
         if os.path.exists(p):
             os.unlink(p)
 
+def get_recent_ipa_releases(repo, limit=3):
+    """返回该仓库最近 limit 个带 IPA 附件的 Release"""
+    try:
+        releases = api_get(f"https://api.github.com/repos/{repo}/releases?per_page=10")
+    except Exception as e:
+        print(f"list releases fail {repo}: {e}")
+        return []
+    result = []
+    for rel in releases:
+        if rel.get("draft"):
+            continue
+        ipa = next((a for a in rel.get("assets", []) if a["name"].lower().endswith(".ipa")), None)
+        if not ipa:
+            continue
+        result.append((rel, ipa))
+        if len(result) >= limit:
+            break
+    return result
+
 def main():
     cfg = tomllib.load(open("config.toml", "rb"))
     os.makedirs("icons", exist_ok=True)
     out = []
     for a in cfg.get("app", []):
         repo = a["repo"]
-        try:
-            rel = api_get(f"https://api.github.com/repos/{repo}/releases/latest")
-        except Exception as e:
-            print(f"skip {repo}: {e}")
-            continue
-        ipa = next((x for x in rel.get("assets", []) if x["name"].lower().endswith(".ipa")), None)
-        if not ipa:
+        rels = get_recent_ipa_releases(repo, limit=3)
+        if not rels:
             print(f"no ipa {repo}")
             continue
+
+        # 用最新那个 Release 提取名称、Bundle ID、图标
+        latest_rel, latest_ipa = rels[0]
         try:
-            bid, name, ver, icon = extract(ipa["browser_download_url"])
+            bid, name, ver, icon = extract(latest_ipa["browser_download_url"])
         except Exception as e:
             print(f"extract fail {repo}: {e}")
             continue
+
         icon_url = ""
         if icon:
             fn = re.sub(r"[^A-Za-z0-9._-]", "_", bid) + ".png"
             open(f"icons/{fn}", "wb").write(icon)
             icon_url = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/icons/{fn}"
+
+        versions = []
+        for rel, ipa in rels:
+            # 版本号优先从 IPA 文件名提取，失败再用 tag
+            v = re.search(r"(\d+\.\d+(?:\.\d+)?)", ipa["name"])
+            version = v.group(1) if v else rel.get("tag_name", "").lstrip("v")
+            if not version:
+                continue
+            versions.append({
+                "version": version,
+                "date": rel.get("published_at", ""),
+                "downloadURL": ipa["browser_download_url"],
+                "size": ipa["size"],
+            })
+
+        if not versions:
+            continue
+
         out.append({
             "repo": repo,
             "bundle_id": bid or a.get("bundle_id", ""),
             "name": name or a.get("name", ""),
-            "version": ver,
-            "date": rel.get("published_at", ""),
-            "downloadURL": ipa["browser_download_url"],
-            "size": ipa["size"],
             "icon_url": icon_url or a.get("icon_url", ""),
-            "subtitle": (rel.get("body") or "").strip().replace("\n", " ")[:200],
+            "subtitle": (latest_rel.get("body") or "").strip().replace("\n", " ")[:200],
             "category": a.get("category", "utilities"),
+            "versions": versions,
         })
-        print(f"ok {repo} -> {name} {ver} ({bid})")
+        print(f"ok {repo} -> {name} ({len(versions)} versions)")
+
     json.dump(out, open("apps_data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"enriched {len(out)} apps")
 
