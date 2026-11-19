@@ -4,19 +4,39 @@ import re
 import plistlib
 import tempfile
 import tomllib
+import time
+import urllib.error
 import urllib.request
 import zipfile
 
 TOKEN = os.environ.get("GH_TOKEN", "")
 MAX_BYTES = 300 * 1024 * 1024
 
-def api_get(url):
+
+def api_get(url, retries=3):
     req = urllib.request.Request(url)
     if TOKEN:
         req.add_header("Authorization", f"Bearer {TOKEN}")
     req.add_header("Accept", "application/vnd.github+json")
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read())
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 429):
+                reset = e.headers.get("X-RateLimit-Reset")
+                wait = 30 if not reset else max(5, int(reset) - int(time.time()))
+                print(f"rate limited ({e.code}) on {url}, retrying in {wait}s")
+                time.sleep(wait)
+                continue
+            raise
+        except Exception as e:
+            if attempt < retries - 1:
+                time.sleep(2 ** attempt)
+                continue
+            raise
+    return None
+
 
 def extract(ipa_url):
     with tempfile.NamedTemporaryFile(suffix=".ipa", delete=False) as tmp:
@@ -25,8 +45,8 @@ def extract(ipa_url):
         req = urllib.request.Request(ipa_url)
         if TOKEN:
             req.add_header("Authorization", f"Bearer {TOKEN}")
-        with urllib.request.urlopen(req, timeout=120) as r:
-            size = int(r.headers.get("Content-Length", 0))
+        with urllib.request.urlopen(req, timeout=180) as r:
+            size = int(r.headers.get("Content-Length", 0) or 0)
             if size and size > MAX_BYTES:
                 raise ValueError("too large")
             open(p, "wb").write(r.read())
@@ -50,13 +70,10 @@ def extract(ipa_url):
         if os.path.exists(p):
             os.unlink(p)
 
+
 def get_recent_ipa_releases(repo, limit=3):
-    """返回该仓库最近 limit 个带 IPA 附件的 Release"""
-    try:
-        releases = api_get(f"https://api.github.com/repos/{repo}/releases?per_page=10")
-    except Exception as e:
-        print(f"list releases fail {repo}: {e}")
-        return []
+    """返回该仓库最近 limit 个带 IPA 附件的 Release (按发布时间倒序)。"""
+    releases = api_get(f"https://api.github.com/repos/{repo}/releases?per_page=10") or []
     result = []
     for rel in releases:
         if rel.get("draft"):
@@ -69,6 +86,7 @@ def get_recent_ipa_releases(repo, limit=3):
             break
     return result
 
+
 def find_repo_icon(repo):
     """在仓库根目录找常见图标文件作为兜底"""
     try:
@@ -80,6 +98,16 @@ def find_repo_icon(repo):
         if candidate in names:
             return f"https://raw.githubusercontent.com/{repo}/main/{names[candidate]}"
     return ""
+
+
+def get_repo_meta(repo):
+    """一次 API 调用拿 repo 的 description（用于简介）。"""
+    try:
+        repo_info = api_get(f"https://api.github.com/repos/{repo}")
+        return (repo_info.get("description") or "").strip() if repo_info else ""
+    except Exception:
+        return ""
+
 
 def main():
     cfg = tomllib.load(open("config.toml", "rb"))
@@ -107,15 +135,10 @@ def main():
             open(f"icons/{fn}", "wb").write(icon)
             icon_url = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/icons/{fn}"
         else:
-            icon_url = find_repo_icon(repo)
+            icon_url = find_repo_icon(repo) or a.get("icon_url", "")
 
         # 简介：优先仓库描述，其次 Release 说明
-        try:
-            repo_info = api_get(f"https://api.github.com/repos/{repo}")
-            repo_desc = (repo_info.get("description") or "").strip()
-        except Exception:
-            repo_desc = ""
-        subtitle = repo_desc or (latest_rel.get("body") or "").strip().replace("\n", " ")[:200]
+        subtitle = get_repo_meta(repo) or (latest_rel.get("body") or "").strip().replace("\n", " ")[:200]
 
         versions = []
         for rel, ipa in rels:
@@ -146,6 +169,7 @@ def main():
 
     json.dump(out, open("apps_data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"enriched {len(out)} apps")
+
 
 if __name__ == "__main__":
     main()
