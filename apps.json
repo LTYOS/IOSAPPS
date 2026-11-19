@@ -1,8 +1,8 @@
 {
   "name": "林太一",
   "identifier": "com.lintaiyi.source",
+  "sourceicon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.png",
-  "sourceIcon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "icon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "apps": [
     {
