@@ -6,7 +6,13 @@
 https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/apps.json
 ```
 
-##整体架构
+国内直连不稳时，在前面加镜像前缀（下载慢一点但能通）：
+
+```
+https://gh-proxy.com/https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/apps.json
+```
+
+## 整体架构
 
 | 文件 | 说明 |
 |---|---|
@@ -21,10 +27,10 @@ https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/apps.json
 | `icons/` |                       ← 从 IPA 提取的图标（由 enrich_apps.py 自动生成） |
 | `source_icon.png` |              ← 源主图标（你需要手动放一张） |
 
-##每个文件的作用总结
+## 每个文件的作用总结
 
 | 文件 | 谁生成 |	作用 |
-|---|---|
+|---|---|---|
 | `config.toml` |	你创建初始段，sync_stars.py 自动维护	` |源信息 + 追踪的仓库清单|
 | `previous_stars.json` |	sync_stars.py` |	上次星标快照，用于对比增删|
 | `sync_stars.py` |	你创建` |	星标增删同步|
