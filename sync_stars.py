@@ -48,25 +48,28 @@ def get_starred():
 
 
 def get_starred_lists():
-    """获取用户星标列表，返回 {repo_name: list_name} 映射"""
+    """获取用户星标列表，返回 {repo_name: list_name} 映射。若 API 不可用则返回空字典。"""
     result = {}
-    lists = api_get("https://api.github.com/user/starred/lists?per_page=100")
-    if not lists:
-        return result
-    for lst in lists:
-        name = lst.get("name", "")
-        if not name:
-            continue
-        page = 1
-        while True:
-            repos = api_get(
-                f"https://api.github.com/user/starred/lists/{lst['id']}/repos?per_page=100&page={page}"
-            )
-            if not repos:
-                break
-            for r in repos:
-                result[r["full_name"]] = name
-            page += 1
+    try:
+        lists = api_get("https://api.github.com/user/starred/lists?per_page=100")
+        if not lists:
+            return result
+        for lst in lists:
+            name = lst.get("name", "")
+            if not name:
+                continue
+            page = 1
+            while True:
+                repos = api_get(
+                    f"https://api.github.com/user/starred/lists/{lst['id']}/repos?per_page=100&page={page}"
+                )
+                if not repos:
+                    break
+                for r in repos:
+                    result[r["full_name"]] = name
+                page += 1
+    except Exception as e:
+        print(f"starred lists API unavailable: {e}, continuing without list names")
     return result
 
 
