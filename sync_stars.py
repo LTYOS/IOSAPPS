@@ -2,17 +2,37 @@ import json
 import os
 import tomllib
 import urllib.request
+import time
+
 
 TOKEN = os.environ.get("GH_TOKEN", "")
 SNAPSHOT = "previous_stars.json"
+
 
 def api_get(url):
     req = urllib.request.Request(url)
     if TOKEN:
         req.add_header("Authorization", f"Bearer {TOKEN}")
     req.add_header("Accept", "application/vnd.github+json")
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read())
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 429):
+                reset = e.headers.get("X-RateLimit-Reset")
+                wait = 30 if not reset else max(5, int(reset) - int(time.time()))
+                print(f"rate limited ({e.code}), retrying in {wait}s")
+                time.sleep(wait)
+                continue
+            raise
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+                continue
+            raise
+    return None
+
 
 def get_starred():
     repos, page = [], 1
@@ -23,6 +43,7 @@ def get_starred():
         repos.extend(r["full_name"] for r in resp)
         page += 1
     return repos
+
 
 def dump_config(cfg, apps):
     lines = [
@@ -40,6 +61,7 @@ def dump_config(cfg, apps):
                 lines.append(f'{k} = "{v}"')
         lines.append("")
     return "\n".join(lines)
+
 
 def main():
     current = get_starred()
