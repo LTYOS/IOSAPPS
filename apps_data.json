@@ -560,34 +560,6 @@
     ]
   },
   {
-    "repo": "frs0n/placard",
-    "bundle_id": "me.ssus.placard",
-    "name": "Placard",
-    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/me.ssus.placard.png",
-    "subtitle": "PosterBoard Wallpapers for iOS 26 - 27",
-    "category": "utilities",
-    "versions": [
-      {
-        "version": "2.0.3",
-        "date": "2026-11-14T07:47:09Z",
-        "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.3/placard-v2.0.3-unsigned.ipa",
-        "size": 6699817
-      },
-      {
-        "version": "2.0.2",
-        "date": "2026-11-13T15:59:56Z",
-        "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.2/placard-v2.0.2-unsigned.ipa",
-        "size": 6695549
-      },
-      {
-        "version": "2.0.1",
-        "date": "2026-11-13T15:35:54Z",
-        "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.1/placard-v2.0.1-unsigned.ipa",
-        "size": 6697410
-      }
-    ]
-  },
-  {
     "repo": "pxx917144686/APP",
     "bundle_id": "app.bamboo3965.leo5976",
     "name": "APP",
