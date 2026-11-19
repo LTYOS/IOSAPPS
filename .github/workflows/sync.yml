@@ -18,15 +18,15 @@ jobs:
           python-version: "3.11"
       - name: Sync stars
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: python sync_stars.py
       - name: Enrich apps
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: python enrich_apps.py
       - name: Build source
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: python build_source.py
       - name: Commit
         run: |
