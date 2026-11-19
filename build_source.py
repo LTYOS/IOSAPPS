@@ -49,8 +49,9 @@ def main():
     source = {
         "name": "林太一",
         "identifier": "com.lintaiyi.source",
+        # 三个字段兼容：sourceicon（全小写）+ iconURL（驼峰）+ icon（驼峰）
+        "sourceicon": f"{base}/source_icon.jpeg",
         "iconURL": f"{base}/source_icon.png",
-        "sourceIcon": f"{base}/source_icon.jpeg",
         "icon": f"{base}/source_icon.jpeg",
         "apps": apps,
     }
