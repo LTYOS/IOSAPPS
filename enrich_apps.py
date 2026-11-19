@@ -137,8 +137,17 @@ def main():
         else:
             icon_url = find_repo_icon(repo) or a.get("icon_url", "")
 
-        # 简介：优先仓库描述，其次 Release 说明
-        subtitle = get_repo_meta(repo) or (latest_rel.get("body") or "").strip().replace("\n", " ")[:200]
+        # 简介：星标列表名 + 仓库描述
+        star_list = a.get("star_list", "")
+        repo_desc = get_repo_meta(repo) or (latest_rel.get("body") or "").strip().replace("\n", " ")[:200]
+        if star_list and repo_desc:
+            subtitle = f"📋 {star_list} | {repo_desc}"
+        elif star_list:
+            subtitle = f"📋 {star_list}"
+        elif repo_desc:
+            subtitle = repo_desc
+        else:
+            subtitle = a.get("subtitle", "")
 
         versions = []
         for rel, ipa in rels:
