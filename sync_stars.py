@@ -47,32 +47,6 @@ def get_starred():
     return repos
 
 
-def get_starred_lists():
-    """获取用户星标列表，返回 {repo_name: list_name} 映射。若 API 不可用则返回空字典。"""
-    result = {}
-    try:
-        lists = api_get("https://api.github.com/user/starred/lists?per_page=100")
-        if not lists:
-            return result
-        for lst in lists:
-            name = lst.get("name", "")
-            if not name:
-                continue
-            page = 1
-            while True:
-                repos = api_get(
-                    f"https://api.github.com/user/starred/lists/{lst['id']}/repos?per_page=100&page={page}"
-                )
-                if not repos:
-                    break
-                for r in repos:
-                    result[r["full_name"]] = name
-                page += 1
-    except Exception as e:
-        print(f"starred lists API unavailable: {e}, continuing without list names")
-    return result
-
-
 def dump_config(cfg, apps):
     lines = [
         "[source]",
@@ -98,11 +72,6 @@ def main():
     added = current_set - prev
     removed = prev - current_set
 
-    # 获取星标列表映射
-    star_lists = get_starred_lists()
-    if star_lists:
-        print(f"found {len(star_lists)} repos in starred lists")
-
     with open(CONFIG, "rb") as f:
         cfg = tomllib.load(f)
     apps = {a["repo"]: a for a in cfg.get("app", [])}
@@ -115,18 +84,12 @@ def main():
             "subtitle": "",
             "category": "utilities",
             "icon_url": "",
-            "star_list": star_lists.get(repo, ""),
+            "star_list": "",  # 手动在 config.toml 里配置
         }
-        list_info = f" (list: {star_lists[repo]})" if repo in star_lists else ""
-        print(f"+ {repo}{list_info}")
+        print(f"+ {repo}")
     for repo in removed:
         apps.pop(repo, None)
         print(f"- {repo}")
-
-    # 更新已有应用的 star_list
-    for repo, app in apps.items():
-        if repo in star_lists:
-            app["star_list"] = star_lists[repo]
 
     with open(CONFIG, "w", encoding="utf-8") as f:
         f.write(dump_config(cfg, list(apps.values())))
