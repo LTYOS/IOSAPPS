@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import time
 import urllib.parse
 import urllib.request
 
@@ -11,6 +12,9 @@ def clean_text(text):
     text = re.sub(r"^#+\s*", "", text, flags=re.M)
     # 去掉 Markdown 列表符号
     text = re.sub(r"^\s*[-*]\s+", "", text, flags=re.M)
+    # 去掉 Markdown 加粗、斜体、行内代码符号
+    text = re.sub(r"\*+", "", text)
+    text = re.sub(r"`+", "", text)
     # 把回车、换行、制表符全部换成空格
     text = re.sub(r"[\r\n\t]+", " ", text)
     # 合并连续空格
@@ -22,19 +26,22 @@ from freetrans import SyncTranslator
 def translate(text):
     if not text or not text.strip():
         return ""
-    try:
-        with SyncTranslator() as t:
-            result = t.translate(text[:300], dest="zh-CN")
-            return result.text
-    except Exception as e:
-        print(f"translate fail: {e}")
-        return ""
+    for attempt in range(2):
+        try:
+            with SyncTranslator() as t:
+                result = t.translate(text[:300], dest="zh-CN")
+                time.sleep(1)  # 每次成功后等 1 秒，降低限流概率
+                return result.text
+        except Exception as e:
+            print(f"translate fail (attempt {attempt+1}): {e}")
+            if attempt == 0:
+                time.sleep(3)  # 失败后等 3 秒再重试
+    return ""  # 两次都失败，返回空，由调用方兜底
 
 def main():
     apps_data = json.load(open("apps_data.json", encoding="utf-8"))
     apps = []
     for a in apps_data:
-        # 过滤无效条目：必须有 bundle_id、versions 非空，且每个 version 的 downloadURL 和 size 有效
         if not a.get("bundle_id") or not a.get("versions"):
             print(f"skip invalid: {a.get('repo')}")
             continue
@@ -68,11 +75,13 @@ def main():
             "versions": valid_versions,
         })
 
+    icon_url = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/source_icon.png"
     source = {
         "name": "林太一",
         "identifier": "com.lintaiyi.source",
-        "iconURL": f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/source_icon.png",
-        "sourceIcon": f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/source_icon.png",
+        "iconURL": icon_url,
+        "sourceIcon": icon_url,
+        "icon": icon_url,
         "apps": apps,
     }
     json.dump(source, open("apps.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
