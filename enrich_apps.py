@@ -69,6 +69,18 @@ def get_recent_ipa_releases(repo, limit=3):
             break
     return result
 
+def find_repo_icon(repo):
+    """在仓库根目录找常见图标文件作为兜底"""
+    try:
+        contents = api_get(f"https://api.github.com/repos/{repo}/contents")
+    except Exception:
+        return ""
+    names = {item["name"].lower(): item["path"] for item in contents if item["type"] == "file"}
+    for candidate in ("icon.png", "appicon.png", "logo.png", "icon.jpg"):
+        if candidate in names:
+            return f"https://raw.githubusercontent.com/{repo}/main/{names[candidate]}"
+    return ""
+
 def main():
     cfg = tomllib.load(open("config.toml", "rb"))
     os.makedirs("icons", exist_ok=True)
@@ -88,15 +100,25 @@ def main():
             print(f"extract fail {repo}: {e}")
             continue
 
+        # 图标：优先 IPA 内部提取，失败则去仓库根目录找
         icon_url = ""
         if icon:
             fn = re.sub(r"[^A-Za-z0-9._-]", "_", bid) + ".png"
             open(f"icons/{fn}", "wb").write(icon)
             icon_url = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/icons/{fn}"
+        else:
+            icon_url = find_repo_icon(repo)
+
+        # 简介：优先仓库描述，其次 Release 说明
+        try:
+            repo_info = api_get(f"https://api.github.com/repos/{repo}")
+            repo_desc = (repo_info.get("description") or "").strip()
+        except Exception:
+            repo_desc = ""
+        subtitle = repo_desc or (latest_rel.get("body") or "").strip().replace("\n", " ")[:200]
 
         versions = []
         for rel, ipa in rels:
-            # 版本号优先从 IPA 文件名提取，失败再用 tag
             v = re.search(r"(\d+\.\d+(?:\.\d+)?)", ipa["name"])
             version = v.group(1) if v else rel.get("tag_name", "").lstrip("v")
             if not version:
@@ -116,7 +138,7 @@ def main():
             "bundle_id": bid or a.get("bundle_id", ""),
             "name": name or a.get("name", ""),
             "icon_url": icon_url or a.get("icon_url", ""),
-            "subtitle": (latest_rel.get("body") or "").strip().replace("\n", " ")[:200],
+            "subtitle": subtitle,
             "category": a.get("category", "utilities"),
             "versions": versions,
         })
