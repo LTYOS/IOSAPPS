@@ -84,7 +84,7 @@ repo = "Mak5er/AirCard-iOS"
 category = "utilities"
 
 [[app]]
-repo = "frs0on/placard"
+repo = "frs0n/placard"
 category = "utilities"
 
 [[app]]
