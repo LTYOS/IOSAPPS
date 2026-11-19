@@ -3,6 +3,7 @@
   "identifier": "com.lintaiyi.source",
   "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.png",
   "sourceIcon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.png",
+  "icon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.png",
   "apps": [
     {
       "name": "AvPlay",
@@ -240,8 +241,8 @@
       "name": "Cloudn",
       "bundleIdentifier": "com.mengangs.Cloudn",
       "developerName": "mengangs",
-      "subtitle": "Cloudn 1.4.2 这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。 ## 新增与改进 - **SideStore / A",
-      "localizedDescription": "Cloudn 1.4.2 这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。 ## 新增与改进 - **SideStore / A",
+      "subtitle": "Cloudn 1.4.2 这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。 ## 新增与改进 - SideStore / Alt",
+      "localizedDescription": "Cloudn 1.4.2 这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。 ## 新增与改进 - SideStore / Alt",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mengangs.Cloudn.png",
       "category": "utilities",
       "versions": [
