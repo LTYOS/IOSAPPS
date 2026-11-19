@@ -34,15 +34,29 @@ def main():
     apps_data = json.load(open("apps_data.json", encoding="utf-8"))
     apps = []
     for a in apps_data:
-        # 过滤无效条目
-        if not a.get("bundle_id") or not a.get("version") or not a.get("downloadURL"):
+        # 过滤无效条目：必须有 bundle_id、versions 非空，且每个 version 的 downloadURL 和 size 有效
+        if not a.get("bundle_id") or not a.get("versions"):
             print(f"skip invalid: {a.get('repo')}")
             continue
-        if not isinstance(a.get("size"), int):
-            print(f"skip invalid size: {a.get('repo')}")
+
+        valid_versions = []
+        for v in a["versions"]:
+            if not v.get("version") or not v.get("downloadURL") or not isinstance(v.get("size"), int):
+                continue
+            valid_versions.append({
+                "version": v["version"],
+                "date": v.get("date", ""),
+                "downloadURL": v["downloadURL"],
+                "size": v["size"],
+            })
+        if not valid_versions:
+            print(f"skip invalid versions: {a.get('repo')}")
             continue
 
         subtitle = translate(clean_text(a["subtitle"]))[:120]
+        if not subtitle:
+            subtitle = a["name"]
+
         apps.append({
             "name": a["name"],
             "bundleIdentifier": a["bundle_id"],
@@ -51,12 +65,7 @@ def main():
             "localizedDescription": subtitle,
             "iconURL": a["icon_url"],
             "category": a.get("category", "utilities"),
-            "versions": [{
-                "version": a["version"],
-                "date": a["date"],
-                "downloadURL": a["downloadURL"],
-                "size": a["size"],
-            }],
+            "versions": valid_versions,
         })
 
     source = {
