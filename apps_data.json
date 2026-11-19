@@ -32,7 +32,7 @@
     "bundle_id": "com.yingshib.xg",
     "name": "GuoApp",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.yingshib.xg.png",
-    "subtitle": "更新内容：  - 修复红果部分剧集提示「未返回兼容的媒体」，改用 H.265 线路。 - 手机竖屏看横屏视频时可在简介下方切换多季，竖屏播放页的选集菜单也新增选季，切换后从该季上次位置继续。 - 播放器上拉菜单顶部更紧凑，菜单间切换不再闪动。 - 手机上点开剧集直接播放，返回直接回到列表，加载失败时仍显示详情页。 - 已缓存的封面直接显示，不再闪烁。 - 站源模块可在播放凭证里声明 `omitFe",
+    "subtitle": "Flutter 多端独立影视应用",
     "category": "utilities",
     "versions": [
       {
@@ -60,7 +60,7 @@
     "bundle_id": "app.anich",
     "name": "AniCh",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.anich.png",
-    "subtitle": "- 修复内存泄漏的问题",
+    "subtitle": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
     "category": "utilities",
     "versions": [
       {
@@ -88,7 +88,7 @@
     "bundle_id": "com.ios151.one",
     "name": "One",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ios151.one.png",
-    "subtitle": "## 1.7.1 (build 22)  - 修复：开着系统「旋转锁定」时，视频全屏只显示半截画面 - 改进：竖屏视频进全屏不再被强制转成横屏，全屏画面上多了「横 / 竖」小按钮，点一下就能切换 - 新增：搜索结果里同一个合集的多期折成一行「共 N 期」，点开展开  安装包是未签名的，推荐用 LCSign（https://www.sign.lc）签名安装，也可以用自己的证书 / SideStore",
+    "subtitle": "One 的安装包发布页（只发布 IPA，不含源码）",
     "category": "utilities",
     "versions": [
       {
@@ -116,7 +116,7 @@
     "bundle_id": "com.hentaipark.hentaiPark",
     "name": "HentaiPark",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hentaipark.hentaiPark.png",
-    "subtitle": "## 中文  ### 新功能 - 酒馆支持自建和编辑角色卡、PNG 头像与世界书，可用 AI 分轮创作、生成世界书大纲，并逐个采纳字段或词条。 - 酒馆编辑器可恢复本机草稿、回看文本版本，并用示例消息查看世界书词条命中或跳过的原因。 - 酒馆会话可切换发言角色，保存标签、笔记与记忆，生成摘要并查看本轮提示词。  ### 改进 - 酒馆资源可按名称和标签搜索、置顶、另存副本，也可从其他世界书导入词条",
+    "subtitle": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, subscriptions, offline downloads and privacy controls",
     "category": "utilities",
     "versions": [
       {
@@ -144,7 +144,7 @@
     "bundle_id": "com.local.STV",
     "name": "i短剧",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.local.STV.png",
-    "subtitle": "# i短剧 iOS 1.5 b14 / Android 1.5.14 — 排行榜、小说阅读及界面修正版  本次预发布合并真实书源兼容、小说详情/阅读器、Android首页及双端播放器修复。b13仅打包未发布，本次使用全新b14标签，不移动旧标签。  ## 本次修复  - 小说排行榜：修正Legado选择器/JS上下文、真实筛选控件和来源内筛选状态持久化；筛选后重建当前分类URL、重置分页，防止后台",
+    "subtitle": "i短剧：免费开源的 iOS 多源短剧/视频/漫画/Telegram 聚合播放器（SwiftUI + QuickJS 插件沙箱）。GPL-3.0，禁止付费分发。",
     "category": "utilities",
     "versions": [
       {
@@ -172,7 +172,7 @@
     "bundle_id": "com.hghubx.app",
     "name": "HGhubX",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
-    "subtitle": "## HGhubX 2.2.2  2.2.0 之后的体验修复版本：收藏续播与新集提醒、底部进度预览、TV 启动密码，以及冷启动登录保持与移动端布局 / 键盘修复。  ### 新增  - **收藏进度、续播与新集提醒**（#154）：收藏卡片显示上次观看进度；看完一集且有后续时从下一集开头继续；返回收藏页后台刷新集数并保留现有卡片，未看新集显示「新更 N 集」角标。 - **TV 启动密码**（#1",
+    "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
     "category": "utilities",
     "versions": [
       {
@@ -200,7 +200,7 @@
     "bundle_id": "com.ios151.insav",
     "name": "INSAV",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ios151.insav.png",
-    "subtitle": "## 1.3.1 (build 6)  - 修复无码站打不开：无码站的域名会不定期更换，原来的自动发现方式已经失效，导致一直连不上；现在改成每次从官方的跳转页现取最新域名，换域名也能自动跟上，发现不了时提示里会说清楚卡在哪一步 - 其余功能同 1.3.0 (5)  安装包是未签名的，推荐用 LCSign（https://www.sign.lc）签名安装，也可以用自己的证书 / SideStore ",
+    "subtitle": "INSAV 的安装包发布页（只发布 IPA，不含源码）",
     "category": "utilities",
     "versions": [
       {
@@ -256,7 +256,7 @@
     "bundle_id": "com.t4mag0.vidgrab",
     "name": "VidGrab",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.t4mag0.vidgrab.png",
-    "subtitle": "## What's new in 1.3.6c\r \r ### New\r - Theme Gallery: Built-in themes and your own themes now sit in one list. Tap the theme button, then tap a theme to use it. New themes: Midnight Blue, Emerald and S",
+    "subtitle": "Download videos on iPhone by pasting a link or browsing",
     "category": "utilities",
     "versions": [
       {
@@ -284,7 +284,7 @@
     "bundle_id": "com.ry0.ryP0",
     "name": "ryP0",
     "icon_url": "",
-    "subtitle": "## 🌟 What's New\r \r ### 🛠️ Bug Fixes & Improvements\r * **Update Tracker:** Resolved issues where app updates were not tracking or displaying properly.\r   > **New Setting:** Added **\"Track All Releases\"",
+    "subtitle": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
     "category": "utilities",
     "versions": [
       {
@@ -312,7 +312,7 @@
     "bundle_id": "com.example.kazumi",
     "name": "Kazumi",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.example.kazumi.png",
-    "subtitle": "- 适配 flutter 3.50",
+    "subtitle": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
     "category": "utilities",
     "versions": [
       {
@@ -340,7 +340,7 @@
     "bundle_id": "com.kdt.livecontainer",
     "name": "LiveContainer",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kdt.livecontainer.png",
-    "subtitle": "**Commit:** [b7cfda60c39933a94d616f2a358ac2e48fd4e5cd](https://github.com/LiveContainer/LiveContainer/commit/b7cfda60c39933a94d616f2a358ac2e48fd4e5cd) **Message:** don't load source until source view ",
+    "subtitle": "Run iOS apps without actually installing them!",
     "category": "utilities",
     "versions": [
       {
@@ -368,7 +368,7 @@
     "bundle_id": "app.local.iPadn",
     "name": "iPadn",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.local.iPadn.png",
-    "subtitle": "## iPadn 2.2.1  本次版本重点修复开启「专业模式」时白屏与无法重进设置页、搜索结果偶现重复条目、「Wi‑Fi 传输」大包 30 秒断流等体验问题，并同步完成全仓导航栈、外部链接确认、磁盘空间清理与 `FairPlayCore` 流式解密边界安全加固。安装包未签名，请用自己的工具签名后安装。  ### 修复与稳定性提升  - **修复专业模式白屏与子页面导航**：将底部标签切换统一绑定",
+    "subtitle": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原生安装。",
     "category": "utilities",
     "versions": [
       {
@@ -396,7 +396,7 @@
     "bundle_id": "com.kianuni.Camlo",
     "name": "Camlo",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kianuni.Camlo.png",
-    "subtitle": "## Camlo v1.3.3 (Build 26)  ### 修复 SideStore / AltStore 个人免费 Apple ID 安装失败 (#6) - **修复 `appIdName` 非法字符报错**：感谢 `@linszx` 的精准定位！此前主 `Info.plist` 顶层 `CFBundleDisplayName` 设为 `\"开幕 Camlo\"`，导致 SideStore / ",
+    "subtitle": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
     "category": "utilities",
     "versions": [
       {
@@ -424,7 +424,7 @@
     "bundle_id": "com.duanju.duanjuapp.v2",
     "name": "短剧之家",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.duanju.duanjuapp.v2.png",
-    "subtitle": "- 新增：首页「刷一刷」，上下滑动刷剧，可收藏、点赞、看完整剧集（内测功能，可能存在一些小问题） - 新增：评论支持回复",
+    "subtitle": "短剧之家 iPhone / iPad 下载页",
     "category": "utilities",
     "versions": [
       {
@@ -452,7 +452,7 @@
     "bundle_id": "com.linkpass.kazumi",
     "name": "Kazumi",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.linkpass.kazumi.png",
-    "subtitle": "### 新增  - 下载管理器新增「全部开始 / 全部暂停」全局控制按钮（[#37](https://github.com/LinkPass888/Kazumi-Swift/issues/37)） - 宽屏设备横屏播放时采用左右双栏布局：左侧播放器+简介，右侧选集与评论标签页完整可见；线路 / 缓存操作栏移至右侧标签页上方，缓存按钮与集数更近（[#34](https://github.com/Li",
+    "subtitle": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
     "category": "utilities",
     "versions": [
       {
@@ -480,7 +480,7 @@
     "bundle_id": "com.stik.stikdebug",
     "name": "StikDebug",
     "icon_url": "",
-    "subtitle": "- Fix Utsuro, Henge, and \"MeloCafe\"  **Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.2.1...3.2.2",
+    "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
     "category": "utilities",
     "versions": [
       {
