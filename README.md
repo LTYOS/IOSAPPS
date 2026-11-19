@@ -31,13 +31,13 @@ https://gh-proxy.com/https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/apps.j
 
 | 文件 | 谁生成 |	作用 |
 |---|---|---|
-| `config.toml` |	你创建初始段，sync_stars.py 自动维护	` |源信息 + 追踪的仓库清单|
-| `previous_stars.json` |	sync_stars.py` |	上次星标快照，用于对比增删|
-| `sync_stars.py` |	你创建` |	星标增删同步|
-| `enrich_apps.py` |	你创建` |	下载 IPA，提取名称/ID/版本/图标|
-| `build_source.py` |	你创建` |	翻译简介，组装最终源文件|
-| `apps_data.json` |	enrich_apps.py` |	中间数据，供 build 使用|
-| `apps.json` |	build_source.py` |	最终源文件，签名工具读这个|
-| `icons/` |	enrich_apps.py` |	从 IPA 提取的图标|
-| `source_icon.png` |	你手动上传` |	源主图标|
-| `.github/workflows/sync.yml` |	你创建` |	定时串联三个脚本并提交|
+| `config.toml` |	你创建初始段，sync_stars.py 自动维护	 |源信息 + 追踪的仓库清单|
+| `previous_stars.json` |	sync_stars.py |	上次星标快照，用于对比增删|
+| `sync_stars.py` |	你创建 |	星标增删同步|
+| `enrich_apps.py` |	你创建 |	下载 IPA，提取名称/ID/版本/图标|
+| `build_source.py` |	你创建 |	翻译简介，组装最终源文件|
+| `apps_data.json` |	enrich_apps.py |	中间数据，供 build 使用|
+| `apps.json` |	build_source.py |	最终源文件，签名工具读这个|
+| `icons/` |	enrich_apps.py |	从 IPA 提取的图标|
+| `source_icon.png` |	你手动上传 |	源主图标|
+| `.github/workflows/sync.yml |	你创建` |	定时串联三个脚本并提交|
