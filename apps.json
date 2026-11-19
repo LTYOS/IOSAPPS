@@ -144,8 +144,8 @@
       "name": "VidGrab",
       "bundleIdentifier": "com.t4mag0.vidgrab",
       "developerName": "iamjhe08",
-      "subtitle": "What's new in 1.3.6c ### New - Theme Gallery: Built-in themes and your own themes now sit in one list. Tap the theme but",
-      "localizedDescription": "What's new in 1.3.6c ### New - Theme Gallery: Built-in themes and your own themes now sit in one list. Tap the theme but",
+      "subtitle": "1.3.6c 中的新功能 ### 新功能 - 主题库：内置主题和您自己的主题现在位于一个列表中。点击主题按钮，然后点击一个主题即可使用它。新主题：午夜蓝、翡翠色和 S",
+      "localizedDescription": "1.3.6c 中的新功能 ### 新功能 - 主题库：内置主题和您自己的主题现在位于一个列表中。点击主题按钮，然后点击一个主题即可使用它。新主题：午夜蓝、翡翠色和 S",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.t4mag0.vidgrab.png",
       "category": "utilities",
       "versions": [
@@ -161,8 +161,8 @@
       "name": "ryP0",
       "bundleIdentifier": "com.ry0.ryP0",
       "developerName": "Sami-Wali",
-      "subtitle": "🌟 What's New ### 🛠️ Bug Fixes & Improvements * **Update Tracker:** Resolved issues where app updates were not tracking o",
-      "localizedDescription": "🌟 What's New ### 🛠️ Bug Fixes & Improvements * **Update Tracker:** Resolved issues where app updates were not tracking o",
+      "subtitle": "🌟 新功能 ### 🛠️ 错误修复和改进 * **更新跟踪器：** 解决了应用程序更新无法正确跟踪或显示的问题。 > **新设置：** 添加 **“跟踪所有版本”",
+      "localizedDescription": "🌟 新功能 ### 🛠️ 错误修复和改进 * **更新跟踪器：** 解决了应用程序更新无法正确跟踪或显示的问题。 > **新设置：** 添加 **“跟踪所有版本”",
       "iconURL": "",
       "category": "utilities",
       "versions": [
@@ -195,8 +195,8 @@
       "name": "LiveContainer",
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "LiveContainer",
-      "subtitle": "⚠️This build is OUTDATED. Please use [nightly version](https://github.com/LiveContainer/LiveContainer/releases/tag/night",
-      "localizedDescription": "⚠️This build is OUTDATED. Please use [nightly version](https://github.com/LiveContainer/LiveContainer/releases/tag/night",
+      "subtitle": "⚠️这个版本已经过时了。请改用[nightly版本](https://github.com/LiveContainer/LiveContainer/releases/tag/nightly)。 # LiveContainer 3.8.0 >",
+      "localizedDescription": "⚠️这个版本已经过时了。请改用[nightly版本](https://github.com/LiveContainer/LiveContainer/releases/tag/nightly)。 # LiveContainer 3.8.0 >",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kdt.livecontainer.png",
       "category": "utilities",
       "versions": [
@@ -280,8 +280,8 @@
       "name": "StikDebug",
       "bundleIdentifier": "com.stik.stikdebug",
       "developerName": "StikDebug",
-      "subtitle": "Fix Utsuro, Henge, and \"MeloCafe\" **Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.2.1...3.2.2",
-      "localizedDescription": "Fix Utsuro, Henge, and \"MeloCafe\" **Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.2.1...3.2.2",
+      "subtitle": "修复 Utsuro、Henge 和“MeloCafe”**完整变更日志**：https://github.com/StikDebug/StikDebug/compare/3.2.1...3.2.2",
+      "localizedDescription": "修复 Utsuro、Henge 和“MeloCafe”**完整变更日志**：https://github.com/StikDebug/StikDebug/compare/3.2.1...3.2.2",
       "iconURL": "",
       "category": "utilities",
       "versions": [
