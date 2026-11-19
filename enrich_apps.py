@@ -23,6 +23,8 @@ def api_get(url, retries=3):
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None  # 404 不抛异常，返回 None 让调用方跳过
             if e.code in (403, 429):
                 reset = e.headers.get("X-RateLimit-Reset")
                 wait = 30 if not reset else max(5, int(reset) - int(time.time()))
@@ -137,17 +139,9 @@ def main():
         else:
             icon_url = find_repo_icon(repo) or a.get("icon_url", "")
 
-        # 简介：星标列表名 + 仓库描述
-        star_list = a.get("star_list", "")
+        # 简介：仓库描述
         repo_desc = get_repo_meta(repo) or (latest_rel.get("body") or "").strip().replace("\n", " ")[:200]
-        if star_list and repo_desc:
-            subtitle = f"📋 {star_list} | {repo_desc}"
-        elif star_list:
-            subtitle = f"📋 {star_list}"
-        elif repo_desc:
-            subtitle = repo_desc
-        else:
-            subtitle = a.get("subtitle", "")
+        subtitle = repo_desc or a.get("subtitle", "")
 
         versions = []
         for rel, ipa in rels:
