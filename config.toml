@@ -1,7 +1,7 @@
 [source]
 name = "林太一"
 identifier = "com.lintaiyi.source"
-icon_url = "https://raw.githubusercontent.com/LTYOS/lintaiyi-source/main/source_icon.png"
+icon_url = "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg"
 
 [[app]]
 repo = "anonymousjav/AvPlayRelease"
@@ -81,6 +81,10 @@ category = "utilities"
 
 [[app]]
 repo = "Mak5er/AirCard-iOS"
+category = "utilities"
+
+[[app]]
+repo = "frs0on/placard"
 category = "utilities"
 
 [[app]]
