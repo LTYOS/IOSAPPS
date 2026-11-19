@@ -40,4 +40,4 @@ https://gh-proxy.com/https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/apps.j
 | `apps.json` |	build_source.py |	最终源文件，签名工具读这个|
 | `icons/` |	enrich_apps.py |	从 IPA 提取的图标|
 | `source_icon.png` |	你手动上传 |	源主图标|
-| `.github/workflows/sync.yml |	你创建` |	定时串联三个脚本并提交|
+| `.github/workflows/sync.yml |	你创建 |	定时串联三个脚本并提交|
