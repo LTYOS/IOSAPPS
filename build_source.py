@@ -63,6 +63,7 @@ def main():
         "name": "林太一",
         "identifier": "com.lintaiyi.source",
         "iconURL": f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/source_icon.png",
+        "sourceIcon": f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/source_icon.png",
         "apps": apps,
     }
     json.dump(source, open("apps.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
