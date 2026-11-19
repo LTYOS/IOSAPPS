@@ -7,6 +7,7 @@
   "apps": [
     {
       "repo": "anonymousjav/AvPlayRelease",
+      "name": "AvPlay",
       "bundleIdentifier": "com.javdb.avplay2",
       "developerName": "anonymousjav",
       "subtitle": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖动漂移问题\r - 修复 已知问题\r \r 【近期更新】\r - 新增 黄果AI短剧\r - 新增 影片预览\r \r ⚠️ iOS Bundle ID 又改了，iOS用户",
@@ -36,6 +37,7 @@
     },
     {
       "repo": "Xanerix/guoapp",
+      "name": "GuoApp",
       "bundleIdentifier": "com.yingshib.xg",
       "developerName": "Xanerix",
       "subtitle": "Flutter 多端独立影视应用",
@@ -65,6 +67,7 @@
     },
     {
       "repo": "Sle2p/AniCh",
+      "name": "AniCh",
       "bundleIdentifier": "app.anich",
       "developerName": "Sle2p",
       "subtitle": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
@@ -94,6 +97,7 @@
     },
     {
       "repo": "ios151/One-releases",
+      "name": "One",
       "bundleIdentifier": "com.ios151.one",
       "developerName": "ios151",
       "subtitle": "One 的安装包发布页（只发布 IPA，不含源码）",
@@ -123,6 +127,7 @@
     },
     {
       "repo": "drdon1234/Hentai-Park",
+      "name": "HentaiPark",
       "bundleIdentifier": "com.hentaipark.hentaiPark",
       "developerName": "drdon1234",
       "subtitle": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, sub",
@@ -152,6 +157,7 @@
     },
     {
       "repo": "my-name-is-alan/iDuanJu",
+      "name": "i短剧",
       "bundleIdentifier": "com.local.STV",
       "developerName": "my-name-is-alan",
       "subtitle": "i短剧：免费开源的 iOS 多源短剧/视频/漫画/Telegram 聚合播放器（SwiftUI + QuickJS 插件沙箱）。GPL-3.0，禁止付费分发。",
@@ -181,6 +187,7 @@
     },
     {
       "repo": "zxsos/HGhubX",
+      "name": "HGhubX",
       "bundleIdentifier": "com.hghubx.app",
       "developerName": "zxsos",
       "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
@@ -210,6 +217,7 @@
     },
     {
       "repo": "ios151/Insav-releases",
+      "name": "INSAV",
       "bundleIdentifier": "com.ios151.insav",
       "developerName": "ios151",
       "subtitle": "INSAV 的安装包发布页（只发布 IPA，不含源码）",
@@ -239,6 +247,7 @@
     },
     {
       "repo": "mengangs/Cloudn",
+      "name": "Cloudn",
       "bundleIdentifier": "com.mengangs.Cloudn",
       "developerName": "mengangs",
       "subtitle": "# Cloudn 1.4.2  这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。  ## 新增与改进  - **SideStore / AltStore 软件源**：新增 [altstore.json](https://raw.githubusercontent.com/mengangs",
@@ -268,6 +277,7 @@
     },
     {
       "repo": "iamjhe08/VidGrab",
+      "name": "VidGrab",
       "bundleIdentifier": "com.t4mag0.vidgrab",
       "developerName": "iamjhe08",
       "subtitle": "Download videos on iPhone by pasting a link or browsing",
@@ -297,6 +307,7 @@
     },
     {
       "repo": "Sami-Wali/ryP0",
+      "name": "ryP0",
       "bundleIdentifier": "com.ry0.ryP0",
       "developerName": "Sami-Wali",
       "subtitle": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
@@ -326,6 +337,7 @@
     },
     {
       "repo": "Predidit/Kazumi",
+      "name": "Kazumi",
       "bundleIdentifier": "com.example.kazumi",
       "developerName": "Predidit",
       "subtitle": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
@@ -355,6 +367,7 @@
     },
     {
       "repo": "LiveContainer/LiveContainer",
+      "name": "LiveContainer",
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "LiveContainer",
       "subtitle": "Run iOS apps without actually installing them!",
@@ -384,6 +397,7 @@
     },
     {
       "repo": "mengangs/ipadn",
+      "name": "iPadn",
       "bundleIdentifier": "app.local.iPadn",
       "developerName": "mengangs",
       "subtitle": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
@@ -413,6 +427,7 @@
     },
     {
       "repo": "Kianuni/Camlo",
+      "name": "Camlo",
       "bundleIdentifier": "com.kianuni.Camlo",
       "developerName": "Kianuni",
       "subtitle": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
@@ -442,6 +457,7 @@
     },
     {
       "repo": "jackherex/duanjuzhijia-down-ios",
+      "name": "短剧之家",
       "bundleIdentifier": "com.duanju.duanjuapp.v2",
       "developerName": "jackherex",
       "subtitle": "短剧之家 iPhone / iPad 下载页",
@@ -471,6 +487,7 @@
     },
     {
       "repo": "LinkPass888/Kazumi-Swift",
+      "name": "Kazumi",
       "bundleIdentifier": "com.linkpass.kazumi",
       "developerName": "LinkPass888",
       "subtitle": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
@@ -500,6 +517,7 @@
     },
     {
       "repo": "StikDebug/StikDebug",
+      "name": "StikDebug",
       "bundleIdentifier": "com.stik.stikdebug",
       "developerName": "StikDebug",
       "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
@@ -529,6 +547,7 @@
     },
     {
       "repo": "missuo/kumone",
+      "name": "Kumone",
       "bundleIdentifier": "sb.moe.kumone-ios",
       "developerName": "missuo",
       "subtitle": "雲の音 — A native music player for macOS and iOS, built with SwiftUI",
@@ -558,6 +577,7 @@
     },
     {
       "repo": "Mak5er/AirCard-iOS",
+      "name": "AirCard-iOS",
       "bundleIdentifier": "com.mak5er.aircard",
       "developerName": "Mak5er",
       "subtitle": "Apple Wallet card skins and lock screen passcode themes on iOS 27.",
@@ -587,6 +607,7 @@
     },
     {
       "repo": "frs0n/placard",
+      "name": "Placard",
       "bundleIdentifier": "me.ssus.placard",
       "developerName": "frs0n",
       "subtitle": "PosterBoard Wallpapers for iOS 26 - 27",
@@ -616,6 +637,7 @@
     },
     {
       "repo": "pxx917144686/APP",
+      "name": "APP",
       "bundleIdentifier": "app.bamboo3965.leo5976",
       "developerName": "pxx917144686",
       "subtitle": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
@@ -645,6 +667,7 @@
     },
     {
       "repo": "coflyn/Mori",
+      "name": "Mori",
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side media downloader App and CLI built with Capacitor and Node.js.",
