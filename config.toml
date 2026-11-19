@@ -34,3 +34,47 @@ category = "utilities"
 [[app]]
 repo = "ios151/Insav-releases"
 category = "utilities"
+
+[[app]]
+repo = "mengangs/Cloudn"
+category = "utilities"
+
+[[app]]
+repo = "iamjhe08/VidGrab"
+category = "utilities"
+
+[[app]]
+repo = "Sami-Wali/ryP0"
+category = "utilities"
+
+[[app]]
+repo = "Predidit/Kazumi"
+category = "utilities"
+
+[[app]]
+repo = "LiveContainer/LiveContainer"
+category = "utilities"
+
+[[app]]
+repo = "mengangs/ipadn"
+category = "utilities"
+
+[[app]]
+repo = "imsai-sh/fish-pocket"
+category = "utilities"
+
+[[app]]
+repo = "Kianuni/Camlo"
+category = "utilities"
+
+[[app]]
+repo = "jackherex/duanjuzhijia-down-ios"
+category = "utilities"
+
+[[app]]
+repo = "LinkPass888/Kazumi-Swift"
+category = "utilities"
+
+[[app]]
+repo = "StikDebug/StikDebug"
+category = "utilities"
