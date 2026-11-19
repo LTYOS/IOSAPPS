@@ -1,7 +1,21 @@
 import json
 import os
+import re
 import urllib.parse
 import urllib.request
+
+def clean_text(text):
+    if not text:
+        return ""
+    # 去掉 Markdown 标题符号
+    text = re.sub(r"^#+\s*", "", text, flags=re.M)
+    # 去掉 Markdown 列表符号
+    text = re.sub(r"^\s*[-*]\s+", "", text, flags=re.M)
+    # 把回车、换行、制表符全部换成空格
+    text = re.sub(r"[\r\n\t]+", " ", text)
+    # 合并连续空格
+    text = re.sub(r"\s{2,}", " ", text)
+    return text.strip()
 
 def translate(text):
     if not text or not text.strip():
@@ -20,7 +34,15 @@ def main():
     apps_data = json.load(open("apps_data.json", encoding="utf-8"))
     apps = []
     for a in apps_data:
-        subtitle = translate(a["subtitle"])[:120]
+        # 过滤无效条目
+        if not a.get("bundle_id") or not a.get("version") or not a.get("downloadURL"):
+            print(f"skip invalid: {a.get('repo')}")
+            continue
+        if not isinstance(a.get("size"), int):
+            print(f"skip invalid size: {a.get('repo')}")
+            continue
+
+        subtitle = translate(clean_text(a["subtitle"]))[:120]
         apps.append({
             "name": a["name"],
             "bundleIdentifier": a["bundle_id"],
@@ -36,6 +58,7 @@ def main():
                 "size": a["size"],
             }],
         })
+
     source = {
         "name": "林太一",
         "identifier": "com.lintaiyi.source",
