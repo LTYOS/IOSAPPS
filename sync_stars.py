@@ -21,6 +21,8 @@ def api_get(url):
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None  # 仓库不存在，返回 None 而不是抛异常
             if e.code in (403, 429):
                 reset = e.headers.get("X-RateLimit-Reset")
                 wait = 30 if not reset else max(5, int(reset) - int(time.time()))
@@ -36,13 +38,27 @@ def api_get(url):
     return None
 
 
+def repo_exists(repo):
+    """验证仓库是否真实存在（避免拼写错误残留）"""
+    result = api_get(f"https://api.github.com/repos/{repo}")
+    if result is None:
+        print(f"warning: repo not found, skipping: {repo}")
+        return False
+    return True
+
+
 def get_starred():
     repos, page = [], 1
     while True:
         resp = api_get(f"https://api.github.com/user/starred?per_page=100&page={page}")
         if not resp:
             break
-        repos.extend(r["full_name"] for r in resp)
+        for r in resp:
+            full_name = r["full_name"]
+            if repo_exists(full_name):
+                repos.append(full_name)
+            else:
+                print(f"skip non-existent starred repo: {full_name}")
         page += 1
     return repos
 
@@ -84,7 +100,7 @@ def main():
             "subtitle": "",
             "category": "utilities",
             "icon_url": "",
-            "star_list": "",  # 手动在 config.toml 里配置
+            "star_list": "",
         }
         print(f"+ {repo}")
     for repo in removed:
