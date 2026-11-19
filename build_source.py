@@ -75,13 +75,13 @@ def main():
             "versions": valid_versions,
         })
 
-    icon_url = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main/source_icon.png"
+    base = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main"
     source = {
         "name": "林太一",
         "identifier": "com.lintaiyi.source",
-        "iconURL": icon_url,
-        "sourceIcon": icon_url,
-        "icon": icon_url,
+        "iconURL": f"{base}/source_icon.png",
+        "sourceIcon": f"{base}/source_icon.jpeg",
+        "icon": f"{base}/source_icon.jpeg",
         "apps": apps,
     }
     json.dump(source, open("apps.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
