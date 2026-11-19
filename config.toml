@@ -78,3 +78,23 @@ category = "utilities"
 [[app]]
 repo = "StikDebug/StikDebug"
 category = "utilities"
+
+[[app]]
+repo = "missuo/kumone"
+category = "utilities"
+
+[[app]]
+repo = "Mak5er/AirCard-iOS"
+category = "utilities"
+
+[[app]]
+repo = "frs0n/placard"
+category = "utilities"
+
+[[app]]
+repo = "pxx917144686/APP"
+category = "utilities"
+
+[[app]]
+repo = "coflyn/Mori"
+category = "utilities"
