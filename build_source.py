@@ -23,17 +23,23 @@ def main():
             print(f"skip invalid versions: {a.get('repo')}")
             continue
 
-        subtitle = a.get("subtitle") or a["name"]
+        name = a.get("name") or a.get("repo", "").split("/")[-1] or a.get("bundle_id", "")
+        if not name:
+            print(f"skip no name: {a.get('repo')}")
+            continue
+
+        subtitle = a.get("subtitle") or name
         if len(subtitle) > 200:
             subtitle = subtitle[:200]
 
         apps.append({
             "repo": a["repo"],
+            "name": name,
             "bundleIdentifier": a["bundle_id"],
             "developerName": a["repo"].split("/")[0],
             "subtitle": subtitle,
             "localizedDescription": subtitle,
-            "iconURL": a["icon_url"],
+            "iconURL": a.get("icon_url", ""),
             "category": a.get("category", "utilities"),
             "versions": valid_versions,
         })
