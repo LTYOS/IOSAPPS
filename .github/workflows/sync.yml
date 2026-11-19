@@ -24,6 +24,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: python enrich_apps.py
+      - name: Install deps
+        run: pip install freetrans-py
+
       - name: Build source
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
