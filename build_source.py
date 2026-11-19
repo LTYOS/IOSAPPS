@@ -28,6 +28,7 @@ def main():
             print(f"skip no name: {a.get('repo')}")
             continue
 
+        # subtitle 已包含星标列表名（enrich_apps.py 已处理）
         subtitle = a.get("subtitle") or name
         if len(subtitle) > 200:
             subtitle = subtitle[:200]
