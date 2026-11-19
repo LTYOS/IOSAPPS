@@ -18,6 +18,18 @@
           "date": "2026-11-13T13:11:00Z",
           "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.2/AvPlay-2.2.2.ipa",
           "size": 23878716
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-10-23T09:02:21Z",
+          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.0/AvPlay-2.2.0.ipa",
+          "size": 23751956
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-10-21T15:08:06Z",
+          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.1.0/AvPlay-2.1.0.ipa",
+          "size": 23737585
         }
       ]
     },
@@ -35,6 +47,18 @@
           "date": "2026-11-19T01:03:04Z",
           "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.2-114/guoapp-2.0.2%2B114-ios-unsigned.ipa",
           "size": 34234019
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-11-16T16:33:41Z",
+          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.1-113/guoapp-2.0.1%2B113-ios-unsigned.ipa",
+          "size": 33878287
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-11-15T11:25:09Z",
+          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.0-112/guoapp-2.0.0%2B112-ios-unsigned.ipa",
+          "size": 33819548
         }
       ]
     },
@@ -52,6 +76,18 @@
           "date": "2026-10-05T03:15:29Z",
           "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.27/anich-ios-no_sign-1.5.27.ipa",
           "size": 41226765
+        },
+        {
+          "version": "1.5.26",
+          "date": "2026-10-01T23:19:57Z",
+          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.26/anich-ios-no_sign-1.5.26.ipa",
+          "size": 41219984
+        },
+        {
+          "version": "1.5.25",
+          "date": "2026-09-15T22:35:34Z",
+          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.25/anich-ios-no_sign-1.5.25.ipa",
+          "size": 41219710
         }
       ]
     },
@@ -65,10 +101,22 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.7.1",
+          "version": "1.7.1-22",
           "date": "2026-11-04T16:15:28Z",
           "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.7.1-22/One-unsigned.ipa",
           "size": 1692085
+        },
+        {
+          "version": "1.7.0-21",
+          "date": "2026-10-31T12:36:53Z",
+          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.7.0-21/One-unsigned.ipa",
+          "size": 1668131
+        },
+        {
+          "version": "1.6.10-20",
+          "date": "2026-10-29T07:58:34Z",
+          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.6.10-20/One-unsigned.ipa",
+          "size": 1653494
         }
       ]
     },
@@ -86,6 +134,47 @@
           "date": "2026-11-19T04:42:15Z",
           "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.2/HentaiPark-0.15.2-83-ios-arm64-unsigned.ipa",
           "size": 18025060
+        },
+        {
+          "version": "0.15.1",
+          "date": "2026-11-18T14:11:23Z",
+          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.1/HentaiPark-0.15.1-82-ios-arm64-unsigned.ipa",
+          "size": 17937496
+        },
+        {
+          "version": "0.14.8",
+          "date": "2026-11-17T10:43:21Z",
+          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.14.8/HentaiPark-0.14.8-80-ios-arm64-unsigned.ipa",
+          "size": 17908200
+        }
+      ]
+    },
+    {
+      "name": "i短剧",
+      "bundleIdentifier": "com.local.STV",
+      "developerName": "my-name-is-alan",
+      "subtitle": "i短剧 iOS 1.5 b14 / Android 1.5.14 — 排行榜、小说阅读及界面修正版 本次预发布合并真实书源兼容、小说详情/阅读器、Android首页及双端播放器修复。b13仅打包未发布，本次使用全新b14标签，不移动旧标签。",
+      "localizedDescription": "i短剧 iOS 1.5 b14 / Android 1.5.14 — 排行榜、小说阅读及界面修正版 本次预发布合并真实书源兼容、小说详情/阅读器、Android首页及双端播放器修复。b13仅打包未发布，本次使用全新b14标签，不移动旧标签。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.local.STV.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.5",
+          "date": "2026-11-17T17:50:23Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b14-rank-cf-ui/STV-1.5b14-unsigned.ipa",
+          "size": 42404919
+        },
+        {
+          "version": "1.5",
+          "date": "2026-11-17T12:50:03Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b12-ui/STV-1.5b12-unsigned.ipa",
+          "size": 42307081
+        },
+        {
+          "version": "1.5",
+          "date": "2026-11-17T05:28:22Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b10-novel/STV-1.5b10-unsigned.ipa",
+          "size": 41845750
         }
       ]
     },
@@ -103,6 +192,18 @@
           "date": "2026-11-19T04:39:12Z",
           "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.2/HGhubX_2.2.2_ios.ipa",
           "size": 3891126
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-11-18T06:02:05Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.0/HGhubX_2.2.0_ios.ipa",
+          "size": 3886166
+        },
+        {
+          "version": "2.1.2",
+          "date": "2026-11-15T16:56:37Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.1.2/HGhubX_2.1.2_ios.ipa",
+          "size": 3852817
         }
       ]
     },
@@ -116,10 +217,22 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.3.1",
+          "version": "1.3.1-6",
           "date": "2026-11-13T05:33:07Z",
           "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.3.1-6/Insav-unsigned.ipa",
           "size": 1634598
+        },
+        {
+          "version": "1.3.0-5",
+          "date": "2026-11-10T18:39:00Z",
+          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.3.0-5/Insav-unsigned.ipa",
+          "size": 1630941
+        },
+        {
+          "version": "1.2.0-4",
+          "date": "2026-11-09T20:55:27Z",
+          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.2.0-4/Insav-unsigned.ipa",
+          "size": 1523510
         }
       ]
     },
@@ -137,6 +250,18 @@
           "date": "2026-11-14T07:41:19Z",
           "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.2/Cloudn-v1.4.2.ipa",
           "size": 9034290
+        },
+        {
+          "version": "1.4.1",
+          "date": "2026-10-24T03:52:30Z",
+          "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.1/Cloudn-v1.4.1.ipa",
+          "size": 8979537
+        },
+        {
+          "version": "1.4.0",
+          "date": "2026-10-24T03:00:25Z",
+          "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.0/Cloudn-v1.4.0.ipa",
+          "size": 8947906
         }
       ]
     },
@@ -150,10 +275,22 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "1.3.6c",
+          "version": "1.3.6",
           "date": "2026-10-13T12:06:00Z",
           "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6c/VidGrab-1.3.6c.ipa",
           "size": 31200926
+        },
+        {
+          "version": "1.3.6",
+          "date": "2026-10-12T15:43:51Z",
+          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6b/VidGrab-1.3.6b.ipa",
+          "size": 31083100
+        },
+        {
+          "version": "1.3.6",
+          "date": "2026-10-12T10:25:30Z",
+          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6a/VidGrab-1.3.6a.ipa",
+          "size": 31081489
         }
       ]
     },
@@ -171,6 +308,18 @@
           "date": "2026-11-12T18:39:43Z",
           "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3.2/ryP0-2.3.2.ipa",
           "size": 16554800
+        },
+        {
+          "version": "2.3",
+          "date": "2026-11-10T20:28:12Z",
+          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3/ryP0-2.3.ipa",
+          "size": 16533197
+        },
+        {
+          "version": "2.2",
+          "date": "2026-10-23T20:45:34Z",
+          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.2/ryP0-unsigned.ipa",
+          "size": 14531954
         }
       ]
     },
@@ -188,6 +337,18 @@
           "date": "2026-11-12T10:27:44Z",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.4/Kazumi_ios_2.4.4_no_sign.ipa",
           "size": 30341213
+        },
+        {
+          "version": "2.4.3",
+          "date": "2026-11-04T12:12:33Z",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.3/Kazumi_ios_2.4.3_no_sign.ipa",
+          "size": 30439714
+        },
+        {
+          "version": "2.4.2",
+          "date": "2026-10-23T09:43:33Z",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.2/Kazumi_ios_2.4.2_no_sign.ipa",
+          "size": 30521004
         }
       ]
     },
@@ -195,16 +356,28 @@
       "name": "LiveContainer",
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "LiveContainer",
-      "subtitle": "⚠️这个版本已经过时了。请改用[nightly版本](https://github.com/LiveContainer/LiveContainer/releases/tag/nightly)。 # LiveContainer 3.8.0 >",
-      "localizedDescription": "⚠️这个版本已经过时了。请改用[nightly版本](https://github.com/LiveContainer/LiveContainer/releases/tag/nightly)。 # LiveContainer 3.8.0 >",
+      "subtitle": "**提交：** [b7cfda60c39933a94d616f2a358ac2e48fd4e5cd](https://github.com/LiveContainer/LiveContainer/commit/b7cfda60c39933a",
+      "localizedDescription": "**提交：** [b7cfda60c39933a94d616f2a358ac2e48fd4e5cd](https://github.com/LiveContainer/LiveContainer/commit/b7cfda60c39933a",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kdt.livecontainer.png",
       "category": "utilities",
       "versions": [
+        {
+          "version": "nightly",
+          "date": "2026-11-15T14:10:09Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
+          "size": 23754976
+        },
         {
           "version": "3.8.0",
           "date": "2026-07-17T07:44:20Z",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer%2BSideStore.ipa",
           "size": 35403538
+        },
+        {
+          "version": "3.7.2",
+          "date": "2026-02-27T04:18:41Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+          "size": 34811049
         }
       ]
     },
@@ -222,6 +395,18 @@
           "date": "2026-11-18T10:04:29Z",
           "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.2.1/iPadn-2.2.1-lite-unsigned.ipa",
           "size": 50602330
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-11-18T02:18:30Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.2.0/iPadn-2.2.0-lite-unsigned.ipa",
+          "size": 50502422
+        },
+        {
+          "version": "2.1.3",
+          "date": "2026-11-15T14:54:47Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.1.3/iPadn-2.1.3-lite-unsigned.ipa",
+          "size": 49310532
         }
       ]
     },
@@ -239,6 +424,18 @@
           "date": "2026-11-19T00:45:24Z",
           "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.3/Camlo_v1.3.3_Bilingual.ipa",
           "size": 9541240
+        },
+        {
+          "version": "1.3.2",
+          "date": "2026-11-17T23:46:39Z",
+          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.2/Camlo_v1.3.2_Bilingual.ipa",
+          "size": 9540236
+        },
+        {
+          "version": "1.3.1",
+          "date": "2026-11-17T15:05:46Z",
+          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.1/Camlo_v1.3.1_Bilingual.ipa",
+          "size": 9534904
         }
       ]
     },
@@ -256,6 +453,18 @@
           "date": "2026-11-17T02:55:14Z",
           "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-ios-unsigned.ipa",
           "size": 39957291
+        },
+        {
+          "version": "4.6.22",
+          "date": "2026-11-16T13:55:44Z",
+          "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa",
+          "size": 39871681
+        },
+        {
+          "version": "4.6.21",
+          "date": "2026-11-16T11:11:37Z",
+          "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.21-189/duanjuzhijia2-4.6.21%2B189-ios-unsigned.ipa",
+          "size": 39872471
         }
       ]
     },
@@ -273,6 +482,18 @@
           "date": "2026-11-18T12:44:12Z",
           "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.0.8/Kazumi_ios_v3.0.8_no_sign.ipa",
           "size": 24325317
+        },
+        {
+          "version": "3.0.7",
+          "date": "2026-11-16T02:26:09Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/3.0.7/Kazumi_ios_3.0.7_no_sign.ipa",
+          "size": 24159040
+        },
+        {
+          "version": "3.0.6",
+          "date": "2026-11-14T14:04:38Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/3.0.6/Kazumi_ios_3.0.6_no_sign.ipa",
+          "size": 24144584
         }
       ]
     },
@@ -290,6 +511,18 @@
           "date": "2026-11-08T22:05:57Z",
           "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.2/StikDebug-3.2.2.ipa",
           "size": 16924687
+        },
+        {
+          "version": "3.2.1",
+          "date": "2026-11-07T05:15:03Z",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.1/StikDebug-3.2.1.ipa",
+          "size": 16924629
+        },
+        {
+          "version": "3.2.0",
+          "date": "2026-10-30T03:02:00Z",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.0/StikDebug-3.2.0.ipa",
+          "size": 16818331
         }
       ]
     }
