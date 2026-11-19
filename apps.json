@@ -6,11 +6,11 @@
   "icon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "apps": [
     {
-      "name": "AvPlay",
+      "repo": "anonymousjav/AvPlayRelease",
       "bundleIdentifier": "com.javdb.avplay2",
       "developerName": "anonymousjav",
-      "subtitle": "【最新更新】 - 修复 黄果短剧无法播放的问题 - 修复 AVDB无法解析线路问题 - 修复 部分影片加入“想看、看过、清单”后不显示问题 - 优化 视频播放器进度拖动效果 - 优化 账号注册登录流程 - 修复 macOS窗口拖动漂移问题 ",
-      "localizedDescription": "【最新更新】 - 修复 黄果短剧无法播放的问题 - 修复 AVDB无法解析线路问题 - 修复 部分影片加入“想看、看过、清单”后不显示问题 - 优化 视频播放器进度拖动效果 - 优化 账号注册登录流程 - 修复 macOS窗口拖动漂移问题 ",
+      "subtitle": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖动漂移问题\r - 修复 已知问题\r \r 【近期更新】\r - 新增 黄果AI短剧\r - 新增 影片预览\r \r ⚠️ iOS Bundle ID 又改了，iOS用户",
+      "localizedDescription": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖动漂移问题\r - 修复 已知问题\r \r 【近期更新】\r - 新增 黄果AI短剧\r - 新增 影片预览\r \r ⚠️ iOS Bundle ID 又改了，iOS用户",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.javdb.avplay2.png",
       "category": "utilities",
       "versions": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "name": "GuoApp",
+      "repo": "Xanerix/guoapp",
       "bundleIdentifier": "com.yingshib.xg",
       "developerName": "Xanerix",
       "subtitle": "Flutter 多端独立影视应用",
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "name": "AniCh",
+      "repo": "Sle2p/AniCh",
       "bundleIdentifier": "app.anich",
       "developerName": "Sle2p",
       "subtitle": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "name": "One",
+      "repo": "ios151/One-releases",
       "bundleIdentifier": "com.ios151.one",
       "developerName": "ios151",
       "subtitle": "One 的安装包发布页（只发布 IPA，不含源码）",
@@ -122,11 +122,11 @@
       ]
     },
     {
-      "name": "HentaiPark",
+      "repo": "drdon1234/Hentai-Park",
       "bundleIdentifier": "com.hentaipark.hentaiPark",
       "developerName": "drdon1234",
-      "subtitle": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, a",
-      "localizedDescription": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, a",
+      "subtitle": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, sub",
+      "localizedDescription": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, sub",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hentaipark.hentaiPark.png",
       "category": "utilities",
       "versions": [
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "name": "i短剧",
+      "repo": "my-name-is-alan/iDuanJu",
       "bundleIdentifier": "com.local.STV",
       "developerName": "my-name-is-alan",
       "subtitle": "i短剧：免费开源的 iOS 多源短剧/视频/漫画/Telegram 聚合播放器（SwiftUI + QuickJS 插件沙箱）。GPL-3.0，禁止付费分发。",
@@ -180,11 +180,11 @@
       ]
     },
     {
-      "name": "HGhubX",
+      "repo": "zxsos/HGhubX",
       "bundleIdentifier": "com.hghubx.app",
       "developerName": "zxsos",
-      "subtitle": "使用 Tauri 2、React 和 Rust 构建的跨平台短剧客户端。",
-      "localizedDescription": "使用 Tauri 2、React 和 Rust 构建的跨平台短剧客户端。",
+      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
       "category": "utilities",
       "versions": [
@@ -209,7 +209,7 @@
       ]
     },
     {
-      "name": "INSAV",
+      "repo": "ios151/Insav-releases",
       "bundleIdentifier": "com.ios151.insav",
       "developerName": "ios151",
       "subtitle": "INSAV 的安装包发布页（只发布 IPA，不含源码）",
@@ -238,11 +238,11 @@
       ]
     },
     {
-      "name": "Cloudn",
+      "repo": "mengangs/Cloudn",
       "bundleIdentifier": "com.mengangs.Cloudn",
       "developerName": "mengangs",
-      "subtitle": "Cloudn 1.4.2 这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。 ## 新增与改进 - SideStore / Alt",
-      "localizedDescription": "Cloudn 1.4.2 这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。 ## 新增与改进 - SideStore / Alt",
+      "subtitle": "# Cloudn 1.4.2  这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。  ## 新增与改进  - **SideStore / AltStore 软件源**：新增 [altstore.json](https://raw.githubusercontent.com/mengangs",
+      "localizedDescription": "# Cloudn 1.4.2  这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。  ## 新增与改进  - **SideStore / AltStore 软件源**：新增 [altstore.json](https://raw.githubusercontent.com/mengangs",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mengangs.Cloudn.png",
       "category": "utilities",
       "versions": [
@@ -267,11 +267,11 @@
       ]
     },
     {
-      "name": "VidGrab",
+      "repo": "iamjhe08/VidGrab",
       "bundleIdentifier": "com.t4mag0.vidgrab",
       "developerName": "iamjhe08",
-      "subtitle": "通过粘贴链接或浏览在 iPhone 上下载视频",
-      "localizedDescription": "通过粘贴链接或浏览在 iPhone 上下载视频",
+      "subtitle": "Download videos on iPhone by pasting a link or browsing",
+      "localizedDescription": "Download videos on iPhone by pasting a link or browsing",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.t4mag0.vidgrab.png",
       "category": "utilities",
       "versions": [
@@ -296,11 +296,11 @@
       ]
     },
     {
-      "name": "ryP0",
+      "repo": "Sami-Wali/ryP0",
       "bundleIdentifier": "com.ry0.ryP0",
       "developerName": "Sami-Wali",
-      "subtitle": "ryP0 是一个现代 iOS 应用程序库，用于从 GitHub 和其他来源发现、下载和管理 IPA 文件，并具有自动更新跟踪功能。",
-      "localizedDescription": "ryP0 是一个现代 iOS 应用程序库，用于从 GitHub 和其他来源发现、下载和管理 IPA 文件，并具有自动更新跟踪功能。",
+      "subtitle": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
+      "localizedDescription": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
       "iconURL": "",
       "category": "utilities",
       "versions": [
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "name": "Kazumi",
+      "repo": "Predidit/Kazumi",
       "bundleIdentifier": "com.example.kazumi",
       "developerName": "Predidit",
       "subtitle": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
@@ -354,11 +354,11 @@
       ]
     },
     {
-      "name": "LiveContainer",
+      "repo": "LiveContainer/LiveContainer",
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "LiveContainer",
-      "subtitle": "无需实际安装即可运行 iOS 应用程序！",
-      "localizedDescription": "无需实际安装即可运行 iOS 应用程序！",
+      "subtitle": "Run iOS apps without actually installing them!",
+      "localizedDescription": "Run iOS apps without actually installing them!",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kdt.livecontainer.png",
       "category": "utilities",
       "versions": [
@@ -383,11 +383,11 @@
       ]
     },
     {
-      "name": "iPadn",
+      "repo": "mengangs/ipadn",
       "bundleIdentifier": "app.local.iPadn",
       "developerName": "mengangs",
-      "subtitle": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and nati",
-      "localizedDescription": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and nati",
+      "subtitle": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
+      "localizedDescription": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.local.iPadn.png",
       "category": "utilities",
       "versions": [
@@ -412,11 +412,11 @@
       ]
     },
     {
-      "name": "Camlo",
+      "repo": "Kianuni/Camlo",
       "bundleIdentifier": "com.kianuni.Camlo",
       "developerName": "Kianuni",
-      "subtitle": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/ja",
-      "localizedDescription": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/ja",
+      "subtitle": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
+      "localizedDescription": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kianuni.Camlo.png",
       "category": "utilities",
       "versions": [
@@ -441,7 +441,7 @@
       ]
     },
     {
-      "name": "短剧之家",
+      "repo": "jackherex/duanjuzhijia-down-ios",
       "bundleIdentifier": "com.duanju.duanjuapp.v2",
       "developerName": "jackherex",
       "subtitle": "短剧之家 iPhone / iPad 下载页",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "name": "Kazumi",
+      "repo": "LinkPass888/Kazumi-Swift",
       "bundleIdentifier": "com.linkpass.kazumi",
       "developerName": "LinkPass888",
       "subtitle": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
@@ -499,11 +499,11 @@
       ]
     },
     {
-      "name": "StikDebug",
+      "repo": "StikDebug/StikDebug",
       "bundleIdentifier": "com.stik.stikdebug",
       "developerName": "StikDebug",
-      "subtitle": "适用于 iOS 版本 17.4+ 的设备上调试器/JIT 启用器，由 idevice 提供支持。",
-      "localizedDescription": "适用于 iOS 版本 17.4+ 的设备上调试器/JIT 启用器，由 idevice 提供支持。",
+      "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+      "localizedDescription": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
       "iconURL": "",
       "category": "utilities",
       "versions": [
@@ -528,11 +528,11 @@
       ]
     },
     {
-      "name": "Kumone",
+      "repo": "missuo/kumone",
       "bundleIdentifier": "sb.moe.kumone-ios",
       "developerName": "missuo",
-      "subtitle": "云の音 — 适用于 macOS 和 iOS 的原生音乐播放器，使用 SwiftUI 构建",
-      "localizedDescription": "云の音 — 适用于 macOS 和 iOS 的原生音乐播放器，使用 SwiftUI 构建",
+      "subtitle": "雲の音 — A native music player for macOS and iOS, built with SwiftUI",
+      "localizedDescription": "雲の音 — A native music player for macOS and iOS, built with SwiftUI",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/sb.moe.kumone-ios.png",
       "category": "utilities",
       "versions": [
@@ -557,11 +557,11 @@
       ]
     },
     {
-      "name": "AirCard-iOS",
+      "repo": "Mak5er/AirCard-iOS",
       "bundleIdentifier": "com.mak5er.aircard",
       "developerName": "Mak5er",
-      "subtitle": "iOS 27 上的 Apple 钱包卡皮肤和锁屏密码主题。",
-      "localizedDescription": "iOS 27 上的 Apple 钱包卡皮肤和锁屏密码主题。",
+      "subtitle": "Apple Wallet card skins and lock screen passcode themes on iOS 27.",
+      "localizedDescription": "Apple Wallet card skins and lock screen passcode themes on iOS 27.",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mak5er.aircard.png",
       "category": "utilities",
       "versions": [
@@ -586,11 +586,11 @@
       ]
     },
     {
-      "name": "Placard",
+      "repo": "frs0n/placard",
       "bundleIdentifier": "me.ssus.placard",
       "developerName": "frs0n",
-      "subtitle": "iOS 26 - 27 的海报板壁纸",
-      "localizedDescription": "iOS 26 - 27 的海报板壁纸",
+      "subtitle": "PosterBoard Wallpapers for iOS 26 - 27",
+      "localizedDescription": "PosterBoard Wallpapers for iOS 26 - 27",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/me.ssus.placard.png",
       "category": "utilities",
       "versions": [
@@ -615,14 +615,20 @@
       ]
     },
     {
-      "name": "APP",
-      "bundleIdentifier": "com.pxx917144686.App",
+      "repo": "pxx917144686/APP",
+      "bundleIdentifier": "app.bamboo3965.leo5976",
       "developerName": "pxx917144686",
       "subtitle": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
       "localizedDescription": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.pxx917144686.App.png",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.bamboo3965.leo5976.png",
       "category": "utilities",
       "versions": [
+        {
+          "version": "2.7.1",
+          "date": "2026-11-19T16:26:55Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.1/APP_2.7.1.ipa",
+          "size": 51365880
+        },
         {
           "version": "2.7.0",
           "date": "2026-11-19T10:05:46Z",
@@ -634,21 +640,15 @@
           "date": "2026-11-18T18:00:09Z",
           "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.6.9/APP_2.6.9.ipa",
           "size": 47223193
-        },
-        {
-          "version": "2.6.8",
-          "date": "2026-11-18T05:10:30Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.6.8/APP_2.6.8.ipa",
-          "size": 47207448
         }
       ]
     },
     {
-      "name": "Mori",
+      "repo": "coflyn/Mori",
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
-      "subtitle": "使用 Capacitor 和 Node.js 构建的客户端媒体下载器 App 和 CLI。",
-      "localizedDescription": "使用 Capacitor 和 Node.js 构建的客户端媒体下载器 App 和 CLI。",
+      "subtitle": "Client-side media downloader App and CLI built with Capacitor and Node.js.",
+      "localizedDescription": "Client-side media downloader App and CLI built with Capacitor and Node.js.",
       "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mori.downloader.png",
       "category": "utilities",
       "versions": [
