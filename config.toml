@@ -94,3 +94,27 @@ category = "utilities"
 [[app]]
 repo = "coflyn/Mori"
 category = "utilities"
+
+[[app]]
+repo = "openAnimeFlow/AnimeFlow"
+category = "utilities"
+
+[[app]]
+repo = "AniBakaBaka/AniBaka"
+category = "utilities"
+
+[[app]]
+repo = "just-a-FA-for-name/DSHgo"
+category = "utilities"
+
+[[app]]
+repo = "lmentor/tvbox-silicon"
+category = "utilities"
+
+[[app]]
+repo = "trexwb/dsh-wb-free-model"
+category = "utilities"
+
+[[app]]
+repo = "bggRGjQaUbCoE/PiliPlus"
+category = "utilities"

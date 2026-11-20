@@ -136,6 +136,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "0.15.4",
+          "date": "2026-11-20T02:09:37Z",
+          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.4/HentaiPark-0.15.4-85-ios-arm64-unsigned.ipa",
+          "size": 18027346
+        },
+        {
           "version": "0.15.3",
           "date": "2026-11-19T10:19:57Z",
           "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.3/HentaiPark-0.15.3-84-ios-arm64-unsigned.ipa",
@@ -146,12 +152,6 @@
           "date": "2026-11-19T04:42:15Z",
           "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.2/HentaiPark-0.15.2-83-ios-arm64-unsigned.ipa",
           "size": 18025060
-        },
-        {
-          "version": "0.15.1",
-          "date": "2026-11-18T14:11:23Z",
-          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.1/HentaiPark-0.15.1-82-ios-arm64-unsigned.ipa",
-          "size": 17937496
         }
       ]
     },
@@ -166,22 +166,22 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.6",
+          "date": "2026-11-20T14:19:35Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b17-ios16-pad/STV-1.6b17-unsigned.ipa",
+          "size": 46870433
+        },
+        {
+          "version": "1.5",
+          "date": "2026-11-20T08:35:34Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b15-novel-ui/STV-1.5b15-unsigned.ipa",
+          "size": 42773255
+        },
+        {
           "version": "1.5",
           "date": "2026-11-17T17:50:23Z",
           "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b14-rank-cf-ui/STV-1.5b14-unsigned.ipa",
           "size": 42404919
-        },
-        {
-          "version": "1.5",
-          "date": "2026-11-17T12:50:03Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b12-ui/STV-1.5b12-unsigned.ipa",
-          "size": 42307081
-        },
-        {
-          "version": "1.5",
-          "date": "2026-11-17T05:28:22Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b10-novel/STV-1.5b10-unsigned.ipa",
-          "size": 41845750
         }
       ]
     },
@@ -196,6 +196,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.2.3",
+          "date": "2026-11-20T05:33:55Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.3/HGhubX_2.2.3_ios.ipa",
+          "size": 3895060
+        },
+        {
           "version": "2.2.2",
           "date": "2026-11-19T04:39:12Z",
           "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.2/HGhubX_2.2.2_ios.ipa",
@@ -206,12 +212,6 @@
           "date": "2026-11-18T06:02:05Z",
           "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.0/HGhubX_2.2.0_ios.ipa",
           "size": 3886166
-        },
-        {
-          "version": "2.1.2",
-          "date": "2026-11-15T16:56:37Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.1.2/HGhubX_2.1.2_ios.ipa",
-          "size": 3852817
         }
       ]
     },
@@ -377,9 +377,9 @@
       "versions": [
         {
           "version": "nightly",
-          "date": "2026-11-15T14:10:09Z",
+          "date": "2026-11-20T13:13:05Z",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-          "size": 23754976
+          "size": 23755396
         },
         {
           "version": "3.8.0",
@@ -406,6 +406,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.3.0",
+          "date": "2026-11-20T12:50:39Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.0/iPadn-2.3.0-lite-unsigned.ipa",
+          "size": 46354796
+        },
+        {
           "version": "2.2.1",
           "date": "2026-11-18T10:04:29Z",
           "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.2.1/iPadn-2.2.1-lite-unsigned.ipa",
@@ -416,12 +422,6 @@
           "date": "2026-11-18T02:18:30Z",
           "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.2.0/iPadn-2.2.0-lite-unsigned.ipa",
           "size": 50502422
-        },
-        {
-          "version": "2.1.3",
-          "date": "2026-11-15T14:54:47Z",
-          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.1.3/iPadn-2.1.3-lite-unsigned.ipa",
-          "size": 49310532
         }
       ]
     },
@@ -436,6 +436,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "1.3.4",
+          "date": "2026-11-20T07:44:48Z",
+          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.4/Camlo_v1.3.4_Bilingual.ipa",
+          "size": 9563095
+        },
+        {
           "version": "1.3.3",
           "date": "2026-11-19T00:45:24Z",
           "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.3/Camlo_v1.3.3_Bilingual.ipa",
@@ -446,12 +452,6 @@
           "date": "2026-11-17T23:46:39Z",
           "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.2/Camlo_v1.3.2_Bilingual.ipa",
           "size": 9540236
-        },
-        {
-          "version": "1.3.1",
-          "date": "2026-11-17T15:05:46Z",
-          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.1/Camlo_v1.3.1_Bilingual.ipa",
-          "size": 9534904
         }
       ]
     },
@@ -496,6 +496,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "3.1.0",
+          "date": "2026-11-20T09:01:33Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.0/Kazumi_ios_v3.1.0_no_sign.ipa",
+          "size": 24518636
+        },
+        {
           "version": "3.0.9",
           "date": "2026-11-19T13:39:16Z",
           "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.0.9/Kazumi_ios_v3.0.9_no_sign.ipa",
@@ -506,12 +512,6 @@
           "date": "2026-11-18T12:44:12Z",
           "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.0.8/Kazumi_ios_v3.0.8_no_sign.ipa",
           "size": 24325317
-        },
-        {
-          "version": "3.0.7",
-          "date": "2026-11-16T02:26:09Z",
-          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/3.0.7/Kazumi_ios_3.0.7_no_sign.ipa",
-          "size": 24159040
         }
       ]
     },
@@ -646,6 +646,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.7.2",
+          "date": "2026-11-20T11:02:41Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.2/APP_2.7.2.ipa",
+          "size": 51390071
+        },
+        {
           "version": "2.7.1",
           "date": "2026-11-19T16:26:55Z",
           "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.1/APP_2.7.1.ipa",
@@ -656,12 +662,6 @@
           "date": "2026-11-19T10:05:46Z",
           "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.0/APP_2.7.0.ipa",
           "size": 47445644
-        },
-        {
-          "version": "2.6.9",
-          "date": "2026-11-18T18:00:09Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.6.9/APP_2.6.9.ipa",
-          "size": 47223193
         }
       ]
     },
@@ -692,6 +692,126 @@
           "date": "2026-10-18T23:48:43Z",
           "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.1/Mori-v4.5.1-iOS-Unsigned.ipa",
           "size": 2099521
+        }
+      ]
+    },
+    {
+      "repo": "openAnimeFlow/AnimeFlow",
+      "name": "AnimeFlow",
+      "bundleIdentifier": "com.ligg.animeflow",
+      "developerName": "openAnimeFlow",
+      "subtitle": "跨平台看番 、追番软件,对接Bangumi服务同步用户收藏数据,对接弹弹Play提供弹幕体验，为您提供流畅的观影体验",
+      "localizedDescription": "跨平台看番 、追番软件,对接Bangumi服务同步用户收藏数据,对接弹弹Play提供弹幕体验，为您提供流畅的观影体验",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ligg.animeflow.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.6.8",
+          "date": "2026-11-13T20:37:13Z",
+          "downloadURL": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.6.8/AnimeFlow-ios-2.6.8.ipa",
+          "size": 29518672
+        },
+        {
+          "version": "2.6.7",
+          "date": "2026-11-02T19:29:02Z",
+          "downloadURL": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.6.7/AnimeFlow-ios-2.6.7.ipa",
+          "size": 29378160
+        },
+        {
+          "version": "2.6.6",
+          "date": "2026-10-26T08:58:38Z",
+          "downloadURL": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.6.6/AnimeFlow-ios-2.6.6.ipa",
+          "size": 29290748
+        }
+      ]
+    },
+    {
+      "repo": "AniBakaBaka/AniBaka",
+      "name": "Baka",
+      "bundleIdentifier": "ani.baka",
+      "developerName": "AniBakaBaka",
+      "subtitle": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
+      "localizedDescription": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/ani.baka.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "5.2.5",
+          "date": "2026-11-18T12:04:44Z",
+          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.5%2B261113/baka-5.2.5%2B261113-ios-unsigned.ipa",
+          "size": 23563780
+        },
+        {
+          "version": "5.2.4",
+          "date": "2026-11-05T04:35:12Z",
+          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.4%2B1101/baka-5.2.4%2B1101-ios-unsigned.ipa",
+          "size": 23708307
+        },
+        {
+          "version": "5.2.3",
+          "date": "2026-10-21T11:26:14Z",
+          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.3%2B1020/baka-5.2.3%2B1020-ios-unsigned.ipa",
+          "size": 23775885
+        }
+      ]
+    },
+    {
+      "repo": "lmentor/tvbox-silicon",
+      "name": "Yingxia",
+      "bundleIdentifier": "com.jo32.yingxia.ios",
+      "developerName": "lmentor",
+      "subtitle": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
+      "localizedDescription": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.jo32.yingxia.ios.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.8.13",
+          "date": "2026-11-20T11:15:59Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build05/Yingxia-1.8.13-build05-iOS16.2-NoJava-unsigned.ipa",
+          "size": 103846099
+        },
+        {
+          "version": "1.8.13",
+          "date": "2026-11-20T01:39:34Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build04/Yingxia-1.8.13-build04-iOS16.2-NoJava-unsigned.ipa",
+          "size": 103704228
+        },
+        {
+          "version": "1.8.13",
+          "date": "2026-11-18T11:54:41Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build03/Yingxia-1.8.13-build03-iOS16.2-NoJava-unsigned.ipa",
+          "size": 103116843
+        }
+      ]
+    },
+    {
+      "repo": "bggRGjQaUbCoE/PiliPlus",
+      "name": "PiliPlus",
+      "bundleIdentifier": "com.example.piliplus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "PiliPlus",
+      "localizedDescription": "PiliPlus",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.example.piliplus.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.2.1",
+          "date": "2026-11-14T08:11:53Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.1/PiliPlus_ios_2.2.1%2B5655.ipa",
+          "size": 25053075
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-11-03T07:43:02Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0.2/PiliPlus_ios_2.2.0%2B5598.ipa",
+          "size": 24933082
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-11-02T12:28:28Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0.1/PiliPlus_ios_2.2.0%2B5590.ipa",
+          "size": 24914746
         }
       ]
     }
