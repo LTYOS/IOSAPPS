@@ -196,22 +196,22 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.2.5",
+          "date": "2026-11-20T18:49:08Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.5/HGhubX_2.2.5_ios.ipa",
+          "size": 3927965
+        },
+        {
+          "version": "2.2.4",
+          "date": "2026-11-20T15:17:02Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.4/HGhubX_2.2.4_ios.ipa",
+          "size": 3897090
+        },
+        {
           "version": "2.2.3",
           "date": "2026-11-20T05:33:55Z",
           "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.3/HGhubX_2.2.3_ios.ipa",
           "size": 3895060
-        },
-        {
-          "version": "2.2.2",
-          "date": "2026-11-19T04:39:12Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.2/HGhubX_2.2.2_ios.ipa",
-          "size": 3891126
-        },
-        {
-          "version": "2.2.0",
-          "date": "2026-11-18T06:02:05Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.0/HGhubX_2.2.0_ios.ipa",
-          "size": 3886166
         }
       ]
     },
@@ -377,9 +377,9 @@
       "versions": [
         {
           "version": "nightly",
-          "date": "2026-11-20T13:13:05Z",
+          "date": "2026-11-20T15:07:22Z",
           "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-          "size": 23755396
+          "size": 23997201
         },
         {
           "version": "3.8.0",
