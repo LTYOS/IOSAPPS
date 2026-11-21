@@ -149,21 +149,21 @@
     "versions": [
       {
         "version": "1.6",
-        "date": "2026-11-20T14:19:35Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b17-ios16-pad/STV-1.6b17-unsigned.ipa",
-        "size": 46870433
+        "date": "2026-11-21T10:32:46Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b20-cover-performance/STV-1.6b20-unsigned.ipa",
+        "size": 46903453
       },
       {
-        "version": "1.5",
-        "date": "2026-11-20T08:35:34Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b15-novel-ui/STV-1.5b15-unsigned.ipa",
-        "size": 42773255
+        "version": "1.6",
+        "date": "2026-11-21T09:13:05Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b19-performance/STV-1.6b19-unsigned.ipa",
+        "size": 46900032
       },
       {
-        "version": "1.5",
-        "date": "2026-11-17T17:50:23Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.5b14-rank-cf-ui/STV-1.5b14-unsigned.ipa",
-        "size": 42404919
+        "version": "1.6",
+        "date": "2026-11-21T08:13:31Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b18-hg-mpv/STV-1.6b18-unsigned.ipa",
+        "size": 46900908
       }
     ]
   },
@@ -316,6 +316,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.4.5",
+        "date": "2026-11-21T05:56:21Z",
+        "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_ios_2.4.5_no_sign.ipa",
+        "size": 30370674
+      },
+      {
         "version": "2.4.4",
         "date": "2026-11-12T10:27:44Z",
         "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.4/Kazumi_ios_2.4.4_no_sign.ipa",
@@ -326,12 +332,6 @@
         "date": "2026-11-04T12:12:33Z",
         "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.3/Kazumi_ios_2.4.3_no_sign.ipa",
         "size": 30439714
-      },
-      {
-        "version": "2.4.2",
-        "date": "2026-10-23T09:43:33Z",
-        "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.2/Kazumi_ios_2.4.2_no_sign.ipa",
-        "size": 30521004
       }
     ]
   },
@@ -372,22 +372,22 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.3.2",
+        "date": "2026-11-21T07:16:08Z",
+        "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.2/iPadn-2.3.2-lite-unsigned.ipa",
+        "size": 46527099
+      },
+      {
+        "version": "2.3.1",
+        "date": "2026-11-21T05:47:39Z",
+        "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.1/iPadn-2.3.1-lite-unsigned.ipa",
+        "size": 46481444
+      },
+      {
         "version": "2.3.0",
         "date": "2026-11-20T12:50:39Z",
         "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.0/iPadn-2.3.0-lite-unsigned.ipa",
         "size": 46354796
-      },
-      {
-        "version": "2.2.1",
-        "date": "2026-11-18T10:04:29Z",
-        "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.2.1/iPadn-2.2.1-lite-unsigned.ipa",
-        "size": 50602330
-      },
-      {
-        "version": "2.2.0",
-        "date": "2026-11-18T02:18:30Z",
-        "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.2.0/iPadn-2.2.0-lite-unsigned.ipa",
-        "size": 50502422
       }
     ]
   },
@@ -589,12 +589,18 @@
   },
   {
     "repo": "pxx917144686/APP",
-    "bundle_id": "app.bamboo3965.leo5976",
+    "bundle_id": "com.pxx917144686.App",
     "name": "APP",
-    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.bamboo3965.leo5976.png",
+    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.pxx917144686.App.png",
     "subtitle": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
     "category": "utilities",
     "versions": [
+      {
+        "version": "2.7.4",
+        "date": "2026-11-21T09:26:56Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.4/APP_2.7.4.ipa",
+        "size": 51620712
+      },
       {
         "version": "2.7.3",
         "date": "2026-11-21T00:06:24Z",
@@ -606,12 +612,6 @@
         "date": "2026-11-20T11:02:41Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.2/APP_2.7.2.ipa",
         "size": 51390071
-      },
-      {
-        "version": "2.7.1",
-        "date": "2026-11-19T16:26:55Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.1/APP_2.7.1.ipa",
-        "size": 51365880
       }
     ]
   },
