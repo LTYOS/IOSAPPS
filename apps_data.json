@@ -36,6 +36,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.0.3",
+        "date": "2026-11-21T18:31:19Z",
+        "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.3-115/guoapp-2.0.3%2B115-ios-unsigned.ipa",
+        "size": 34300644
+      },
+      {
         "version": "2.0.2",
         "date": "2026-11-19T01:03:04Z",
         "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.2-114/guoapp-2.0.2%2B114-ios-unsigned.ipa",
@@ -46,12 +52,6 @@
         "date": "2026-11-16T16:33:41Z",
         "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.1-113/guoapp-2.0.1%2B113-ios-unsigned.ipa",
         "size": 33878287
-      },
-      {
-        "version": "2.0.0",
-        "date": "2026-11-15T11:25:09Z",
-        "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.0-112/guoapp-2.0.0%2B112-ios-unsigned.ipa",
-        "size": 33819548
       }
     ]
   },
@@ -149,21 +149,21 @@
     "versions": [
       {
         "version": "1.6",
+        "date": "2026-11-21T19:46:10Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b22-hg-novel-fix/STV-1.6b22-unsigned.ipa",
+        "size": 46928675
+      },
+      {
+        "version": "1.6",
+        "date": "2026-11-21T19:21:52Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b21-player-fix/STV-1.6b21-unsigned.ipa",
+        "size": 46932226
+      },
+      {
+        "version": "1.6",
         "date": "2026-11-21T10:32:46Z",
         "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b20-cover-performance/STV-1.6b20-unsigned.ipa",
         "size": 46903453
-      },
-      {
-        "version": "1.6",
-        "date": "2026-11-21T09:13:05Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b19-performance/STV-1.6b19-unsigned.ipa",
-        "size": 46900032
-      },
-      {
-        "version": "1.6",
-        "date": "2026-11-21T08:13:31Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b18-hg-mpv/STV-1.6b18-unsigned.ipa",
-        "size": 46900908
       }
     ]
   },
@@ -176,22 +176,22 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.2.6",
+        "date": "2026-11-21T17:01:54Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.6/HGhubX_2.2.6_ios.ipa",
+        "size": 3990783
+      },
+      {
+        "version": "2.2.6",
+        "date": "2026-11-21T16:49:36Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.6_ios.ipa",
+        "size": 4090952
+      },
+      {
         "version": "2.2.5",
         "date": "2026-11-20T18:49:08Z",
         "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.5/HGhubX_2.2.5_ios.ipa",
         "size": 3927965
-      },
-      {
-        "version": "2.2.4",
-        "date": "2026-11-20T15:17:02Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.4/HGhubX_2.2.4_ios.ipa",
-        "size": 3897090
-      },
-      {
-        "version": "2.2.3",
-        "date": "2026-11-20T05:33:55Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.3/HGhubX_2.2.3_ios.ipa",
-        "size": 3895060
       }
     ]
   },
@@ -372,6 +372,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.3.3",
+        "date": "2026-11-21T14:14:24Z",
+        "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.3/iPadn-2.3.3-lite-unsigned.ipa",
+        "size": 49730145
+      },
+      {
         "version": "2.3.2",
         "date": "2026-11-21T07:16:08Z",
         "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.2/iPadn-2.3.2-lite-unsigned.ipa",
@@ -382,12 +388,6 @@
         "date": "2026-11-21T05:47:39Z",
         "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.1/iPadn-2.3.1-lite-unsigned.ipa",
         "size": 46481444
-      },
-      {
-        "version": "2.3.0",
-        "date": "2026-11-20T12:50:39Z",
-        "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.0/iPadn-2.3.0-lite-unsigned.ipa",
-        "size": 46354796
       }
     ]
   },
@@ -456,6 +456,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "3.1.1",
+        "date": "2026-11-21T14:56:42Z",
+        "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.1/Kazumi_ios_v3.1.1_no_sign.ipa",
+        "size": 24528156
+      },
+      {
         "version": "3.1.0",
         "date": "2026-11-20T09:01:33Z",
         "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.0/Kazumi_ios_v3.1.0_no_sign.ipa",
@@ -466,12 +472,6 @@
         "date": "2026-11-19T13:39:16Z",
         "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.0.9/Kazumi_ios_v3.0.9_no_sign.ipa",
         "size": 24435927
-      },
-      {
-        "version": "3.0.8",
-        "date": "2026-11-18T12:44:12Z",
-        "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.0.8/Kazumi_ios_v3.0.8_no_sign.ipa",
-        "size": 24325317
       }
     ]
   },
