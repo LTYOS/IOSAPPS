@@ -646,6 +646,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.7.3",
+          "date": "2026-11-21T00:06:24Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.3/APP_2.7.3.ipa",
+          "size": 51606881
+        },
+        {
           "version": "2.7.2",
           "date": "2026-11-20T11:02:41Z",
           "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.2/APP_2.7.2.ipa",
@@ -656,12 +662,6 @@
           "date": "2026-11-19T16:26:55Z",
           "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.1/APP_2.7.1.ipa",
           "size": 51365880
-        },
-        {
-          "version": "2.7.0",
-          "date": "2026-11-19T10:05:46Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.0/APP_2.7.0.ipa",
-          "size": 47445644
         }
       ]
     },
@@ -676,6 +676,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "4.6.1",
+          "date": "2026-11-20T23:42:35Z",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.6.1/Mori-v4.6.1-iOS-Unsigned.ipa",
+          "size": 2214932
+        },
+        {
           "version": "4.6.0",
           "date": "2026-11-14T01:31:23Z",
           "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.6.0/Mori-v4.6.0-iOS-Unsigned.ipa",
@@ -686,12 +692,6 @@
           "date": "2026-11-05T22:19:00Z",
           "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.2/Mori-v4.5.2-iOS-Unsigned.ipa",
           "size": 2099534
-        },
-        {
-          "version": "4.5.1",
-          "date": "2026-10-18T23:48:43Z",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.1/Mori-v4.5.1-iOS-Unsigned.ipa",
-          "size": 2099521
         }
       ]
     },
