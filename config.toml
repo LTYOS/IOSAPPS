@@ -134,3 +134,15 @@ category = "utilities"
 [[app]]
 repo = "dompling/LC-SS-widget-export"
 category = "utilities"
+
+[[app]]
+repo = "iosrxwy/bzhelper"
+category = "utilities"
+
+[[app]]
+repo = "chenx-dust/FlClash-Patched"
+category = "utilities"
+
+[[app]]
+repo = "Mac-XK/KMusic"
+category = "utilities"

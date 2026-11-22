@@ -149,6 +149,12 @@
     "versions": [
       {
         "version": "1.6",
+        "date": "2026-11-22T07:25:16Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b23-lockscreen-fix/STV-1.6b23-unsigned.ipa",
+        "size": 46934109
+      },
+      {
+        "version": "1.6",
         "date": "2026-11-21T19:46:10Z",
         "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b22-hg-novel-fix/STV-1.6b22-unsigned.ipa",
         "size": 46928675
@@ -158,12 +164,6 @@
         "date": "2026-11-21T19:21:52Z",
         "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b21-player-fix/STV-1.6b21-unsigned.ipa",
         "size": 46932226
-      },
-      {
-        "version": "1.6",
-        "date": "2026-11-21T10:32:46Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b20-cover-performance/STV-1.6b20-unsigned.ipa",
-        "size": 46903453
       }
     ]
   },
@@ -176,22 +176,22 @@
     "category": "utilities",
     "versions": [
       {
-        "version": "2.2.6",
+        "version": "2.2.7",
+        "date": "2026-11-22T12:13:11Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.7/HGhubX_2.2.7_ios.ipa",
+        "size": 3992968
+      },
+      {
+        "version": "2.2.7",
         "date": "2026-11-21T16:49:36Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.6_ios.ipa",
-        "size": 4090953
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.7_ios.ipa",
+        "size": 4105007
       },
       {
         "version": "2.2.6",
         "date": "2026-11-21T17:01:54Z",
         "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.6/HGhubX_2.2.6_ios.ipa",
         "size": 3990783
-      },
-      {
-        "version": "2.2.5",
-        "date": "2026-11-20T18:49:08Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.5/HGhubX_2.2.5_ios.ipa",
-        "size": 3927965
       }
     ]
   },
@@ -316,6 +316,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.4.6",
+        "date": "2026-11-22T05:42:23Z",
+        "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.6/Kazumi_ios_2.4.6_no_sign.ipa",
+        "size": 30369553
+      },
+      {
         "version": "2.4.5",
         "date": "2026-11-21T05:56:21Z",
         "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_ios_2.4.5_no_sign.ipa",
@@ -326,12 +332,6 @@
         "date": "2026-11-12T10:27:44Z",
         "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.4/Kazumi_ios_2.4.4_no_sign.ipa",
         "size": 30341213
-      },
-      {
-        "version": "2.4.3",
-        "date": "2026-11-04T12:12:33Z",
-        "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.3/Kazumi_ios_2.4.3_no_sign.ipa",
-        "size": 30439714
       }
     ]
   },
@@ -372,6 +372,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.3.4",
+        "date": "2026-11-22T05:56:54Z",
+        "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.4/iPadn-2.3.4-lite-unsigned.ipa",
+        "size": 49848919
+      },
+      {
         "version": "2.3.3",
         "date": "2026-11-21T14:14:24Z",
         "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.3/iPadn-2.3.3-lite-unsigned.ipa",
@@ -382,12 +388,6 @@
         "date": "2026-11-21T07:16:08Z",
         "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.2/iPadn-2.3.2-lite-unsigned.ipa",
         "size": 46527099
-      },
-      {
-        "version": "2.3.1",
-        "date": "2026-11-21T05:47:39Z",
-        "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.1/iPadn-2.3.1-lite-unsigned.ipa",
-        "size": 46481444
       }
     ]
   },
@@ -596,6 +596,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.7.6",
+        "date": "2026-11-22T12:23:00Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.6/APP_2.7.6.ipa",
+        "size": 51719504
+      },
+      {
         "version": "2.7.5",
         "date": "2026-11-22T01:00:48Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.5/APP_2.7.5.ipa",
@@ -606,12 +612,6 @@
         "date": "2026-11-21T09:26:56Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.4/APP_2.7.4.ipa",
         "size": 51620712
-      },
-      {
-        "version": "2.7.3",
-        "date": "2026-11-21T00:06:24Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.3/APP_2.7.3.ipa",
-        "size": 51606881
       }
     ]
   },
@@ -780,6 +780,62 @@
         "date": "2026-11-17T14:37:22Z",
         "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.4/Erosion_v1.0.4_Bilingual.ipa",
         "size": 6857330
+      }
+    ]
+  },
+  {
+    "repo": "chenx-dust/FlClash-Patched",
+    "bundle_id": "cc.chenx.flclash",
+    "name": "FlClash",
+    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/cc.chenx.flclash.png",
+    "subtitle": "Fork of FlClash. A multi-platform proxy client based on mihomo, simple and easy to use, open-source and ad-free.",
+    "category": "utilities",
+    "versions": [
+      {
+        "version": "0.9.10",
+        "date": "2026-11-16T14:41:43Z",
+        "downloadURL": "https://github.com/chenx-dust/FlClash-Patched/releases/download/v0.9.10/FlClash-0.9.10-ios-arm64-unsigned.ipa",
+        "size": 88900457
+      },
+      {
+        "version": "0.9.9",
+        "date": "2026-11-07T07:04:13Z",
+        "downloadURL": "https://github.com/chenx-dust/FlClash-Patched/releases/download/v0.9.9/FlClash-0.9.9-ios-arm64-unsigned.ipa",
+        "size": 88855487
+      },
+      {
+        "version": "0.9.8",
+        "date": "2026-10-30T17:42:49Z",
+        "downloadURL": "https://github.com/chenx-dust/FlClash-Patched/releases/download/v0.9.8/FlClash-0.9.8-ios-arm64-unsigned.ipa",
+        "size": 88248207
+      }
+    ]
+  },
+  {
+    "repo": "Mac-XK/KMusic",
+    "bundle_id": "com.macxk.KMusic",
+    "name": "歌一刀",
+    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.macxk.KMusic.png",
+    "subtitle": "一款基于 SwiftUI 开发的多源音乐聚合播放器，支持 iOS/macOS 平台。",
+    "category": "utilities",
+    "versions": [
+      {
+        "version": "2.3.0",
+        "date": "2026-03-12T08:39:59Z",
+        "downloadURL": "https://github.com/Mac-XK/KMusic/releases/download/%E6%AD%8C%E4%B8%80%E5%88%802.3.0/_2.3.0_22.2.ipa",
+        "size": 3836900
+      },
+      {
+        "version": "2.2.0",
+        "date": "2026-02-28T12:09:50Z",
+        "downloadURL": "https://github.com/Mac-XK/KMusic/releases/download/%E6%AD%8C%E4%B8%80%E5%88%802.2.0/2.2.0.ipa",
+        "size": 9426894
+      },
+      {
+        "version": "2.1.0",
+        "date": "2026-02-13T06:53:07Z",
+        "downloadURL": "https://github.com/Mac-XK/KMusic/releases/download/%E6%AD%8C%E4%B8%80%E5%88%802.1.0/2.1.0.ipa",
+        "size": 8761082
       }
     ]
   }
