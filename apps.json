@@ -197,15 +197,15 @@
       "versions": [
         {
           "version": "2.2.6",
-          "date": "2026-11-21T17:01:54Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.6/HGhubX_2.2.6_ios.ipa",
-          "size": 3990783
+          "date": "2026-11-21T16:49:36Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.6_ios.ipa",
+          "size": 4090953
         },
         {
           "version": "2.2.6",
-          "date": "2026-11-21T16:49:36Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.6_ios.ipa",
-          "size": 4090952
+          "date": "2026-11-21T17:01:54Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.6/HGhubX_2.2.6_ios.ipa",
+          "size": 3990783
         },
         {
           "version": "2.2.5",
@@ -646,6 +646,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.7.5",
+          "date": "2026-11-22T01:00:48Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.5/APP_2.7.5.ipa",
+          "size": 51685905
+        },
+        {
           "version": "2.7.4",
           "date": "2026-11-21T09:26:56Z",
           "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.4/APP_2.7.4.ipa",
@@ -656,12 +662,6 @@
           "date": "2026-11-21T00:06:24Z",
           "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.3/APP_2.7.3.ipa",
           "size": 51606881
-        },
-        {
-          "version": "2.7.2",
-          "date": "2026-11-20T11:02:41Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.2/APP_2.7.2.ipa",
-          "size": 51390071
         }
       ]
     },
@@ -706,6 +706,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "2.7.0",
+          "date": "2026-11-22T04:50:04Z",
+          "downloadURL": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.7.0/AnimeFlow-ios-2.7.0.ipa",
+          "size": 29735422
+        },
+        {
           "version": "2.6.8",
           "date": "2026-11-13T20:37:13Z",
           "downloadURL": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.6.8/AnimeFlow-ios-2.6.8.ipa",
@@ -716,12 +722,6 @@
           "date": "2026-11-02T19:29:02Z",
           "downloadURL": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.6.7/AnimeFlow-ios-2.6.7.ipa",
           "size": 29378160
-        },
-        {
-          "version": "2.6.6",
-          "date": "2026-10-26T08:58:38Z",
-          "downloadURL": "https://github.com/openAnimeFlow/AnimeFlow/releases/download/v2.6.6/AnimeFlow-ios-2.6.6.ipa",
-          "size": 29290748
         }
       ]
     },
@@ -812,6 +812,36 @@
           "date": "2026-11-02T12:28:28Z",
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0.1/PiliPlus_ios_2.2.0%2B5590.ipa",
           "size": 24914746
+        }
+      ]
+    },
+    {
+      "repo": "Kianuni/Erosion-CN",
+      "name": "Erosion",
+      "bundleIdentifier": "com.jbdotparty.Erosion",
+      "developerName": "Kianuni",
+      "subtitle": "iOS / iPadOS 国行 Apple 智能、eSIM 与 MobileGestalt 系统配置工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-Safe iOS / iPadOS MobileGestalt, Apple Intelligence & eSIM Toolbox (EN/ZH)",
+      "localizedDescription": "iOS / iPadOS 国行 Apple 智能、eSIM 与 MobileGestalt 系统配置工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-Safe iOS / iPadOS MobileGestalt, Apple Intelligence & eSIM Toolbox (EN/ZH)",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.jbdotparty.Erosion.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.6",
+          "date": "2026-11-19T13:48:12Z",
+          "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.6/Erosion_v1.0.6_Bilingual.ipa",
+          "size": 6948787
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-11-17T23:33:43Z",
+          "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.5/Erosion_v1.0.5_Bilingual.ipa",
+          "size": 6875541
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-11-17T14:37:22Z",
+          "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.4/Erosion_v1.0.4_Bilingual.ipa",
+          "size": 6857330
         }
       ]
     }

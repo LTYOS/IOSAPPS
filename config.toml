@@ -118,3 +118,19 @@ category = "utilities"
 [[app]]
 repo = "bggRGjQaUbCoE/PiliPlus"
 category = "utilities"
+
+[[app]]
+repo = "LinkPass888/LC-Floating-Return"
+category = "utilities"
+
+[[app]]
+repo = "Kianuni/Erosion-CN"
+category = "utilities"
+
+[[app]]
+repo = "jkcoxson/idevice_pair"
+category = "utilities"
+
+[[app]]
+repo = "dompling/LC-SS-widget-export"
+category = "utilities"
