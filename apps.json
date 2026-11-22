@@ -167,21 +167,21 @@
       "versions": [
         {
           "version": "1.6",
+          "date": "2026-11-22T16:00:08Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b25-auto-next-chrome/STV-1.6b25-unsigned.ipa",
+          "size": 46957140
+        },
+        {
+          "version": "1.6",
+          "date": "2026-11-22T15:53:03Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b24-cross-platform-enhance/STV-1.6b24-unsigned.ipa",
+          "size": 46953216
+        },
+        {
+          "version": "1.6",
           "date": "2026-11-22T07:25:16Z",
           "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b23-lockscreen-fix/STV-1.6b23-unsigned.ipa",
           "size": 46934109
-        },
-        {
-          "version": "1.6",
-          "date": "2026-11-21T19:46:10Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b22-hg-novel-fix/STV-1.6b22-unsigned.ipa",
-          "size": 46928675
-        },
-        {
-          "version": "1.6",
-          "date": "2026-11-21T19:21:52Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b21-player-fix/STV-1.6b21-unsigned.ipa",
-          "size": 46932226
         }
       ]
     },
@@ -205,7 +205,7 @@
           "version": "2.2.7",
           "date": "2026-11-21T16:49:36Z",
           "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.7_ios.ipa",
-          "size": 4105007
+          "size": 4110983
         },
         {
           "version": "2.2.6",
@@ -556,6 +556,12 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "0.3.38",
+          "date": "2026-11-22T15:28:06Z",
+          "downloadURL": "https://github.com/missuo/kumone/releases/download/v0.3.38/Kumone-iOS-0.3.38.ipa",
+          "size": 4420454
+        },
+        {
           "version": "0.3.37",
           "date": "2026-11-14T11:23:41Z",
           "downloadURL": "https://github.com/missuo/kumone/releases/download/v0.3.37/Kumone-iOS-0.3.37.ipa",
@@ -566,12 +572,6 @@
           "date": "2026-11-14T10:16:56Z",
           "downloadURL": "https://github.com/missuo/kumone/releases/download/v0.3.36/Kumone-iOS-0.3.36.ipa",
           "size": 4292609
-        },
-        {
-          "version": "0.3.35",
-          "date": "2026-11-13T19:25:08Z",
-          "downloadURL": "https://github.com/missuo/kumone/releases/download/v0.3.35/Kumone-iOS-0.3.35.ipa",
-          "size": 4289752
         }
       ]
     },
