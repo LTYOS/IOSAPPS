@@ -6,152 +6,32 @@
   "icon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "apps": [
     {
-      "repo": "anonymousjav/AvPlayRelease",
-      "name": "AvPlay",
-      "bundleIdentifier": "com.javdb.avplay2",
-      "developerName": "anonymousjav",
-      "subtitle": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖动漂移问题\r - 修复 已知问题\r \r 【近期更新】\r - 新增 黄果AI短剧\r - 新增 影片预览\r \r ⚠️ iOS Bundle ID 又改了，iOS用户",
-      "localizedDescription": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖动漂移问题\r - 修复 已知问题\r \r 【近期更新】\r - 新增 黄果AI短剧\r - 新增 影片预览\r \r ⚠️ iOS Bundle ID 又改了，iOS用户",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.javdb.avplay2.png",
+      "repo": "lmentor/tvbox-silicon",
+      "name": "Yingxia",
+      "bundleIdentifier": "com.jo32.yingxia.ios",
+      "developerName": "lmentor",
+      "subtitle": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
+      "localizedDescription": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.jo32.yingxia.ios.png",
       "category": "utilities",
       "versions": [
         {
-          "version": "2.2.2",
-          "date": "2026-11-13T13:11:00Z",
-          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.2/AvPlay-2.2.2.ipa",
-          "size": 23878716
+          "version": "1.8.13",
+          "date": "2026-11-23T00:07:39Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build06/Yingxia-1.8.13-build06-iOS16.2-NoJava-unsigned.ipa",
+          "size": 104696555
         },
         {
-          "version": "2.2.0",
-          "date": "2026-10-23T09:02:21Z",
-          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.0/AvPlay-2.2.0.ipa",
-          "size": 23751956
+          "version": "1.8.13",
+          "date": "2026-11-20T11:15:59Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build05/Yingxia-1.8.13-build05-iOS16.2-NoJava-unsigned.ipa",
+          "size": 103846099
         },
         {
-          "version": "2.1.0",
-          "date": "2026-10-21T15:08:06Z",
-          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.1.0/AvPlay-2.1.0.ipa",
-          "size": 23737585
-        }
-      ]
-    },
-    {
-      "repo": "Xanerix/guoapp",
-      "name": "GuoApp",
-      "bundleIdentifier": "com.yingshib.xg",
-      "developerName": "Xanerix",
-      "subtitle": "Flutter 多端独立影视应用",
-      "localizedDescription": "Flutter 多端独立影视应用",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.yingshib.xg.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.0.3",
-          "date": "2026-11-21T18:31:19Z",
-          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.3-115/guoapp-2.0.3%2B115-ios-unsigned.ipa",
-          "size": 34300644
-        },
-        {
-          "version": "2.0.2",
-          "date": "2026-11-19T01:03:04Z",
-          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.2-114/guoapp-2.0.2%2B114-ios-unsigned.ipa",
-          "size": 34234019
-        },
-        {
-          "version": "2.0.1",
-          "date": "2026-11-16T16:33:41Z",
-          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.1-113/guoapp-2.0.1%2B113-ios-unsigned.ipa",
-          "size": 33878287
-        }
-      ]
-    },
-    {
-      "repo": "Sle2p/AniCh",
-      "name": "AniCh",
-      "bundleIdentifier": "app.anich",
-      "developerName": "Sle2p",
-      "subtitle": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
-      "localizedDescription": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.anich.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.5.27",
-          "date": "2026-10-05T03:15:29Z",
-          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.27/anich-ios-no_sign-1.5.27.ipa",
-          "size": 41226765
-        },
-        {
-          "version": "1.5.26",
-          "date": "2026-10-01T23:19:57Z",
-          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.26/anich-ios-no_sign-1.5.26.ipa",
-          "size": 41219984
-        },
-        {
-          "version": "1.5.25",
-          "date": "2026-09-15T22:35:34Z",
-          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.25/anich-ios-no_sign-1.5.25.ipa",
-          "size": 41219710
-        }
-      ]
-    },
-    {
-      "repo": "ios151/One-releases",
-      "name": "One",
-      "bundleIdentifier": "com.ios151.one",
-      "developerName": "ios151",
-      "subtitle": "One 的安装包发布页（只发布 IPA，不含源码）",
-      "localizedDescription": "One 的安装包发布页（只发布 IPA，不含源码）",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ios151.one.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.7.1-22",
-          "date": "2026-11-04T16:15:28Z",
-          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.7.1-22/One-unsigned.ipa",
-          "size": 1692085
-        },
-        {
-          "version": "1.7.0-21",
-          "date": "2026-10-31T12:36:53Z",
-          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.7.0-21/One-unsigned.ipa",
-          "size": 1668131
-        },
-        {
-          "version": "1.6.10-20",
-          "date": "2026-10-29T07:58:34Z",
-          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.6.10-20/One-unsigned.ipa",
-          "size": 1653494
-        }
-      ]
-    },
-    {
-      "repo": "drdon1234/Hentai-Park",
-      "name": "HentaiPark",
-      "bundleIdentifier": "com.hentaipark.hentaiPark",
-      "developerName": "drdon1234",
-      "subtitle": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, sub",
-      "localizedDescription": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, sub",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hentaipark.hentaiPark.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "0.15.4",
-          "date": "2026-11-20T02:09:37Z",
-          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.4/HentaiPark-0.15.4-85-ios-arm64-unsigned.ipa",
-          "size": 18027346
-        },
-        {
-          "version": "0.15.3",
-          "date": "2026-11-19T10:19:57Z",
-          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.3/HentaiPark-0.15.3-84-ios-arm64-unsigned.ipa",
-          "size": 18035069
-        },
-        {
-          "version": "0.15.2",
-          "date": "2026-11-19T04:42:15Z",
-          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.2/HentaiPark-0.15.2-83-ios-arm64-unsigned.ipa",
-          "size": 18025060
+          "version": "1.8.13",
+          "date": "2026-11-20T01:39:34Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build04/Yingxia-1.8.13-build04-iOS16.2-NoJava-unsigned.ipa",
+          "size": 103704228
         }
       ]
     },
@@ -186,366 +66,6 @@
       ]
     },
     {
-      "repo": "zxsos/HGhubX",
-      "name": "HGhubX",
-      "bundleIdentifier": "com.hghubx.app",
-      "developerName": "zxsos",
-      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.2.7",
-          "date": "2026-11-22T12:13:11Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.7/HGhubX_2.2.7_ios.ipa",
-          "size": 3992968
-        },
-        {
-          "version": "2.2.7",
-          "date": "2026-11-21T16:49:36Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.7_ios.ipa",
-          "size": 4110983
-        },
-        {
-          "version": "2.2.6",
-          "date": "2026-11-21T17:01:54Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.6/HGhubX_2.2.6_ios.ipa",
-          "size": 3990783
-        }
-      ]
-    },
-    {
-      "repo": "ios151/Insav-releases",
-      "name": "INSAV",
-      "bundleIdentifier": "com.ios151.insav",
-      "developerName": "ios151",
-      "subtitle": "INSAV 的安装包发布页（只发布 IPA，不含源码）",
-      "localizedDescription": "INSAV 的安装包发布页（只发布 IPA，不含源码）",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ios151.insav.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.3.1-6",
-          "date": "2026-11-13T05:33:07Z",
-          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.3.1-6/Insav-unsigned.ipa",
-          "size": 1634598
-        },
-        {
-          "version": "1.3.0-5",
-          "date": "2026-11-10T18:39:00Z",
-          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.3.0-5/Insav-unsigned.ipa",
-          "size": 1630941
-        },
-        {
-          "version": "1.2.0-4",
-          "date": "2026-11-09T20:55:27Z",
-          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.2.0-4/Insav-unsigned.ipa",
-          "size": 1523510
-        }
-      ]
-    },
-    {
-      "repo": "mengangs/Cloudn",
-      "name": "Cloudn",
-      "bundleIdentifier": "com.mengangs.Cloudn",
-      "developerName": "mengangs",
-      "subtitle": "# Cloudn 1.4.2  这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。  ## 新增与改进  - **SideStore / AltStore 软件源**：新增 [altstore.json](https://raw.githubusercontent.com/mengangs",
-      "localizedDescription": "# Cloudn 1.4.2  这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。  ## 新增与改进  - **SideStore / AltStore 软件源**：新增 [altstore.json](https://raw.githubusercontent.com/mengangs",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mengangs.Cloudn.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.4.2",
-          "date": "2026-11-14T07:41:19Z",
-          "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.2/Cloudn-v1.4.2.ipa",
-          "size": 9034290
-        },
-        {
-          "version": "1.4.1",
-          "date": "2026-10-24T03:52:30Z",
-          "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.1/Cloudn-v1.4.1.ipa",
-          "size": 8979537
-        },
-        {
-          "version": "1.4.0",
-          "date": "2026-10-24T03:00:25Z",
-          "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.0/Cloudn-v1.4.0.ipa",
-          "size": 8947906
-        }
-      ]
-    },
-    {
-      "repo": "iamjhe08/VidGrab",
-      "name": "VidGrab",
-      "bundleIdentifier": "com.t4mag0.vidgrab",
-      "developerName": "iamjhe08",
-      "subtitle": "Download videos on iPhone by pasting a link or browsing",
-      "localizedDescription": "Download videos on iPhone by pasting a link or browsing",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.t4mag0.vidgrab.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.3.6",
-          "date": "2026-10-13T12:06:00Z",
-          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6c/VidGrab-1.3.6c.ipa",
-          "size": 31200926
-        },
-        {
-          "version": "1.3.6",
-          "date": "2026-10-12T15:43:51Z",
-          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6b/VidGrab-1.3.6b.ipa",
-          "size": 31083100
-        },
-        {
-          "version": "1.3.6",
-          "date": "2026-10-12T10:25:30Z",
-          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6a/VidGrab-1.3.6a.ipa",
-          "size": 31081489
-        }
-      ]
-    },
-    {
-      "repo": "Sami-Wali/ryP0",
-      "name": "ryP0",
-      "bundleIdentifier": "com.ry0.ryP0",
-      "developerName": "Sami-Wali",
-      "subtitle": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
-      "localizedDescription": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
-      "iconURL": "",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.3.2",
-          "date": "2026-11-12T18:39:43Z",
-          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3.2/ryP0-2.3.2.ipa",
-          "size": 16554800
-        },
-        {
-          "version": "2.3",
-          "date": "2026-11-10T20:28:12Z",
-          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3/ryP0-2.3.ipa",
-          "size": 16533197
-        },
-        {
-          "version": "2.2",
-          "date": "2026-10-23T20:45:34Z",
-          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.2/ryP0-unsigned.ipa",
-          "size": 14531954
-        }
-      ]
-    },
-    {
-      "repo": "Predidit/Kazumi",
-      "name": "Kazumi",
-      "bundleIdentifier": "com.example.kazumi",
-      "developerName": "Predidit",
-      "subtitle": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
-      "localizedDescription": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.example.kazumi.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.4.6",
-          "date": "2026-11-22T05:42:23Z",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.6/Kazumi_ios_2.4.6_no_sign.ipa",
-          "size": 30369553
-        },
-        {
-          "version": "2.4.5",
-          "date": "2026-11-21T05:56:21Z",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_ios_2.4.5_no_sign.ipa",
-          "size": 30370674
-        },
-        {
-          "version": "2.4.4",
-          "date": "2026-11-12T10:27:44Z",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.4/Kazumi_ios_2.4.4_no_sign.ipa",
-          "size": 30341213
-        }
-      ]
-    },
-    {
-      "repo": "LiveContainer/LiveContainer",
-      "name": "LiveContainer",
-      "bundleIdentifier": "com.kdt.livecontainer",
-      "developerName": "LiveContainer",
-      "subtitle": "Run iOS apps without actually installing them!",
-      "localizedDescription": "Run iOS apps without actually installing them!",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kdt.livecontainer.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "nightly",
-          "date": "2026-11-20T15:07:22Z",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-          "size": 23997201
-        },
-        {
-          "version": "3.8.0",
-          "date": "2026-07-17T07:44:20Z",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer%2BSideStore.ipa",
-          "size": 35403538
-        },
-        {
-          "version": "3.7.2",
-          "date": "2026-02-27T04:18:41Z",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
-          "size": 34811049
-        }
-      ]
-    },
-    {
-      "repo": "mengangs/ipadn",
-      "name": "iPadn",
-      "bundleIdentifier": "app.local.iPadn",
-      "developerName": "mengangs",
-      "subtitle": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
-      "localizedDescription": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.local.iPadn.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.3.4",
-          "date": "2026-11-22T05:56:54Z",
-          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.4/iPadn-2.3.4-lite-unsigned.ipa",
-          "size": 49848919
-        },
-        {
-          "version": "2.3.3",
-          "date": "2026-11-21T14:14:24Z",
-          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.3/iPadn-2.3.3-lite-unsigned.ipa",
-          "size": 49730145
-        },
-        {
-          "version": "2.3.2",
-          "date": "2026-11-21T07:16:08Z",
-          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.2/iPadn-2.3.2-lite-unsigned.ipa",
-          "size": 46527099
-        }
-      ]
-    },
-    {
-      "repo": "Kianuni/Camlo",
-      "name": "Camlo",
-      "bundleIdentifier": "com.kianuni.Camlo",
-      "developerName": "Kianuni",
-      "subtitle": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
-      "localizedDescription": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kianuni.Camlo.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.3.4",
-          "date": "2026-11-20T07:44:48Z",
-          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.4/Camlo_v1.3.4_Bilingual.ipa",
-          "size": 9563095
-        },
-        {
-          "version": "1.3.3",
-          "date": "2026-11-19T00:45:24Z",
-          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.3/Camlo_v1.3.3_Bilingual.ipa",
-          "size": 9541240
-        },
-        {
-          "version": "1.3.2",
-          "date": "2026-11-17T23:46:39Z",
-          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.2/Camlo_v1.3.2_Bilingual.ipa",
-          "size": 9540236
-        }
-      ]
-    },
-    {
-      "repo": "jackherex/duanjuzhijia-down-ios",
-      "name": "短剧之家",
-      "bundleIdentifier": "com.duanju.duanjuapp.v2",
-      "developerName": "jackherex",
-      "subtitle": "短剧之家 iPhone / iPad 下载页",
-      "localizedDescription": "短剧之家 iPhone / iPad 下载页",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.duanju.duanjuapp.v2.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "4.6.23",
-          "date": "2026-11-17T02:55:14Z",
-          "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-ios-unsigned.ipa",
-          "size": 39957291
-        },
-        {
-          "version": "4.6.22",
-          "date": "2026-11-16T13:55:44Z",
-          "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa",
-          "size": 39871681
-        },
-        {
-          "version": "4.6.21",
-          "date": "2026-11-16T11:11:37Z",
-          "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.21-189/duanjuzhijia2-4.6.21%2B189-ios-unsigned.ipa",
-          "size": 39872471
-        }
-      ]
-    },
-    {
-      "repo": "LinkPass888/Kazumi-Swift",
-      "name": "Kazumi",
-      "bundleIdentifier": "com.linkpass.kazumi",
-      "developerName": "LinkPass888",
-      "subtitle": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
-      "localizedDescription": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.linkpass.kazumi.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "3.1.1",
-          "date": "2026-11-21T14:56:42Z",
-          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.1/Kazumi_ios_v3.1.1_no_sign.ipa",
-          "size": 24528156
-        },
-        {
-          "version": "3.1.0",
-          "date": "2026-11-20T09:01:33Z",
-          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.0/Kazumi_ios_v3.1.0_no_sign.ipa",
-          "size": 24518636
-        },
-        {
-          "version": "3.0.9",
-          "date": "2026-11-19T13:39:16Z",
-          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.0.9/Kazumi_ios_v3.0.9_no_sign.ipa",
-          "size": 24435927
-        }
-      ]
-    },
-    {
-      "repo": "StikDebug/StikDebug",
-      "name": "StikDebug",
-      "bundleIdentifier": "com.stik.stikdebug",
-      "developerName": "StikDebug",
-      "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-      "localizedDescription": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-      "iconURL": "",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "3.2.2",
-          "date": "2026-11-08T22:05:57Z",
-          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.2/StikDebug-3.2.2.ipa",
-          "size": 16924687
-        },
-        {
-          "version": "3.2.1",
-          "date": "2026-11-07T05:15:03Z",
-          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.1/StikDebug-3.2.1.ipa",
-          "size": 16924629
-        },
-        {
-          "version": "3.2.0",
-          "date": "2026-10-30T03:02:00Z",
-          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.0/StikDebug-3.2.0.ipa",
-          "size": 16818331
-        }
-      ]
-    },
-    {
       "repo": "missuo/kumone",
       "name": "Kumone",
       "bundleIdentifier": "sb.moe.kumone-ios",
@@ -572,66 +92,6 @@
           "date": "2026-11-14T10:16:56Z",
           "downloadURL": "https://github.com/missuo/kumone/releases/download/v0.3.36/Kumone-iOS-0.3.36.ipa",
           "size": 4292609
-        }
-      ]
-    },
-    {
-      "repo": "Mak5er/AirCard-iOS",
-      "name": "AirCard-iOS",
-      "bundleIdentifier": "com.mak5er.aircard",
-      "developerName": "Mak5er",
-      "subtitle": "Apple Wallet card skins and lock screen passcode themes on iOS 27.",
-      "localizedDescription": "Apple Wallet card skins and lock screen passcode themes on iOS 27.",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mak5er.aircard.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.3.2",
-          "date": "2026-10-04T12:22:53Z",
-          "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3.2/AirCard-iOS.ipa",
-          "size": 4638147
-        },
-        {
-          "version": "1.3.1",
-          "date": "2026-10-01T23:01:18Z",
-          "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3.1/AirCard-iOS.ipa",
-          "size": 4597510
-        },
-        {
-          "version": "1.3",
-          "date": "2026-09-20T02:08:32Z",
-          "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3/AirCard-iOS.ipa",
-          "size": 4452235
-        }
-      ]
-    },
-    {
-      "repo": "frs0n/placard",
-      "name": "Placard",
-      "bundleIdentifier": "me.ssus.placard",
-      "developerName": "frs0n",
-      "subtitle": "PosterBoard Wallpapers for iOS 26 - 27",
-      "localizedDescription": "PosterBoard Wallpapers for iOS 26 - 27",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/me.ssus.placard.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.0.3",
-          "date": "2026-11-14T07:47:09Z",
-          "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.3/placard-v2.0.3-unsigned.ipa",
-          "size": 6699817
-        },
-        {
-          "version": "2.0.2",
-          "date": "2026-11-13T15:59:56Z",
-          "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.2/placard-v2.0.2-unsigned.ipa",
-          "size": 6695549
-        },
-        {
-          "version": "2.0.1",
-          "date": "2026-11-13T15:35:54Z",
-          "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.1/placard-v2.0.1-unsigned.ipa",
-          "size": 6697410
         }
       ]
     },
@@ -666,32 +126,92 @@
       ]
     },
     {
-      "repo": "coflyn/Mori",
-      "name": "Mori",
-      "bundleIdentifier": "com.mori.downloader",
-      "developerName": "coflyn",
-      "subtitle": "Client-side media downloader App and CLI built with Capacitor and Node.js.",
-      "localizedDescription": "Client-side media downloader App and CLI built with Capacitor and Node.js.",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mori.downloader.png",
+      "repo": "zxsos/HGhubX",
+      "name": "HGhubX",
+      "bundleIdentifier": "com.hghubx.app",
+      "developerName": "zxsos",
+      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
       "category": "utilities",
       "versions": [
         {
-          "version": "4.6.1",
-          "date": "2026-11-20T23:42:35Z",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.6.1/Mori-v4.6.1-iOS-Unsigned.ipa",
-          "size": 2214932
+          "version": "2.2.7",
+          "date": "2026-11-22T12:13:11Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.7/HGhubX_2.2.7_ios.ipa",
+          "size": 3992968
         },
         {
-          "version": "4.6.0",
-          "date": "2026-11-14T01:31:23Z",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.6.0/Mori-v4.6.0-iOS-Unsigned.ipa",
-          "size": 2179675
+          "version": "2.2.7",
+          "date": "2026-11-21T16:49:36Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.7_ios.ipa",
+          "size": 4110983
         },
         {
-          "version": "4.5.2",
-          "date": "2026-11-05T22:19:00Z",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.2/Mori-v4.5.2-iOS-Unsigned.ipa",
-          "size": 2099534
+          "version": "2.2.6",
+          "date": "2026-11-21T17:01:54Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.6/HGhubX_2.2.6_ios.ipa",
+          "size": 3990783
+        }
+      ]
+    },
+    {
+      "repo": "mengangs/ipadn",
+      "name": "iPadn",
+      "bundleIdentifier": "app.local.iPadn",
+      "developerName": "mengangs",
+      "subtitle": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
+      "localizedDescription": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.local.iPadn.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.3.4",
+          "date": "2026-11-22T05:56:54Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.4/iPadn-2.3.4-lite-unsigned.ipa",
+          "size": 49848919
+        },
+        {
+          "version": "2.3.3",
+          "date": "2026-11-21T14:14:24Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.3/iPadn-2.3.3-lite-unsigned.ipa",
+          "size": 49730145
+        },
+        {
+          "version": "2.3.2",
+          "date": "2026-11-21T07:16:08Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.2/iPadn-2.3.2-lite-unsigned.ipa",
+          "size": 46527099
+        }
+      ]
+    },
+    {
+      "repo": "Predidit/Kazumi",
+      "name": "Kazumi",
+      "bundleIdentifier": "com.example.kazumi",
+      "developerName": "Predidit",
+      "subtitle": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+      "localizedDescription": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.example.kazumi.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.4.6",
+          "date": "2026-11-22T05:42:23Z",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.6/Kazumi_ios_2.4.6_no_sign.ipa",
+          "size": 30369553
+        },
+        {
+          "version": "2.4.5",
+          "date": "2026-11-21T05:56:21Z",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_ios_2.4.5_no_sign.ipa",
+          "size": 30370674
+        },
+        {
+          "version": "2.4.4",
+          "date": "2026-11-12T10:27:44Z",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.4/Kazumi_ios_2.4.4_no_sign.ipa",
+          "size": 30341213
         }
       ]
     },
@@ -726,92 +246,182 @@
       ]
     },
     {
-      "repo": "AniBakaBaka/AniBaka",
-      "name": "Baka",
-      "bundleIdentifier": "ani.baka",
-      "developerName": "AniBakaBaka",
-      "subtitle": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
-      "localizedDescription": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/ani.baka.png",
+      "repo": "Xanerix/guoapp",
+      "name": "GuoApp",
+      "bundleIdentifier": "com.yingshib.xg",
+      "developerName": "Xanerix",
+      "subtitle": "Flutter 多端独立影视应用",
+      "localizedDescription": "Flutter 多端独立影视应用",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.yingshib.xg.png",
       "category": "utilities",
       "versions": [
         {
-          "version": "5.2.5",
-          "date": "2026-11-18T12:04:44Z",
-          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.5%2B261113/baka-5.2.5%2B261113-ios-unsigned.ipa",
-          "size": 23563780
+          "version": "2.0.3",
+          "date": "2026-11-21T18:31:19Z",
+          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.3-115/guoapp-2.0.3%2B115-ios-unsigned.ipa",
+          "size": 34300644
         },
         {
-          "version": "5.2.4",
-          "date": "2026-11-05T04:35:12Z",
-          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.4%2B1101/baka-5.2.4%2B1101-ios-unsigned.ipa",
-          "size": 23708307
+          "version": "2.0.2",
+          "date": "2026-11-19T01:03:04Z",
+          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.2-114/guoapp-2.0.2%2B114-ios-unsigned.ipa",
+          "size": 34234019
         },
         {
-          "version": "5.2.3",
-          "date": "2026-10-21T11:26:14Z",
-          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.3%2B1020/baka-5.2.3%2B1020-ios-unsigned.ipa",
-          "size": 23775885
+          "version": "2.0.1",
+          "date": "2026-11-16T16:33:41Z",
+          "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.1-113/guoapp-2.0.1%2B113-ios-unsigned.ipa",
+          "size": 33878287
         }
       ]
     },
     {
-      "repo": "lmentor/tvbox-silicon",
-      "name": "Yingxia",
-      "bundleIdentifier": "com.jo32.yingxia.ios",
-      "developerName": "lmentor",
-      "subtitle": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
-      "localizedDescription": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.jo32.yingxia.ios.png",
+      "repo": "LinkPass888/Kazumi-Swift",
+      "name": "Kazumi",
+      "bundleIdentifier": "com.linkpass.kazumi",
+      "developerName": "LinkPass888",
+      "subtitle": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+      "localizedDescription": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.linkpass.kazumi.png",
       "category": "utilities",
       "versions": [
         {
-          "version": "1.8.13",
-          "date": "2026-11-20T11:15:59Z",
-          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build05/Yingxia-1.8.13-build05-iOS16.2-NoJava-unsigned.ipa",
-          "size": 103846099
+          "version": "3.1.1",
+          "date": "2026-11-21T14:56:42Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.1/Kazumi_ios_v3.1.1_no_sign.ipa",
+          "size": 24528156
         },
         {
-          "version": "1.8.13",
-          "date": "2026-11-20T01:39:34Z",
-          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build04/Yingxia-1.8.13-build04-iOS16.2-NoJava-unsigned.ipa",
-          "size": 103704228
+          "version": "3.1.0",
+          "date": "2026-11-20T09:01:33Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.0/Kazumi_ios_v3.1.0_no_sign.ipa",
+          "size": 24518636
         },
         {
-          "version": "1.8.13",
-          "date": "2026-11-18T11:54:41Z",
-          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build03/Yingxia-1.8.13-build03-iOS16.2-NoJava-unsigned.ipa",
-          "size": 103116843
+          "version": "3.0.9",
+          "date": "2026-11-19T13:39:16Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.0.9/Kazumi_ios_v3.0.9_no_sign.ipa",
+          "size": 24435927
         }
       ]
     },
     {
-      "repo": "bggRGjQaUbCoE/PiliPlus",
-      "name": "PiliPlus",
-      "bundleIdentifier": "com.example.piliplus",
-      "developerName": "bggRGjQaUbCoE",
-      "subtitle": "PiliPlus",
-      "localizedDescription": "PiliPlus",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.example.piliplus.png",
+      "repo": "coflyn/Mori",
+      "name": "Mori",
+      "bundleIdentifier": "com.mori.downloader",
+      "developerName": "coflyn",
+      "subtitle": "Client-side media downloader App and CLI built with Capacitor and Node.js.",
+      "localizedDescription": "Client-side media downloader App and CLI built with Capacitor and Node.js.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mori.downloader.png",
       "category": "utilities",
       "versions": [
         {
-          "version": "2.2.1",
-          "date": "2026-11-14T08:11:53Z",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.1/PiliPlus_ios_2.2.1%2B5655.ipa",
-          "size": 25053075
+          "version": "4.6.1",
+          "date": "2026-11-20T23:42:35Z",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.6.1/Mori-v4.6.1-iOS-Unsigned.ipa",
+          "size": 2214932
         },
         {
-          "version": "2.2.0",
-          "date": "2026-11-03T07:43:02Z",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0.2/PiliPlus_ios_2.2.0%2B5598.ipa",
-          "size": 24933082
+          "version": "4.6.0",
+          "date": "2026-11-14T01:31:23Z",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.6.0/Mori-v4.6.0-iOS-Unsigned.ipa",
+          "size": 2179675
         },
         {
-          "version": "2.2.0",
-          "date": "2026-11-02T12:28:28Z",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0.1/PiliPlus_ios_2.2.0%2B5590.ipa",
-          "size": 24914746
+          "version": "4.5.2",
+          "date": "2026-11-05T22:19:00Z",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.2/Mori-v4.5.2-iOS-Unsigned.ipa",
+          "size": 2099534
+        }
+      ]
+    },
+    {
+      "repo": "LiveContainer/LiveContainer",
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "LiveContainer",
+      "subtitle": "Run iOS apps without actually installing them!",
+      "localizedDescription": "Run iOS apps without actually installing them!",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kdt.livecontainer.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "nightly",
+          "date": "2026-11-20T15:07:22Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
+          "size": 23997201
+        },
+        {
+          "version": "3.8.0",
+          "date": "2026-07-17T07:44:20Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer%2BSideStore.ipa",
+          "size": 35403538
+        },
+        {
+          "version": "3.7.2",
+          "date": "2026-02-27T04:18:41Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+          "size": 34811049
+        }
+      ]
+    },
+    {
+      "repo": "Kianuni/Camlo",
+      "name": "Camlo",
+      "bundleIdentifier": "com.kianuni.Camlo",
+      "developerName": "Kianuni",
+      "subtitle": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
+      "localizedDescription": "Camlo · 开幕 — Bring your iPhone Lock Screen to life: 1-tap slide-to-unlock morphs, 3D depth & motion wallpapers, no PC/jailbreak (iOS / iPhone Duo 26–27)｜让锁屏活起来：免电脑一键直写上滑变身、裸眼 3D 与动态锁屏",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kianuni.Camlo.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.3.4",
+          "date": "2026-11-20T07:44:48Z",
+          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.4/Camlo_v1.3.4_Bilingual.ipa",
+          "size": 9563095
+        },
+        {
+          "version": "1.3.3",
+          "date": "2026-11-19T00:45:24Z",
+          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.3/Camlo_v1.3.3_Bilingual.ipa",
+          "size": 9541240
+        },
+        {
+          "version": "1.3.2",
+          "date": "2026-11-17T23:46:39Z",
+          "downloadURL": "https://github.com/Kianuni/Camlo/releases/download/v1.3.2/Camlo_v1.3.2_Bilingual.ipa",
+          "size": 9540236
+        }
+      ]
+    },
+    {
+      "repo": "drdon1234/Hentai-Park",
+      "name": "HentaiPark",
+      "bundleIdentifier": "com.hentaipark.hentaiPark",
+      "developerName": "drdon1234",
+      "subtitle": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, sub",
+      "localizedDescription": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, sub",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hentaipark.hentaiPark.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.15.4",
+          "date": "2026-11-20T02:09:37Z",
+          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.4/HentaiPark-0.15.4-85-ios-arm64-unsigned.ipa",
+          "size": 18027346
+        },
+        {
+          "version": "0.15.3",
+          "date": "2026-11-19T10:19:57Z",
+          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.3/HentaiPark-0.15.3-84-ios-arm64-unsigned.ipa",
+          "size": 18035069
+        },
+        {
+          "version": "0.15.2",
+          "date": "2026-11-19T04:42:15Z",
+          "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.2/HentaiPark-0.15.2-83-ios-arm64-unsigned.ipa",
+          "size": 18025060
         }
       ]
     },
@@ -846,6 +456,66 @@
       ]
     },
     {
+      "repo": "AniBakaBaka/AniBaka",
+      "name": "Baka",
+      "bundleIdentifier": "ani.baka",
+      "developerName": "AniBakaBaka",
+      "subtitle": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
+      "localizedDescription": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/ani.baka.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "5.2.5",
+          "date": "2026-11-18T12:04:44Z",
+          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.5%2B261113/baka-5.2.5%2B261113-ios-unsigned.ipa",
+          "size": 23563780
+        },
+        {
+          "version": "5.2.4",
+          "date": "2026-11-05T04:35:12Z",
+          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.4%2B1101/baka-5.2.4%2B1101-ios-unsigned.ipa",
+          "size": 23708307
+        },
+        {
+          "version": "5.2.3",
+          "date": "2026-10-21T11:26:14Z",
+          "downloadURL": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.2.3%2B1020/baka-5.2.3%2B1020-ios-unsigned.ipa",
+          "size": 23775885
+        }
+      ]
+    },
+    {
+      "repo": "jackherex/duanjuzhijia-down-ios",
+      "name": "短剧之家",
+      "bundleIdentifier": "com.duanju.duanjuapp.v2",
+      "developerName": "jackherex",
+      "subtitle": "短剧之家 iPhone / iPad 下载页",
+      "localizedDescription": "短剧之家 iPhone / iPad 下载页",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.duanju.duanjuapp.v2.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "4.6.23",
+          "date": "2026-11-17T02:55:14Z",
+          "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-ios-unsigned.ipa",
+          "size": 39957291
+        },
+        {
+          "version": "4.6.22",
+          "date": "2026-11-16T13:55:44Z",
+          "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa",
+          "size": 39871681
+        },
+        {
+          "version": "4.6.21",
+          "date": "2026-11-16T11:11:37Z",
+          "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.21-189/duanjuzhijia2-4.6.21%2B189-ios-unsigned.ipa",
+          "size": 39872471
+        }
+      ]
+    },
+    {
       "repo": "chenx-dust/FlClash-Patched",
       "name": "FlClash",
       "bundleIdentifier": "cc.chenx.flclash",
@@ -872,6 +542,336 @@
           "date": "2026-10-30T17:42:49Z",
           "downloadURL": "https://github.com/chenx-dust/FlClash-Patched/releases/download/v0.9.8/FlClash-0.9.8-ios-arm64-unsigned.ipa",
           "size": 88248207
+        }
+      ]
+    },
+    {
+      "repo": "bggRGjQaUbCoE/PiliPlus",
+      "name": "PiliPlus",
+      "bundleIdentifier": "com.example.piliplus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "PiliPlus",
+      "localizedDescription": "PiliPlus",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.example.piliplus.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.2.1",
+          "date": "2026-11-14T08:11:53Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.1/PiliPlus_ios_2.2.1%2B5655.ipa",
+          "size": 25053075
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-11-03T07:43:02Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0.2/PiliPlus_ios_2.2.0%2B5598.ipa",
+          "size": 24933082
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-11-02T12:28:28Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0.1/PiliPlus_ios_2.2.0%2B5590.ipa",
+          "size": 24914746
+        }
+      ]
+    },
+    {
+      "repo": "frs0n/placard",
+      "name": "Placard",
+      "bundleIdentifier": "me.ssus.placard",
+      "developerName": "frs0n",
+      "subtitle": "PosterBoard Wallpapers for iOS 26 - 27",
+      "localizedDescription": "PosterBoard Wallpapers for iOS 26 - 27",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/me.ssus.placard.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.0.3",
+          "date": "2026-11-14T07:47:09Z",
+          "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.3/placard-v2.0.3-unsigned.ipa",
+          "size": 6699817
+        },
+        {
+          "version": "2.0.2",
+          "date": "2026-11-13T15:59:56Z",
+          "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.2/placard-v2.0.2-unsigned.ipa",
+          "size": 6695549
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-11-13T15:35:54Z",
+          "downloadURL": "https://github.com/frs0n/placard/releases/download/v2.0.1/placard-v2.0.1-unsigned.ipa",
+          "size": 6697410
+        }
+      ]
+    },
+    {
+      "repo": "mengangs/Cloudn",
+      "name": "Cloudn",
+      "bundleIdentifier": "com.mengangs.Cloudn",
+      "developerName": "mengangs",
+      "subtitle": "# Cloudn 1.4.2  这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。  ## 新增与改进  - **SideStore / AltStore 软件源**：新增 [altstore.json](https://raw.githubusercontent.com/mengangs",
+      "localizedDescription": "# Cloudn 1.4.2  这一版新增 SideStore / AltStore 侧载软件源支持，修复 Instagram 网页登录点「完成」卡住的问题，并带来多项稳定性、解析与性能优化。  ## 新增与改进  - **SideStore / AltStore 软件源**：新增 [altstore.json](https://raw.githubusercontent.com/mengangs",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mengangs.Cloudn.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.4.2",
+          "date": "2026-11-14T07:41:19Z",
+          "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.2/Cloudn-v1.4.2.ipa",
+          "size": 9034290
+        },
+        {
+          "version": "1.4.1",
+          "date": "2026-10-24T03:52:30Z",
+          "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.1/Cloudn-v1.4.1.ipa",
+          "size": 8979537
+        },
+        {
+          "version": "1.4.0",
+          "date": "2026-10-24T03:00:25Z",
+          "downloadURL": "https://github.com/mengangs/Cloudn/releases/download/v1.4.0/Cloudn-v1.4.0.ipa",
+          "size": 8947906
+        }
+      ]
+    },
+    {
+      "repo": "anonymousjav/AvPlayRelease",
+      "name": "AvPlay",
+      "bundleIdentifier": "com.javdb.avplay2",
+      "developerName": "anonymousjav",
+      "subtitle": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖动漂移问题\r - 修复 已知问题\r \r 【近期更新】\r - 新增 黄果AI短剧\r - 新增 影片预览\r \r ⚠️ iOS Bundle ID 又改了，iOS用户",
+      "localizedDescription": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖动漂移问题\r - 修复 已知问题\r \r 【近期更新】\r - 新增 黄果AI短剧\r - 新增 影片预览\r \r ⚠️ iOS Bundle ID 又改了，iOS用户",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.javdb.avplay2.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.2.2",
+          "date": "2026-11-13T13:11:00Z",
+          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.2/AvPlay-2.2.2.ipa",
+          "size": 23878716
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-10-23T09:02:21Z",
+          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.0/AvPlay-2.2.0.ipa",
+          "size": 23751956
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-10-21T15:08:06Z",
+          "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.1.0/AvPlay-2.1.0.ipa",
+          "size": 23737585
+        }
+      ]
+    },
+    {
+      "repo": "ios151/Insav-releases",
+      "name": "INSAV",
+      "bundleIdentifier": "com.ios151.insav",
+      "developerName": "ios151",
+      "subtitle": "INSAV 的安装包发布页（只发布 IPA，不含源码）",
+      "localizedDescription": "INSAV 的安装包发布页（只发布 IPA，不含源码）",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ios151.insav.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.3.1-6",
+          "date": "2026-11-13T05:33:07Z",
+          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.3.1-6/Insav-unsigned.ipa",
+          "size": 1634598
+        },
+        {
+          "version": "1.3.0-5",
+          "date": "2026-11-10T18:39:00Z",
+          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.3.0-5/Insav-unsigned.ipa",
+          "size": 1630941
+        },
+        {
+          "version": "1.2.0-4",
+          "date": "2026-11-09T20:55:27Z",
+          "downloadURL": "https://github.com/ios151/Insav-releases/releases/download/v1.2.0-4/Insav-unsigned.ipa",
+          "size": 1523510
+        }
+      ]
+    },
+    {
+      "repo": "Sami-Wali/ryP0",
+      "name": "ryP0",
+      "bundleIdentifier": "com.ry0.ryP0",
+      "developerName": "Sami-Wali",
+      "subtitle": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
+      "localizedDescription": "ryP0 is a modern iOS app library for discovering, downloading, and managing IPA files from GitHub and other sources, with automatic update tracking.",
+      "iconURL": "",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.3.2",
+          "date": "2026-11-12T18:39:43Z",
+          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3.2/ryP0-2.3.2.ipa",
+          "size": 16554800
+        },
+        {
+          "version": "2.3",
+          "date": "2026-11-10T20:28:12Z",
+          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.3/ryP0-2.3.ipa",
+          "size": 16533197
+        },
+        {
+          "version": "2.2",
+          "date": "2026-10-23T20:45:34Z",
+          "downloadURL": "https://github.com/Sami-Wali/ryP0/releases/download/2.2/ryP0-unsigned.ipa",
+          "size": 14531954
+        }
+      ]
+    },
+    {
+      "repo": "StikDebug/StikDebug",
+      "name": "StikDebug",
+      "bundleIdentifier": "com.stik.stikdebug",
+      "developerName": "StikDebug",
+      "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+      "localizedDescription": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+      "iconURL": "",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "3.2.2",
+          "date": "2026-11-08T22:05:57Z",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.2/StikDebug-3.2.2.ipa",
+          "size": 16924687
+        },
+        {
+          "version": "3.2.1",
+          "date": "2026-11-07T05:15:03Z",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.1/StikDebug-3.2.1.ipa",
+          "size": 16924629
+        },
+        {
+          "version": "3.2.0",
+          "date": "2026-10-30T03:02:00Z",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.0/StikDebug-3.2.0.ipa",
+          "size": 16818331
+        }
+      ]
+    },
+    {
+      "repo": "ios151/One-releases",
+      "name": "One",
+      "bundleIdentifier": "com.ios151.one",
+      "developerName": "ios151",
+      "subtitle": "One 的安装包发布页（只发布 IPA，不含源码）",
+      "localizedDescription": "One 的安装包发布页（只发布 IPA，不含源码）",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.ios151.one.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.7.1-22",
+          "date": "2026-11-04T16:15:28Z",
+          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.7.1-22/One-unsigned.ipa",
+          "size": 1692085
+        },
+        {
+          "version": "1.7.0-21",
+          "date": "2026-10-31T12:36:53Z",
+          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.7.0-21/One-unsigned.ipa",
+          "size": 1668131
+        },
+        {
+          "version": "1.6.10-20",
+          "date": "2026-10-29T07:58:34Z",
+          "downloadURL": "https://github.com/ios151/One-releases/releases/download/v1.6.10-20/One-unsigned.ipa",
+          "size": 1653494
+        }
+      ]
+    },
+    {
+      "repo": "iamjhe08/VidGrab",
+      "name": "VidGrab",
+      "bundleIdentifier": "com.t4mag0.vidgrab",
+      "developerName": "iamjhe08",
+      "subtitle": "Download videos on iPhone by pasting a link or browsing",
+      "localizedDescription": "Download videos on iPhone by pasting a link or browsing",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.t4mag0.vidgrab.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.3.6",
+          "date": "2026-10-13T12:06:00Z",
+          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6c/VidGrab-1.3.6c.ipa",
+          "size": 31200926
+        },
+        {
+          "version": "1.3.6",
+          "date": "2026-10-12T15:43:51Z",
+          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6b/VidGrab-1.3.6b.ipa",
+          "size": 31083100
+        },
+        {
+          "version": "1.3.6",
+          "date": "2026-10-12T10:25:30Z",
+          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.6a/VidGrab-1.3.6a.ipa",
+          "size": 31081489
+        }
+      ]
+    },
+    {
+      "repo": "Sle2p/AniCh",
+      "name": "AniCh",
+      "bundleIdentifier": "app.anich",
+      "developerName": "Sle2p",
+      "subtitle": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
+      "localizedDescription": "一个支持超分辨率的在线动漫弹幕APP。多平台，多番剧源，多弹幕，高清无广告。追番看番必备软件。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.anich.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.5.27",
+          "date": "2026-10-05T03:15:29Z",
+          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.27/anich-ios-no_sign-1.5.27.ipa",
+          "size": 41226765
+        },
+        {
+          "version": "1.5.26",
+          "date": "2026-10-01T23:19:57Z",
+          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.26/anich-ios-no_sign-1.5.26.ipa",
+          "size": 41219984
+        },
+        {
+          "version": "1.5.25",
+          "date": "2026-09-15T22:35:34Z",
+          "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.25/anich-ios-no_sign-1.5.25.ipa",
+          "size": 41219710
+        }
+      ]
+    },
+    {
+      "repo": "Mak5er/AirCard-iOS",
+      "name": "AirCard-iOS",
+      "bundleIdentifier": "com.mak5er.aircard",
+      "developerName": "Mak5er",
+      "subtitle": "Apple Wallet card skins and lock screen passcode themes on iOS 27.",
+      "localizedDescription": "Apple Wallet card skins and lock screen passcode themes on iOS 27.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.mak5er.aircard.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.3.2",
+          "date": "2026-10-04T12:22:53Z",
+          "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3.2/AirCard-iOS.ipa",
+          "size": 4638147
+        },
+        {
+          "version": "1.3.1",
+          "date": "2026-10-01T23:01:18Z",
+          "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3.1/AirCard-iOS.ipa",
+          "size": 4597510
+        },
+        {
+          "version": "1.3",
+          "date": "2026-09-20T02:08:32Z",
+          "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3/AirCard-iOS.ipa",
+          "size": 4452235
         }
       ]
     },

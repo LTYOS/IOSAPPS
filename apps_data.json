@@ -709,6 +709,12 @@
     "versions": [
       {
         "version": "1.8.13",
+        "date": "2026-11-23T00:07:39Z",
+        "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build06/Yingxia-1.8.13-build06-iOS16.2-NoJava-unsigned.ipa",
+        "size": 104696555
+      },
+      {
+        "version": "1.8.13",
         "date": "2026-11-20T11:15:59Z",
         "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build05/Yingxia-1.8.13-build05-iOS16.2-NoJava-unsigned.ipa",
         "size": 103846099
@@ -718,12 +724,6 @@
         "date": "2026-11-20T01:39:34Z",
         "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build04/Yingxia-1.8.13-build04-iOS16.2-NoJava-unsigned.ipa",
         "size": 103704228
-      },
-      {
-        "version": "1.8.13",
-        "date": "2026-11-18T11:54:41Z",
-        "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build03/Yingxia-1.8.13-build03-iOS16.2-NoJava-unsigned.ipa",
-        "size": 103116843
       }
     ]
   },
