@@ -33,6 +33,8 @@ def main():
         if len(subtitle) > 200:
             subtitle = subtitle[:200]
 
+        # 取该应用最新版本的发布时间（versions 已按时间倒序）
+        latest_date = valid_versions[0].get("date", "") if valid_versions else ""
         apps.append({
             "repo": a["repo"],
             "name": name,
@@ -43,7 +45,14 @@ def main():
             "iconURL": a.get("icon_url", ""),
             "category": a.get("category", "utilities"),
             "versions": valid_versions,
+            "_sort_date": latest_date,  # 临时字段用于排序
         })
+
+    # 按最新版本发布时间倒序排列（最新的在前）
+    apps.sort(key=lambda x: x.get("_sort_date", ""), reverse=True)
+    # 移除临时排序字段
+    for app in apps:
+        app.pop("_sort_date", None)
 
     base = f"https://raw.githubusercontent.com/{os.environ.get('GITHUB_REPOSITORY', '')}/main"
     source = {
