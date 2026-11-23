@@ -6,6 +6,66 @@
   "icon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "apps": [
     {
+      "repo": "my-name-is-alan/iDuanJu",
+      "name": "i短剧",
+      "bundleIdentifier": "com.local.STV",
+      "developerName": "my-name-is-alan",
+      "subtitle": "i短剧：免费开源的 iOS 多源短剧/视频/漫画/Telegram 聚合播放器（SwiftUI + QuickJS 插件沙箱）。GPL-3.0，禁止付费分发。",
+      "localizedDescription": "i短剧：免费开源的 iOS 多源短剧/视频/漫画/Telegram 聚合播放器（SwiftUI + QuickJS 插件沙箱）。GPL-3.0，禁止付费分发。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.local.STV.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.6",
+          "date": "2026-11-23T04:57:43Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b27-seamless-parity/STV-1.6b27-unsigned.ipa",
+          "size": 47135801
+        },
+        {
+          "version": "1.6",
+          "date": "2026-11-23T02:56:16Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b26-glass-player-cache/STV-1.6b26-unsigned.ipa",
+          "size": 46970369
+        },
+        {
+          "version": "1.6",
+          "date": "2026-11-22T16:00:08Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b25-auto-next-chrome/STV-1.6b25-unsigned.ipa",
+          "size": 46957140
+        }
+      ]
+    },
+    {
+      "repo": "zxsos/HGhubX",
+      "name": "HGhubX",
+      "bundleIdentifier": "com.hghubx.app",
+      "developerName": "zxsos",
+      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.2.8",
+          "date": "2026-11-23T03:55:29Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.8/HGhubX_2.2.8_ios.ipa",
+          "size": 4004198
+        },
+        {
+          "version": "2.2.8",
+          "date": "2026-11-21T16:49:36Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.8_ios.ipa",
+          "size": 4110212
+        },
+        {
+          "version": "2.2.7",
+          "date": "2026-11-22T12:13:11Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.7/HGhubX_2.2.7_ios.ipa",
+          "size": 3992968
+        }
+      ]
+    },
+    {
       "repo": "lmentor/tvbox-silicon",
       "name": "Yingxia",
       "bundleIdentifier": "com.jo32.yingxia.ios",
@@ -32,36 +92,6 @@
           "date": "2026-11-20T01:39:34Z",
           "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build04/Yingxia-1.8.13-build04-iOS16.2-NoJava-unsigned.ipa",
           "size": 103704228
-        }
-      ]
-    },
-    {
-      "repo": "my-name-is-alan/iDuanJu",
-      "name": "i短剧",
-      "bundleIdentifier": "com.local.STV",
-      "developerName": "my-name-is-alan",
-      "subtitle": "i短剧：免费开源的 iOS 多源短剧/视频/漫画/Telegram 聚合播放器（SwiftUI + QuickJS 插件沙箱）。GPL-3.0，禁止付费分发。",
-      "localizedDescription": "i短剧：免费开源的 iOS 多源短剧/视频/漫画/Telegram 聚合播放器（SwiftUI + QuickJS 插件沙箱）。GPL-3.0，禁止付费分发。",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.local.STV.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.6",
-          "date": "2026-11-22T16:00:08Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b25-auto-next-chrome/STV-1.6b25-unsigned.ipa",
-          "size": 46957140
-        },
-        {
-          "version": "1.6",
-          "date": "2026-11-22T15:53:03Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b24-cross-platform-enhance/STV-1.6b24-unsigned.ipa",
-          "size": 46953216
-        },
-        {
-          "version": "1.6",
-          "date": "2026-11-22T07:25:16Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b23-lockscreen-fix/STV-1.6b23-unsigned.ipa",
-          "size": 46934109
         }
       ]
     },
@@ -122,36 +152,6 @@
           "date": "2026-11-21T09:26:56Z",
           "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.4/APP_2.7.4.ipa",
           "size": 51620712
-        }
-      ]
-    },
-    {
-      "repo": "zxsos/HGhubX",
-      "name": "HGhubX",
-      "bundleIdentifier": "com.hghubx.app",
-      "developerName": "zxsos",
-      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.2.7",
-          "date": "2026-11-22T12:13:11Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.7/HGhubX_2.2.7_ios.ipa",
-          "size": 3992968
-        },
-        {
-          "version": "2.2.7",
-          "date": "2026-11-21T16:49:36Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.7_ios.ipa",
-          "size": 4110983
-        },
-        {
-          "version": "2.2.6",
-          "date": "2026-11-21T17:01:54Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.6/HGhubX_2.2.6_ios.ipa",
-          "size": 3990783
         }
       ]
     },
