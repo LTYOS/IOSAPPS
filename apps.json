@@ -6,6 +6,96 @@
   "icon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "apps": [
     {
+      "repo": "mengangs/ipadn",
+      "name": "iPadn",
+      "bundleIdentifier": "app.local.iPadn",
+      "developerName": "mengangs",
+      "subtitle": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
+      "localizedDescription": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.local.iPadn.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.3.5",
+          "date": "2026-11-23T15:22:43Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.5/iPadn-2.3.5-lite-unsigned.ipa",
+          "size": 49971723
+        },
+        {
+          "version": "2.3.4",
+          "date": "2026-11-22T05:56:54Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.4/iPadn-2.3.4-lite-unsigned.ipa",
+          "size": 49848919
+        },
+        {
+          "version": "2.3.3",
+          "date": "2026-11-21T14:14:24Z",
+          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.3/iPadn-2.3.3-lite-unsigned.ipa",
+          "size": 49730145
+        }
+      ]
+    },
+    {
+      "repo": "lmentor/tvbox-silicon",
+      "name": "Yingxia",
+      "bundleIdentifier": "com.jo32.yingxia.ios",
+      "developerName": "lmentor",
+      "subtitle": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
+      "localizedDescription": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.jo32.yingxia.ios.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.8.13",
+          "date": "2026-11-23T15:06:21Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build08/Yingxia-1.8.13-build08-iOS16.2-NoJava-unsigned.ipa",
+          "size": 106340223
+        },
+        {
+          "version": "1.8.13",
+          "date": "2026-11-23T12:02:54Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build07/Yingxia-1.8.13-build07-iOS16.2-NoJava-unsigned.ipa",
+          "size": 105245015
+        },
+        {
+          "version": "1.8.13",
+          "date": "2026-11-23T00:07:39Z",
+          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build06/Yingxia-1.8.13-build06-iOS16.2-NoJava-unsigned.ipa",
+          "size": 104696555
+        }
+      ]
+    },
+    {
+      "repo": "pxx917144686/APP",
+      "name": "APP",
+      "bundleIdentifier": "com.pxx917144686.App",
+      "developerName": "pxx917144686",
+      "subtitle": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
+      "localizedDescription": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.pxx917144686.App.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.7.7",
+          "date": "2026-11-23T13:24:18Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.7/APP_2.7.7.ipa",
+          "size": 52032407
+        },
+        {
+          "version": "2.7.6",
+          "date": "2026-11-22T12:23:00Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.6/APP_2.7.6.ipa",
+          "size": 51719504
+        },
+        {
+          "version": "2.7.5",
+          "date": "2026-11-22T01:00:48Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.5/APP_2.7.5.ipa",
+          "size": 51685905
+        }
+      ]
+    },
+    {
       "repo": "my-name-is-alan/iDuanJu",
       "name": "i短剧",
       "bundleIdentifier": "com.local.STV",
@@ -17,21 +107,51 @@
       "versions": [
         {
           "version": "1.6",
-          "date": "2026-11-23T04:57:43Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b27-seamless-parity/STV-1.6b27-unsigned.ipa",
-          "size": 47135801
+          "date": "2026-11-23T08:14:21Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b30-player-hotfix/STV-1.6b30-unsigned.ipa",
+          "size": 47198163
         },
         {
           "version": "1.6",
-          "date": "2026-11-23T02:56:16Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b26-glass-player-cache/STV-1.6b26-unsigned.ipa",
-          "size": 46970369
+          "date": "2026-11-23T06:30:13Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b29-next-drama-cache/STV-1.6b29-unsigned.ipa",
+          "size": 47197741
         },
         {
           "version": "1.6",
-          "date": "2026-11-22T16:00:08Z",
-          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b25-auto-next-chrome/STV-1.6b25-unsigned.ipa",
-          "size": 46957140
+          "date": "2026-11-23T06:06:11Z",
+          "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b28-android-plugin-cf-ux/STV-1.6b28-unsigned.ipa",
+          "size": 47134764
+        }
+      ]
+    },
+    {
+      "repo": "LinkPass888/Kazumi-Swift",
+      "name": "Kazumi",
+      "bundleIdentifier": "com.linkpass.kazumi",
+      "developerName": "LinkPass888",
+      "subtitle": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+      "localizedDescription": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.linkpass.kazumi.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "3.1.2",
+          "date": "2026-11-23T06:25:05Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.2/Kazumi_ios_v3.1.2_no_sign.ipa",
+          "size": 24543702
+        },
+        {
+          "version": "3.1.1",
+          "date": "2026-11-21T14:56:42Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.1/Kazumi_ios_v3.1.1_no_sign.ipa",
+          "size": 24528156
+        },
+        {
+          "version": "3.1.0",
+          "date": "2026-11-20T09:01:33Z",
+          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.0/Kazumi_ios_v3.1.0_no_sign.ipa",
+          "size": 24518636
         }
       ]
     },
@@ -55,43 +175,13 @@
           "version": "2.2.8",
           "date": "2026-11-21T16:49:36Z",
           "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.8_ios.ipa",
-          "size": 4110212
+          "size": 4110302
         },
         {
           "version": "2.2.7",
           "date": "2026-11-22T12:13:11Z",
           "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.7/HGhubX_2.2.7_ios.ipa",
           "size": 3992968
-        }
-      ]
-    },
-    {
-      "repo": "lmentor/tvbox-silicon",
-      "name": "Yingxia",
-      "bundleIdentifier": "com.jo32.yingxia.ios",
-      "developerName": "lmentor",
-      "subtitle": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
-      "localizedDescription": "Yingxia: a native SwiftUI TVBox player for Apple TV, iPhone, iPad and Mac.",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.jo32.yingxia.ios.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.8.13",
-          "date": "2026-11-23T00:07:39Z",
-          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build06/Yingxia-1.8.13-build06-iOS16.2-NoJava-unsigned.ipa",
-          "size": 104696555
-        },
-        {
-          "version": "1.8.13",
-          "date": "2026-11-20T11:15:59Z",
-          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build05/Yingxia-1.8.13-build05-iOS16.2-NoJava-unsigned.ipa",
-          "size": 103846099
-        },
-        {
-          "version": "1.8.13",
-          "date": "2026-11-20T01:39:34Z",
-          "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build04/Yingxia-1.8.13-build04-iOS16.2-NoJava-unsigned.ipa",
-          "size": 103704228
         }
       ]
     },
@@ -122,66 +212,6 @@
           "date": "2026-11-14T10:16:56Z",
           "downloadURL": "https://github.com/missuo/kumone/releases/download/v0.3.36/Kumone-iOS-0.3.36.ipa",
           "size": 4292609
-        }
-      ]
-    },
-    {
-      "repo": "pxx917144686/APP",
-      "name": "APP",
-      "bundleIdentifier": "com.pxx917144686.App",
-      "developerName": "pxx917144686",
-      "subtitle": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
-      "localizedDescription": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.pxx917144686.App.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.7.6",
-          "date": "2026-11-22T12:23:00Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.6/APP_2.7.6.ipa",
-          "size": 51719504
-        },
-        {
-          "version": "2.7.5",
-          "date": "2026-11-22T01:00:48Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.5/APP_2.7.5.ipa",
-          "size": 51685905
-        },
-        {
-          "version": "2.7.4",
-          "date": "2026-11-21T09:26:56Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.4/APP_2.7.4.ipa",
-          "size": 51620712
-        }
-      ]
-    },
-    {
-      "repo": "mengangs/ipadn",
-      "name": "iPadn",
-      "bundleIdentifier": "app.local.iPadn",
-      "developerName": "mengangs",
-      "subtitle": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
-      "localizedDescription": "Search, download and install the apps you own on iPhone and iPad: older versions, removed apps, regional prices and native install. 11 languages. | 在 iPhone 和 iPad 上搜索、下载、安装你拥有的 App：历史版本、已下架应用、多地区比价与原",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/app.local.iPadn.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.3.4",
-          "date": "2026-11-22T05:56:54Z",
-          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.4/iPadn-2.3.4-lite-unsigned.ipa",
-          "size": 49848919
-        },
-        {
-          "version": "2.3.3",
-          "date": "2026-11-21T14:14:24Z",
-          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.3/iPadn-2.3.3-lite-unsigned.ipa",
-          "size": 49730145
-        },
-        {
-          "version": "2.3.2",
-          "date": "2026-11-21T07:16:08Z",
-          "downloadURL": "https://github.com/mengangs/ipadn/releases/download/v2.3.2/iPadn-2.3.2-lite-unsigned.ipa",
-          "size": 46527099
         }
       ]
     },
@@ -272,36 +302,6 @@
           "date": "2026-11-16T16:33:41Z",
           "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.1-113/guoapp-2.0.1%2B113-ios-unsigned.ipa",
           "size": 33878287
-        }
-      ]
-    },
-    {
-      "repo": "LinkPass888/Kazumi-Swift",
-      "name": "Kazumi",
-      "bundleIdentifier": "com.linkpass.kazumi",
-      "developerName": "LinkPass888",
-      "subtitle": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
-      "localizedDescription": "Kazumi Swift版，基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.linkpass.kazumi.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "3.1.1",
-          "date": "2026-11-21T14:56:42Z",
-          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.1/Kazumi_ios_v3.1.1_no_sign.ipa",
-          "size": 24528156
-        },
-        {
-          "version": "3.1.0",
-          "date": "2026-11-20T09:01:33Z",
-          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.0/Kazumi_ios_v3.1.0_no_sign.ipa",
-          "size": 24518636
-        },
-        {
-          "version": "3.0.9",
-          "date": "2026-11-19T13:39:16Z",
-          "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.0.9/Kazumi_ios_v3.0.9_no_sign.ipa",
-          "size": 24435927
         }
       ]
     },

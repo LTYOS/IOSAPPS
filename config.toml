@@ -146,3 +146,15 @@ category = "utilities"
 [[app]]
 repo = "Mac-XK/KMusic"
 category = "utilities"
+
+[[app]]
+repo = "Ebony-Vinyl/dsh-our-free-model"
+category = "utilities"
+
+[[app]]
+repo = "imxieyi/Kernarium"
+category = "utilities"
+
+[[app]]
+repo = "jo32/tvbox-silicon"
+category = "utilities"
