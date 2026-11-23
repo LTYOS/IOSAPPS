@@ -4,7 +4,7 @@
 
 - **源地址**：`https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/apps.json`
 - **源标识**：`com.lintaiyi.source`
-- **当前收录**：23 个应用（随星标实时变动）
+- **当前收录**：30 个应用（随星标实时变动）
 - **更新频率**：每 6 小时一次（`0 */6 * * *`），也可在 Actions 页面手动触发
 
 ---
