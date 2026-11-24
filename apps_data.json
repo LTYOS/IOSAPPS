@@ -176,6 +176,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.2.9",
+        "date": "2026-11-24T00:07:31Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.9/HGhubX_2.2.9_ios.ipa",
+        "size": 4009527
+      },
+      {
         "version": "2.2.8",
         "date": "2026-11-23T03:55:29Z",
         "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.8/HGhubX_2.2.8_ios.ipa",
@@ -185,13 +191,7 @@
         "version": "2.2.8",
         "date": "2026-11-21T16:49:36Z",
         "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.8_ios.ipa",
-        "size": 4110302
-      },
-      {
-        "version": "2.2.7",
-        "date": "2026-11-22T12:13:11Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.7/HGhubX_2.2.7_ios.ipa",
-        "size": 3992968
+        "size": 4111759
       }
     ]
   },
@@ -596,6 +596,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.7.8",
+        "date": "2026-11-23T17:51:40Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.8/APP_2.7.8.ipa",
+        "size": 52109129
+      },
+      {
         "version": "2.7.7",
         "date": "2026-11-23T13:24:18Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.7/APP_2.7.7.ipa",
@@ -606,12 +612,6 @@
         "date": "2026-11-22T12:23:00Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.6/APP_2.7.6.ipa",
         "size": 51719504
-      },
-      {
-        "version": "2.7.5",
-        "date": "2026-11-22T01:00:48Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.5/APP_2.7.5.ipa",
-        "size": 51685905
       }
     ]
   },

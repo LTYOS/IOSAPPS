@@ -6,6 +6,66 @@
   "icon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "apps": [
     {
+      "repo": "zxsos/HGhubX",
+      "name": "HGhubX",
+      "bundleIdentifier": "com.hghubx.app",
+      "developerName": "zxsos",
+      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.2.9",
+          "date": "2026-11-24T00:07:31Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.9/HGhubX_2.2.9_ios.ipa",
+          "size": 4009527
+        },
+        {
+          "version": "2.2.8",
+          "date": "2026-11-23T03:55:29Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.8/HGhubX_2.2.8_ios.ipa",
+          "size": 4004198
+        },
+        {
+          "version": "2.2.8",
+          "date": "2026-11-21T16:49:36Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.8_ios.ipa",
+          "size": 4111759
+        }
+      ]
+    },
+    {
+      "repo": "pxx917144686/APP",
+      "name": "APP",
+      "bundleIdentifier": "com.pxx917144686.App",
+      "developerName": "pxx917144686",
+      "subtitle": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
+      "localizedDescription": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.pxx917144686.App.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "2.7.8",
+          "date": "2026-11-23T17:51:40Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.8/APP_2.7.8.ipa",
+          "size": 52109129
+        },
+        {
+          "version": "2.7.7",
+          "date": "2026-11-23T13:24:18Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.7/APP_2.7.7.ipa",
+          "size": 52032407
+        },
+        {
+          "version": "2.7.6",
+          "date": "2026-11-22T12:23:00Z",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.6/APP_2.7.6.ipa",
+          "size": 51719504
+        }
+      ]
+    },
+    {
       "repo": "mengangs/ipadn",
       "name": "iPadn",
       "bundleIdentifier": "app.local.iPadn",
@@ -66,36 +126,6 @@
       ]
     },
     {
-      "repo": "pxx917144686/APP",
-      "name": "APP",
-      "bundleIdentifier": "com.pxx917144686.App",
-      "developerName": "pxx917144686",
-      "subtitle": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
-      "localizedDescription": "未完待续~ 不是最终版本~ & \"To be continued ~ Not the final version ~\"",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.pxx917144686.App.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.7.7",
-          "date": "2026-11-23T13:24:18Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.7/APP_2.7.7.ipa",
-          "size": 52032407
-        },
-        {
-          "version": "2.7.6",
-          "date": "2026-11-22T12:23:00Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.6/APP_2.7.6.ipa",
-          "size": 51719504
-        },
-        {
-          "version": "2.7.5",
-          "date": "2026-11-22T01:00:48Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.5/APP_2.7.5.ipa",
-          "size": 51685905
-        }
-      ]
-    },
-    {
       "repo": "my-name-is-alan/iDuanJu",
       "name": "i短剧",
       "bundleIdentifier": "com.local.STV",
@@ -152,36 +182,6 @@
           "date": "2026-11-20T09:01:33Z",
           "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.0/Kazumi_ios_v3.1.0_no_sign.ipa",
           "size": 24518636
-        }
-      ]
-    },
-    {
-      "repo": "zxsos/HGhubX",
-      "name": "HGhubX",
-      "bundleIdentifier": "com.hghubx.app",
-      "developerName": "zxsos",
-      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "2.2.8",
-          "date": "2026-11-23T03:55:29Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.8/HGhubX_2.2.8_ios.ipa",
-          "size": 4004198
-        },
-        {
-          "version": "2.2.8",
-          "date": "2026-11-21T16:49:36Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.8_ios.ipa",
-          "size": 4110302
-        },
-        {
-          "version": "2.2.7",
-          "date": "2026-11-22T12:13:11Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.7/HGhubX_2.2.7_ios.ipa",
-          "size": 3992968
         }
       ]
     },
