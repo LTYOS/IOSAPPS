@@ -4,10 +4,6 @@ identifier = "com.lintaiyi.source"
 icon_url = "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg"
 
 [[app]]
-repo = "anonymousjav/AvPlayRelease"
-category = "utilities"
-
-[[app]]
 repo = "Xanerix/guoapp"
 category = "utilities"
 
@@ -161,4 +157,16 @@ category = "utilities"
 
 [[app]]
 repo = "chthollyphile/folia-major"
+category = "utilities"
+
+[[app]]
+repo = "81199000/GuoDuo"
+category = "utilities"
+
+[[app]]
+repo = "81199000/DouDuo"
+category = "utilities"
+
+[[app]]
+repo = "ccch1mneyyy/dsh-Go"
 category = "utilities"

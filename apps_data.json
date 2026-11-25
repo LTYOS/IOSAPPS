@@ -1,33 +1,5 @@
 [
   {
-    "repo": "anonymousjav/AvPlayRelease",
-    "bundle_id": "com.javdb.avplay2",
-    "name": "AvPlay",
-    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.javdb.avplay2.png",
-    "subtitle": "【最新更新】\r - 修复 黄果短剧无法播放的问题\r - 修复 AVDB无法解析线路问题\r - 修复 部分影片加入“想看、看过、清单”后不显示问题\r - 优化 视频播放器进度拖动效果\r - 优化 账号注册登录流程\r - 修复 macOS窗口拖动漂移问题\r - 修复 已知问题\r \r 【近期更新】\r - 新增 黄果AI短剧\r - 新增 影片预览\r \r ⚠️ iOS Bundle ID 又改了，iOS用户",
-    "category": "utilities",
-    "versions": [
-      {
-        "version": "2.2.2",
-        "date": "2026-11-13T13:11:00Z",
-        "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.2/AvPlay-2.2.2.ipa",
-        "size": 23878716
-      },
-      {
-        "version": "2.2.0",
-        "date": "2026-10-23T09:02:21Z",
-        "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.0/AvPlay-2.2.0.ipa",
-        "size": 23751956
-      },
-      {
-        "version": "2.1.0",
-        "date": "2026-10-21T15:08:06Z",
-        "downloadURL": "https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.1.0/AvPlay-2.1.0.ipa",
-        "size": 23737585
-      }
-    ]
-  },
-  {
     "repo": "Xanerix/guoapp",
     "bundle_id": "com.yingshib.xg",
     "name": "GuoApp",
@@ -149,21 +121,21 @@
     "versions": [
       {
         "version": "1.6",
-        "date": "2026-11-24T14:44:43Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b35/STV-1.6b35-unsigned.ipa",
-        "size": 47415206
+        "date": "2026-11-25T06:06:26Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b36-pipfix/STV-1.6b36-unsigned.ipa",
+        "size": 47462734
       },
       {
         "version": "1.6",
-        "date": "2026-11-24T14:16:36Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b34/STV-1.6b34-unsigned.ipa",
-        "size": 47378978
+        "date": "2026-11-25T08:47:37Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b36-ios16fix/STV-1.6b36-unsigned.ipa",
+        "size": 47462116
       },
       {
         "version": "1.6",
-        "date": "2026-11-24T13:20:03Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b33-hongguo-playback-fix/STV-1.6b33-unsigned.ipa",
-        "size": 47359082
+        "date": "2026-11-25T04:09:13Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b36/STV-1.6b36-unsigned.ipa",
+        "size": 47434453
       }
     ]
   },
@@ -177,15 +149,15 @@
     "versions": [
       {
         "version": "2.2.10",
-        "date": "2026-11-24T10:16:05Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.10/HGhubX_2.2.10_ios.ipa",
-        "size": 4048150
+        "date": "2026-11-21T16:49:36Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.10_ios.ipa",
+        "size": 4167789
       },
       {
         "version": "2.2.10",
-        "date": "2026-11-21T16:49:36Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.10_ios.ipa",
-        "size": 4164407
+        "date": "2026-11-24T10:16:05Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.10/HGhubX_2.2.10_ios.ipa",
+        "size": 4048150
       },
       {
         "version": "2.2.9",
@@ -428,22 +400,22 @@
     "category": "utilities",
     "versions": [
       {
-        "version": "4.6.23",
-        "date": "2026-11-17T02:55:14Z",
-        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.23-192/duanjuzhijia2-4.6.23%2B192-ios-unsigned.ipa",
-        "size": 39957291
+        "version": "4.6.91",
+        "date": "2026-11-25T12:49:07Z",
+        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.91-270/duanjuzhijia2-4.6.91%2B270-ios-unsigned.ipa",
+        "size": 44113713
       },
       {
-        "version": "4.6.22",
-        "date": "2026-11-16T13:55:44Z",
-        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.22-190/duanjuzhijia2-4.6.22%2B190-ios-unsigned.ipa",
-        "size": 39871681
+        "version": "4.6.87",
+        "date": "2026-11-25T05:52:05Z",
+        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.87-266-beta/duanjuzhijia2-4.6.87%2B266-ios-unsigned.ipa",
+        "size": 44082566
       },
       {
-        "version": "4.6.21",
-        "date": "2026-11-16T11:11:37Z",
-        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.21-189/duanjuzhijia2-4.6.21%2B189-ios-unsigned.ipa",
-        "size": 39872471
+        "version": "4.6.86",
+        "date": "2026-11-25T04:24:42Z",
+        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.86-265/duanjuzhijia2-4.6.86%2B265-ios-unsigned.ipa",
+        "size": 43812307
       }
     ]
   },
@@ -456,6 +428,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "3.1.3",
+        "date": "2026-11-25T02:28:50Z",
+        "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.3/Kazumi_ios_v3.1.3_no_sign.ipa",
+        "size": 21572090
+      },
+      {
         "version": "3.1.2",
         "date": "2026-11-23T06:25:05Z",
         "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.2/Kazumi_ios_v3.1.2_no_sign.ipa",
@@ -466,12 +444,6 @@
         "date": "2026-11-21T14:56:42Z",
         "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.1/Kazumi_ios_v3.1.1_no_sign.ipa",
         "size": 24528156
-      },
-      {
-        "version": "3.1.0",
-        "date": "2026-11-20T09:01:33Z",
-        "downloadURL": "https://github.com/LinkPass888/Kazumi-Swift/releases/download/v3.1.0/Kazumi_ios_v3.1.0_no_sign.ipa",
-        "size": 24518636
       }
     ]
   },
@@ -596,6 +568,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.8.0",
+        "date": "2026-11-25T10:03:14Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.0/APP_2.8.0.ipa",
+        "size": 54079009
+      },
+      {
         "version": "2.7.9",
         "date": "2026-11-24T08:21:55Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.9/APP_2.7.9.ipa",
@@ -606,12 +584,6 @@
         "date": "2026-11-23T17:51:40Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.8/APP_2.7.8.ipa",
         "size": 52109129
-      },
-      {
-        "version": "2.7.7",
-        "date": "2026-11-23T13:24:18Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.7/APP_2.7.7.ipa",
-        "size": 52032407
       }
     ]
   },
@@ -764,6 +736,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "1.0.7",
+        "date": "2026-11-25T03:13:04Z",
+        "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.7/Erosion_v1.0.7_Bilingual.ipa",
+        "size": 6948364
+      },
+      {
         "version": "1.0.6",
         "date": "2026-11-19T13:48:12Z",
         "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.6/Erosion_v1.0.6_Bilingual.ipa",
@@ -774,12 +752,6 @@
         "date": "2026-11-17T23:33:43Z",
         "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.5/Erosion_v1.0.5_Bilingual.ipa",
         "size": 6875541
-      },
-      {
-        "version": "1.0.4",
-        "date": "2026-11-17T14:37:22Z",
-        "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.4/Erosion_v1.0.4_Bilingual.ipa",
-        "size": 6857330
       }
     ]
   },
@@ -836,6 +808,90 @@
         "date": "2026-02-13T06:53:07Z",
         "downloadURL": "https://github.com/Mac-XK/KMusic/releases/download/%E6%AD%8C%E4%B8%80%E5%88%802.1.0/2.1.0.ipa",
         "size": 8761082
+      }
+    ]
+  },
+  {
+    "repo": "81199000/GuoDuo",
+    "bundle_id": "me.rrmm.hongguo",
+    "name": "GuoDuo",
+    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/me.rrmm.hongguo.png",
+    "subtitle": "# GuoDuo 0.7.0  ## 优化 - 滑到下一集 / 推荐里滑到下一部，起播从 1.7 秒左右缩到 0.5 秒左右，戴蓝牙耳机也不再先暂停一下才开始放。 - 修复切集后画面先顿住、再快进掉开头一段的问题。 - 后台预下改为后面 2 集，连续往后滑不用等下载；滑动途中直接显示下一集的第一帧画面。",
+    "category": "utilities",
+    "versions": [
+      {
+        "version": "0.7.0",
+        "date": "2026-11-23T18:43:13Z",
+        "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v0.7.0/GuoDuo-0.7.0-unsigned.ipa",
+        "size": 4131672
+      },
+      {
+        "version": "0.6.9",
+        "date": "2026-11-23T14:25:46Z",
+        "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v0.6.9/GuoDuo-0.6.9-unsigned.ipa",
+        "size": 4110515
+      },
+      {
+        "version": "0.6.8",
+        "date": "2026-11-23T10:03:08Z",
+        "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v0.6.8/GuoDuo-0.6.8-unsigned.ipa",
+        "size": 4109995
+      }
+    ]
+  },
+  {
+    "repo": "81199000/DouDuo",
+    "bundle_id": "me.rrmm.douduo",
+    "name": "DouDuo",
+    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/me.rrmm.douduo.png",
+    "subtitle": "DouDuo：适配 iPhone Duo / iPad 的第三方抖音客户端——原生播放、秒开 + 50 条预缓存、横滑快进、弹幕、评论、直播聊天、搜索、喜欢/收藏/历史",
+    "category": "utilities",
+    "versions": [
+      {
+        "version": "1.7.3",
+        "date": "2026-11-24T06:51:33Z",
+        "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.3/DouDuo-1.7.3-unsigned.ipa",
+        "size": 23555736
+      },
+      {
+        "version": "1.7.2",
+        "date": "2026-11-23T08:22:46Z",
+        "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.2/DouDuo-1.7.2-unsigned.ipa",
+        "size": 23421992
+      },
+      {
+        "version": "1.7.1",
+        "date": "2026-11-22T09:03:00Z",
+        "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.1/DouDuo-1.7.1-unsigned.ipa",
+        "size": 23321448
+      }
+    ]
+  },
+  {
+    "repo": "ccch1mneyyy/dsh-Go",
+    "bundle_id": "io.github.ccch1mneyyy.dshgo",
+    "name": "DSH Go",
+    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/io.github.ccch1mneyyy.dshgo.png",
+    "subtitle": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "category": "utilities",
+    "versions": [
+      {
+        "version": "1.4.0",
+        "date": "2026-11-25T14:53:25Z",
+        "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ios-unsigned.ipa",
+        "size": 129653636
+      },
+      {
+        "version": "1.3.0",
+        "date": "2026-11-20T20:04:40Z",
+        "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.3.0/dsh-go-1.3.0-ios-unsigned.ipa",
+        "size": 126020561
+      },
+      {
+        "version": "1.2.0",
+        "date": "2026-11-18T07:32:51Z",
+        "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.2.0/dsh-go-1.2.0-ios-unsigned.ipa",
+        "size": 123474162
       }
     ]
   }
