@@ -121,21 +121,21 @@
     "versions": [
       {
         "version": "1.6",
-        "date": "2026-11-25T06:06:26Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b36-pipfix/STV-1.6b36-unsigned.ipa",
-        "size": 47462734
+        "date": "2026-11-26T14:44:55Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b41/STV-1.6b41-unsigned.ipa",
+        "size": 54330260
       },
       {
         "version": "1.6",
-        "date": "2026-11-25T08:47:37Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b36-ios16fix/STV-1.6b36-unsigned.ipa",
-        "size": 47462116
+        "date": "2026-11-26T14:29:47Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b40/STV-1.6b40-unsigned.ipa",
+        "size": 54300569
       },
       {
         "version": "1.6",
-        "date": "2026-11-25T04:09:13Z",
-        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b36/STV-1.6b36-unsigned.ipa",
-        "size": 47434453
+        "date": "2026-11-26T10:29:49Z",
+        "downloadURL": "https://github.com/my-name-is-alan/iDuanJu/releases/download/v1.6b39/STV-1.6b39-unsigned.ipa",
+        "size": 54299493
       }
     ]
   },
@@ -148,22 +148,16 @@
     "category": "utilities",
     "versions": [
       {
-        "version": "2.2.10",
-        "date": "2026-11-21T16:49:36Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_2.2.10_ios.ipa",
-        "size": 4167789
+        "version": "3.0.0",
+        "date": "2026-11-26T14:16:54Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v3.0.0/HGhubX_3.0.0_ios.ipa",
+        "size": 4865415
       },
       {
-        "version": "2.2.10",
-        "date": "2026-11-24T10:16:05Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.10/HGhubX_2.2.10_ios.ipa",
-        "size": 4048150
-      },
-      {
-        "version": "2.2.9",
-        "date": "2026-11-24T00:07:31Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v2.2.9/HGhubX_2.2.9_ios.ipa",
-        "size": 4009527
+        "version": "3.0.0",
+        "date": "2026-11-26T15:05:45Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_3.0.0_ios.ipa",
+        "size": 5162143
       }
     ]
   },
@@ -288,6 +282,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.4.7",
+        "date": "2026-11-26T05:31:42Z",
+        "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.7/Kazumi_ios_2.4.7_no_sign.ipa",
+        "size": 30376353
+      },
+      {
         "version": "2.4.6",
         "date": "2026-11-22T05:42:23Z",
         "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.6/Kazumi_ios_2.4.6_no_sign.ipa",
@@ -298,12 +298,6 @@
         "date": "2026-11-21T05:56:21Z",
         "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_ios_2.4.5_no_sign.ipa",
         "size": 30370674
-      },
-      {
-        "version": "2.4.4",
-        "date": "2026-11-12T10:27:44Z",
-        "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.4/Kazumi_ios_2.4.4_no_sign.ipa",
-        "size": 30341213
       }
     ]
   },
@@ -406,16 +400,16 @@
         "size": 44113713
       },
       {
+        "version": "4.6.92",
+        "date": "2026-11-26T14:24:34Z",
+        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.92-271-beta/duanjuzhijia2-4.6.92%2B271-ios-unsigned.ipa",
+        "size": 44228542
+      },
+      {
         "version": "4.6.87",
         "date": "2026-11-25T05:52:05Z",
         "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.87-266-beta/duanjuzhijia2-4.6.87%2B266-ios-unsigned.ipa",
         "size": 44082566
-      },
-      {
-        "version": "4.6.86",
-        "date": "2026-11-25T04:24:42Z",
-        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.86-265/duanjuzhijia2-4.6.86%2B265-ios-unsigned.ipa",
-        "size": 43812307
       }
     ]
   },
@@ -568,22 +562,22 @@
     "category": "utilities",
     "versions": [
       {
-        "version": "2.8.2",
-        "date": "2026-11-25T20:09:56Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.2/APP_2.8.2.ipa",
-        "size": 53941374
+        "version": "2.8.8",
+        "date": "2026-11-26T16:17:23Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.8/APP_2.8.8.ipa",
+        "size": 54462701
       },
       {
-        "version": "2.8.1",
-        "date": "2026-11-25T20:00:36Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.1/APP_2.8.1.ipa",
-        "size": 54233919
+        "version": "2.8.7",
+        "date": "2026-11-26T11:36:15Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.7/APP_2.8.7.ipa",
+        "size": 54337380
       },
       {
-        "version": "2.8.0",
-        "date": "2026-11-25T10:03:14Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.0/APP_2.8.0.ipa",
-        "size": 54079009
+        "version": "2.8.6",
+        "date": "2026-11-26T11:00:31Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.6/APP_2.8.6.ipa",
+        "size": 54047706
       }
     ]
   },
@@ -681,21 +675,21 @@
     "versions": [
       {
         "version": "1.8.13",
+        "date": "2026-11-26T11:33:28Z",
+        "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build10/Yingxia-1.8.13-build10-iOS16.2-NoJava-unsigned.ipa",
+        "size": 112768842
+      },
+      {
+        "version": "1.8.13",
+        "date": "2026-11-26T04:16:58Z",
+        "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build09/Yingxia-1.8.13-build09-iOS16.2-NoJava-unsigned.ipa",
+        "size": 113132809
+      },
+      {
+        "version": "1.8.13",
         "date": "2026-11-23T15:06:21Z",
         "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build08/Yingxia-1.8.13-build08-iOS16.2-NoJava-unsigned.ipa",
         "size": 106340223
-      },
-      {
-        "version": "1.8.13",
-        "date": "2026-11-23T12:02:54Z",
-        "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build07/Yingxia-1.8.13-build07-iOS16.2-NoJava-unsigned.ipa",
-        "size": 105245015
-      },
-      {
-        "version": "1.8.13",
-        "date": "2026-11-23T00:07:39Z",
-        "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build06/Yingxia-1.8.13-build06-iOS16.2-NoJava-unsigned.ipa",
-        "size": 104696555
       }
     ]
   },
@@ -816,9 +810,15 @@
     "bundle_id": "me.rrmm.hongguo",
     "name": "GuoDuo",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/me.rrmm.hongguo.png",
-    "subtitle": "# GuoDuo 0.7.0  ## 优化 - 滑到下一集 / 推荐里滑到下一部，起播从 1.7 秒左右缩到 0.5 秒左右，戴蓝牙耳机也不再先暂停一下才开始放。 - 修复切集后画面先顿住、再快进掉开头一段的问题。 - 后台预下改为后面 2 集，连续往后滑不用等下载；滑动途中直接显示下一集的第一帧画面。",
+    "subtitle": "# GuoDuo 1.0.0  ## 全新首页 - 奈飞主题首页（默认）：大海报，整页底色跟着封面主色变；继续观看、我的追剧、今日热播 Top 10、各榜单一行一行横着滑。 - 顶部分区：全部 / 真人剧 / 漫剧 / AI 剧 / 系列剧 / 西饭 / 河马，按屏幕宽度自动排，放不下的收进「类别」。 - 往下滑分区栏收起，往上滑弹回。也可以在「设置 → 首页主题」切回红果主题（两列大卡）。  #",
     "category": "utilities",
     "versions": [
+      {
+        "version": "1.0.0",
+        "date": "2026-11-26T06:35:28Z",
+        "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v1.0.0/GuoDuo-1.0.0-unsigned.ipa",
+        "size": 5340141
+      },
       {
         "version": "0.7.0",
         "date": "2026-11-23T18:43:13Z",
@@ -830,12 +830,6 @@
         "date": "2026-11-23T14:25:46Z",
         "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v0.6.9/GuoDuo-0.6.9-unsigned.ipa",
         "size": 4110515
-      },
-      {
-        "version": "0.6.8",
-        "date": "2026-11-23T10:03:08Z",
-        "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v0.6.8/GuoDuo-0.6.8-unsigned.ipa",
-        "size": 4109995
       }
     ]
   },
@@ -848,6 +842,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "1.7.4",
+        "date": "2026-11-26T08:38:34Z",
+        "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.4/DouDuo-1.7.4-unsigned.ipa",
+        "size": 23598616
+      },
+      {
         "version": "1.7.3",
         "date": "2026-11-24T06:51:33Z",
         "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.3/DouDuo-1.7.3-unsigned.ipa",
@@ -858,12 +858,6 @@
         "date": "2026-11-23T08:22:46Z",
         "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.2/DouDuo-1.7.2-unsigned.ipa",
         "size": 23421992
-      },
-      {
-        "version": "1.7.1",
-        "date": "2026-11-22T09:03:00Z",
-        "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.1/DouDuo-1.7.1-unsigned.ipa",
-        "size": 23321448
       }
     ]
   },
@@ -892,6 +886,34 @@
         "date": "2026-11-18T07:32:51Z",
         "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.2.0/dsh-go-1.2.0-ios-unsigned.ipa",
         "size": 123474162
+      }
+    ]
+  },
+  {
+    "repo": "JosssphZhou/poki",
+    "bundle_id": "nz.zheha.poki",
+    "name": "Poki",
+    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/nz.zheha.poki.png",
+    "subtitle": "Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.",
+    "category": "utilities",
+    "versions": [
+      {
+        "version": "0.5.1",
+        "date": "2026-11-08T13:40:16Z",
+        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-prealpha-latest/Poki-external-0.5.1-2912.ipa",
+        "size": 139662091
+      },
+      {
+        "version": "0.5.1",
+        "date": "2026-11-09T11:54:14Z",
+        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-prealpha-latest/Poki-external-0.5.1-2912.ipa",
+        "size": 139662091
+      },
+      {
+        "version": "0.5.0",
+        "date": "2026-11-24T10:29:25Z",
+        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.0-beta.1/Poki-external-0.5.0-2500.ipa",
+        "size": 127076289
       }
     ]
   }

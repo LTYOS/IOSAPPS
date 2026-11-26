@@ -170,3 +170,11 @@ category = "utilities"
 [[app]]
 repo = "ccch1mneyyy/dsh-Go"
 category = "utilities"
+
+[[app]]
+repo = "oilycn/LCSwitcher"
+category = "utilities"
+
+[[app]]
+repo = "JosssphZhou/poki"
+category = "utilities"
