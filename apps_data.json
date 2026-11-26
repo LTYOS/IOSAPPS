@@ -568,22 +568,22 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.8.2",
+        "date": "2026-11-25T20:09:56Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.2/APP_2.8.2.ipa",
+        "size": 53941374
+      },
+      {
+        "version": "2.8.1",
+        "date": "2026-11-25T20:00:36Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.1/APP_2.8.1.ipa",
+        "size": 54233919
+      },
+      {
         "version": "2.8.0",
         "date": "2026-11-25T10:03:14Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.0/APP_2.8.0.ipa",
         "size": 54079009
-      },
-      {
-        "version": "2.7.9",
-        "date": "2026-11-24T08:21:55Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.9/APP_2.7.9.ipa",
-        "size": 52208989
-      },
-      {
-        "version": "2.7.8",
-        "date": "2026-11-23T17:51:40Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.7.8/APP_2.7.8.ipa",
-        "size": 52109129
       }
     ]
   },
