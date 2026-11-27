@@ -8,6 +8,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.0.4",
+        "date": "2026-11-27T01:29:07Z",
+        "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.4-116/guoapp-2.0.4%2B116-ios-unsigned.ipa",
+        "size": 34334761
+      },
+      {
         "version": "2.0.3",
         "date": "2026-11-21T18:31:19Z",
         "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.3-115/guoapp-2.0.3%2B115-ios-unsigned.ipa",
@@ -18,12 +24,6 @@
         "date": "2026-11-19T01:03:04Z",
         "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.2-114/guoapp-2.0.2%2B114-ios-unsigned.ipa",
         "size": 34234019
-      },
-      {
-        "version": "2.0.1",
-        "date": "2026-11-16T16:33:41Z",
-        "downloadURL": "https://github.com/Xanerix/guoapp/releases/download/app-v2.0.1-113/guoapp-2.0.1%2B113-ios-unsigned.ipa",
-        "size": 33878287
       }
     ]
   },
@@ -36,6 +36,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "1.5.28",
+        "date": "2026-11-27T01:01:29Z",
+        "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.28/anich-ios-no_sign-1.5.28.ipa",
+        "size": 41232889
+      },
+      {
         "version": "1.5.27",
         "date": "2026-10-05T03:15:29Z",
         "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.27/anich-ios-no_sign-1.5.27.ipa",
@@ -46,12 +52,6 @@
         "date": "2026-10-01T23:19:57Z",
         "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.26/anich-ios-no_sign-1.5.26.ipa",
         "size": 41219984
-      },
-      {
-        "version": "1.5.25",
-        "date": "2026-09-15T22:35:34Z",
-        "downloadURL": "https://github.com/Sle2p/AniCh/releases/download/1.5.25/anich-ios-no_sign-1.5.25.ipa",
-        "size": 41219710
       }
     ]
   },
@@ -157,7 +157,7 @@
         "version": "3.0.0",
         "date": "2026-11-26T15:05:45Z",
         "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_3.0.0_ios.ipa",
-        "size": 5162143
+        "size": 5162627
       }
     ]
   },
@@ -562,6 +562,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.9.9",
+        "date": "2026-11-27T01:06:10Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.9.9/APP_2.9.9.ipa",
+        "size": 54481500
+      },
+      {
         "version": "2.8.8",
         "date": "2026-11-26T16:17:23Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.8/APP_2.8.8.ipa",
@@ -572,12 +578,6 @@
         "date": "2026-11-26T11:36:15Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.7/APP_2.8.7.ipa",
         "size": 54337380
-      },
-      {
-        "version": "2.8.6",
-        "date": "2026-11-26T11:00:31Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.6/APP_2.8.6.ipa",
-        "size": 54047706
       }
     ]
   },
@@ -810,9 +810,15 @@
     "bundle_id": "me.rrmm.hongguo",
     "name": "GuoDuo",
     "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/me.rrmm.hongguo.png",
-    "subtitle": "# GuoDuo 1.0.0  ## 全新首页 - 奈飞主题首页（默认）：大海报，整页底色跟着封面主色变；继续观看、我的追剧、今日热播 Top 10、各榜单一行一行横着滑。 - 顶部分区：全部 / 真人剧 / 漫剧 / AI 剧 / 系列剧 / 西饭 / 河马，按屏幕宽度自动排，放不下的收进「类别」。 - 往下滑分区栏收起，往上滑弹回。也可以在「设置 → 首页主题」切回红果主题（两列大卡）。  #",
+    "subtitle": "# GuoDuo 1.0.1  ## 修复 - 修复每部剧只显示前 3 集的问题：红果官网收紧了分集列表，现在改从红果 App 接口取完整分集，所有集数都能看到、都能播。  ## 播放 - 边下边播：点开一集，文件头一到就开始播，不用等整集下完；往后拖到还没下到的地方也能接着播。 - 上滑下一集更顺：下一集提前准备好，滑过去直接接上，不再闪黑、不再先铺满再缩回。 - 滑动切集时不再闪出暂停键和标题",
     "category": "utilities",
     "versions": [
+      {
+        "version": "1.0.1",
+        "date": "2026-11-26T16:49:45Z",
+        "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v1.0.1/GuoDuo-1.0.1-unsigned.ipa",
+        "size": 5439351
+      },
       {
         "version": "1.0.0",
         "date": "2026-11-26T06:35:28Z",
@@ -824,12 +830,6 @@
         "date": "2026-11-23T18:43:13Z",
         "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v0.7.0/GuoDuo-0.7.0-unsigned.ipa",
         "size": 4131672
-      },
-      {
-        "version": "0.6.9",
-        "date": "2026-11-23T14:25:46Z",
-        "downloadURL": "https://github.com/81199000/GuoDuo/releases/download/v0.6.9/GuoDuo-0.6.9-unsigned.ipa",
-        "size": 4110515
       }
     ]
   },
@@ -842,6 +842,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "1.7.5",
+        "date": "2026-11-26T20:01:46Z",
+        "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.5/DouDuo-1.7.5-unsigned.ipa",
+        "size": 23627752
+      },
+      {
         "version": "1.7.4",
         "date": "2026-11-26T08:38:34Z",
         "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.4/DouDuo-1.7.4-unsigned.ipa",
@@ -852,12 +858,6 @@
         "date": "2026-11-24T06:51:33Z",
         "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.3/DouDuo-1.7.3-unsigned.ipa",
         "size": 23555736
-      },
-      {
-        "version": "1.7.2",
-        "date": "2026-11-23T08:22:46Z",
-        "downloadURL": "https://github.com/81199000/DouDuo/releases/download/v1.7.2/DouDuo-1.7.2-unsigned.ipa",
-        "size": 23421992
       }
     ]
   },
@@ -898,22 +898,22 @@
     "category": "utilities",
     "versions": [
       {
-        "version": "0.5.1",
+        "version": "0.5.2",
         "date": "2026-11-08T13:40:16Z",
-        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-prealpha-latest/Poki-external-0.5.1-2912.ipa",
-        "size": 139662091
+        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-prealpha-latest/Poki-external-0.5.2-2915.ipa",
+        "size": 139662093
       },
       {
         "version": "0.5.1",
-        "date": "2026-11-09T11:54:14Z",
-        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-prealpha-latest/Poki-external-0.5.1-2912.ipa",
+        "date": "2026-11-08T13:40:36Z",
+        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-alpha-latest/Poki-external-0.5.1-2912.ipa",
         "size": 139662091
       },
       {
-        "version": "0.5.0",
-        "date": "2026-11-24T10:29:25Z",
-        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.0-beta.1/Poki-external-0.5.0-2500.ipa",
-        "size": 127076289
+        "version": "0.5.2",
+        "date": "2026-11-09T11:54:14Z",
+        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-prealpha-latest/Poki-external-0.5.2-2915.ipa",
+        "size": 139662093
       }
     ]
   }
