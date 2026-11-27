@@ -178,3 +178,7 @@ category = "utilities"
 [[app]]
 repo = "JosssphZhou/poki"
 category = "utilities"
+
+[[app]]
+repo = "xtool-org/xtool"
+category = "utilities"

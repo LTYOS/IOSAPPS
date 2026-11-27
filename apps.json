@@ -6,6 +6,96 @@
   "icon": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/source_icon.jpeg",
   "apps": [
     {
+      "repo": "zxsos/HGhubX",
+      "name": "HGhubX",
+      "bundleIdentifier": "com.hghubx.app",
+      "developerName": "zxsos",
+      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "3.1.1",
+          "date": "2026-11-27T14:18:54Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v3.1.1/HGhubX_3.1.1_ios.ipa",
+          "size": 5196736
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-26T15:05:45Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_3.0.0_ios.ipa",
+          "size": 5399982
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-11-26T14:16:54Z",
+          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v3.0.0/HGhubX_3.0.0_ios.ipa",
+          "size": 4865415
+        }
+      ]
+    },
+    {
+      "repo": "LiveContainer/LiveContainer",
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "LiveContainer",
+      "subtitle": "Run iOS apps without actually installing them!",
+      "localizedDescription": "Run iOS apps without actually installing them!",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kdt.livecontainer.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "nightly",
+          "date": "2026-11-27T08:54:37Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
+          "size": 23997759
+        },
+        {
+          "version": "3.8.0",
+          "date": "2026-07-17T07:44:20Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer%2BSideStore.ipa",
+          "size": 35403538
+        },
+        {
+          "version": "3.7.2",
+          "date": "2026-02-27T04:18:41Z",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
+          "size": 34811049
+        }
+      ]
+    },
+    {
+      "repo": "ccch1mneyyy/dsh-Go",
+      "name": "DSH Go",
+      "bundleIdentifier": "io.github.ccch1mneyyy.dshgo",
+      "developerName": "ccch1mneyyy",
+      "subtitle": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "localizedDescription": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/io.github.ccch1mneyyy.dshgo.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.4.1",
+          "date": "2026-11-27T04:37:38Z",
+          "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.1/dsh-go-1.4.1-ios-unsigned.ipa",
+          "size": 129673089
+        },
+        {
+          "version": "1.4.0",
+          "date": "2026-11-25T14:53:25Z",
+          "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ios-unsigned.ipa",
+          "size": 129653636
+        },
+        {
+          "version": "1.3.0",
+          "date": "2026-11-20T20:04:40Z",
+          "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.3.0/dsh-go-1.3.0-ios-unsigned.ipa",
+          "size": 126020561
+        }
+      ]
+    },
+    {
       "repo": "Xanerix/guoapp",
       "name": "GuoApp",
       "bundleIdentifier": "com.yingshib.xg",
@@ -46,9 +136,9 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "2.9.9",
+          "version": "2.8.9",
           "date": "2026-11-27T01:06:10Z",
-          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.9.9/APP_2.9.9.ipa",
+          "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.9/APP_2.8.9.ipa",
           "size": 54481500
         },
         {
@@ -186,30 +276,6 @@
       ]
     },
     {
-      "repo": "zxsos/HGhubX",
-      "name": "HGhubX",
-      "bundleIdentifier": "com.hghubx.app",
-      "developerName": "zxsos",
-      "subtitle": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "localizedDescription": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hghubx.app.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "3.0.0",
-          "date": "2026-11-26T14:16:54Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v3.0.0/HGhubX_3.0.0_ios.ipa",
-          "size": 4865415
-        },
-        {
-          "version": "3.0.0",
-          "date": "2026-11-26T15:05:45Z",
-          "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_3.0.0_ios.ipa",
-          "size": 5162627
-        }
-      ]
-    },
-    {
       "repo": "lmentor/tvbox-silicon",
       "name": "Yingxia",
       "bundleIdentifier": "com.jo32.yingxia.ios",
@@ -266,36 +332,6 @@
           "date": "2026-11-21T05:56:21Z",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_ios_2.4.5_no_sign.ipa",
           "size": 30370674
-        }
-      ]
-    },
-    {
-      "repo": "ccch1mneyyy/dsh-Go",
-      "name": "DSH Go",
-      "bundleIdentifier": "io.github.ccch1mneyyy.dshgo",
-      "developerName": "ccch1mneyyy",
-      "subtitle": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "localizedDescription": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/io.github.ccch1mneyyy.dshgo.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "1.4.0",
-          "date": "2026-11-25T14:53:25Z",
-          "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ios-unsigned.ipa",
-          "size": 129653636
-        },
-        {
-          "version": "1.3.0",
-          "date": "2026-11-20T20:04:40Z",
-          "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.3.0/dsh-go-1.3.0-ios-unsigned.ipa",
-          "size": 126020561
-        },
-        {
-          "version": "1.2.0",
-          "date": "2026-11-18T07:32:51Z",
-          "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.2.0/dsh-go-1.2.0-ios-unsigned.ipa",
-          "size": 123474162
         }
       ]
     },
@@ -506,36 +542,6 @@
           "date": "2026-11-05T22:19:00Z",
           "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.5.2/Mori-v4.5.2-iOS-Unsigned.ipa",
           "size": 2099534
-        }
-      ]
-    },
-    {
-      "repo": "LiveContainer/LiveContainer",
-      "name": "LiveContainer",
-      "bundleIdentifier": "com.kdt.livecontainer",
-      "developerName": "LiveContainer",
-      "subtitle": "Run iOS apps without actually installing them!",
-      "localizedDescription": "Run iOS apps without actually installing them!",
-      "iconURL": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.kdt.livecontainer.png",
-      "category": "utilities",
-      "versions": [
-        {
-          "version": "nightly",
-          "date": "2026-11-20T15:07:22Z",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer%2BSideStore.ipa",
-          "size": 23997201
-        },
-        {
-          "version": "3.8.0",
-          "date": "2026-07-17T07:44:20Z",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer%2BSideStore.ipa",
-          "size": 35403538
-        },
-        {
-          "version": "3.7.2",
-          "date": "2026-02-27T04:18:41Z",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer%2BSideStore.ipa",
-          "size": 34811049
         }
       ]
     },
@@ -852,20 +858,20 @@
         {
           "version": "0.5.2",
           "date": "2026-11-08T13:40:16Z",
-          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-prealpha-latest/Poki-external-0.5.2-2915.ipa",
-          "size": 139662093
-        },
-        {
-          "version": "0.5.1",
-          "date": "2026-11-08T13:40:36Z",
-          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-alpha-latest/Poki-external-0.5.1-2912.ipa",
-          "size": 139662091
+          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-prealpha-latest/Poki-external-0.5.2-2916.ipa",
+          "size": 139662098
         },
         {
           "version": "0.5.2",
           "date": "2026-11-09T11:54:14Z",
-          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-prealpha-latest/Poki-external-0.5.2-2915.ipa",
-          "size": 139662093
+          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-prealpha-latest/Poki-external-0.5.2-2916.ipa",
+          "size": 139662098
+        },
+        {
+          "version": "0.5.1",
+          "date": "2026-11-27T05:36:09Z",
+          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.1/Poki-external-0.5.1-2912.ipa",
+          "size": 139662091
         }
       ]
     },
