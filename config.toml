@@ -16,10 +16,6 @@ repo = "ios151/One-releases"
 category = "utilities"
 
 [[app]]
-repo = "drdon1234/Hentai-Park"
-category = "utilities"
-
-[[app]]
 repo = "my-name-is-alan/iDuanJu"
 category = "utilities"
 
@@ -144,10 +140,6 @@ repo = "Mac-XK/KMusic"
 category = "utilities"
 
 [[app]]
-repo = "Ebony-Vinyl/dsh-our-free-model"
-category = "utilities"
-
-[[app]]
 repo = "imxieyi/Kernarium"
 category = "utilities"
 
@@ -181,4 +173,8 @@ category = "utilities"
 
 [[app]]
 repo = "xtool-org/xtool"
+category = "utilities"
+
+[[app]]
+repo = "twobirdsfly/Hentai-Park"
 category = "utilities"

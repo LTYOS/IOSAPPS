@@ -84,34 +84,6 @@
     ]
   },
   {
-    "repo": "drdon1234/Hentai-Park",
-    "bundle_id": "com.hentaipark.hentaiPark",
-    "name": "HentaiPark",
-    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hentaipark.hentaiPark.png",
-    "subtitle": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, subscriptions, offline downloads and privacy controls",
-    "category": "utilities",
-    "versions": [
-      {
-        "version": "0.15.4",
-        "date": "2026-11-20T02:09:37Z",
-        "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.4/HentaiPark-0.15.4-85-ios-arm64-unsigned.ipa",
-        "size": 18027346
-      },
-      {
-        "version": "0.15.3",
-        "date": "2026-11-19T10:19:57Z",
-        "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.3/HentaiPark-0.15.3-84-ios-arm64-unsigned.ipa",
-        "size": 18035069
-      },
-      {
-        "version": "0.15.2",
-        "date": "2026-11-19T04:42:15Z",
-        "downloadURL": "https://github.com/drdon1234/Hentai-Park/releases/download/v0.15.2/HentaiPark-0.15.2-83-ios-arm64-unsigned.ipa",
-        "size": 18025060
-      }
-    ]
-  },
-  {
     "repo": "my-name-is-alan/iDuanJu",
     "bundle_id": "com.local.STV",
     "name": "i短剧",
@@ -148,22 +120,22 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "3.2.0",
+        "date": "2026-11-28T14:12:09Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v3.2.0/HGhubX_3.2.0_ios.ipa",
+        "size": 5320793
+      },
+      {
+        "version": "3.1.2",
+        "date": "2026-11-26T15:05:45Z",
+        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_3.1.2_ios.ipa",
+        "size": 5545134
+      },
+      {
         "version": "3.1.2",
         "date": "2026-11-27T19:01:14Z",
         "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v3.1.2/HGhubX_3.1.2_ios.ipa",
         "size": 5216729
-      },
-      {
-        "version": "3.1.1",
-        "date": "2026-11-27T14:18:54Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/v3.1.1/HGhubX_3.1.1_ios.ipa",
-        "size": 5196736
-      },
-      {
-        "version": "3.0.0",
-        "date": "2026-11-26T15:05:45Z",
-        "downloadURL": "https://github.com/zxsos/HGhubX/releases/download/test-pre/HGhubX_3.0.0_ios.ipa",
-        "size": 5399982
       }
     ]
   },
@@ -400,22 +372,22 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "4.6.115",
+        "date": "2026-11-28T09:37:23Z",
+        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-v4.6.115-294/duanjuzhijia2-4.6.115%2B294-ios-unsigned.ipa",
+        "size": 44376316
+      },
+      {
+        "version": "4.6.108",
+        "date": "2026-11-28T01:23:45Z",
+        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.108-287/duanjuzhijia2-4.6.108%2B287-ios-unsigned.ipa",
+        "size": 44340252
+      },
+      {
         "version": "4.6.91",
         "date": "2026-11-25T12:49:07Z",
         "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.91-270/duanjuzhijia2-4.6.91%2B270-ios-unsigned.ipa",
         "size": 44113713
-      },
-      {
-        "version": "4.6.92",
-        "date": "2026-11-26T14:24:34Z",
-        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.92-271-beta/duanjuzhijia2-4.6.92%2B271-ios-unsigned.ipa",
-        "size": 44228542
-      },
-      {
-        "version": "4.6.87",
-        "date": "2026-11-25T05:52:05Z",
-        "downloadURL": "https://github.com/jackherex/duanjuzhijia-down-ios/releases/download/ios-app-v4.6.87-266-beta/duanjuzhijia2-4.6.87%2B266-ios-unsigned.ipa",
-        "size": 44082566
       }
     ]
   },
@@ -568,6 +540,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "2.9.2",
+        "date": "2026-11-28T10:22:07Z",
+        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.9.2/APP_2.9.2.ipa",
+        "size": 54730150
+      },
+      {
         "version": "2.9.1",
         "date": "2026-11-27T18:47:05Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.9.1/APP_2.9.1.ipa",
@@ -578,12 +556,6 @@
         "date": "2026-11-27T16:17:00Z",
         "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.9.0/APP_2.9.0.ipa",
         "size": 54562808
-      },
-      {
-        "version": "2.8.9",
-        "date": "2026-11-27T01:06:10Z",
-        "downloadURL": "https://github.com/pxx917144686/APP/releases/download/2.8.9/APP_2.8.9.ipa",
-        "size": 54481500
       }
     ]
   },
@@ -681,6 +653,12 @@
     "versions": [
       {
         "version": "1.8.13",
+        "date": "2026-11-28T03:49:59Z",
+        "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build11/Yingxia-1.8.13-build11-iOS16.2-NoJava-unsigned.ipa",
+        "size": 113101106
+      },
+      {
+        "version": "1.8.13",
         "date": "2026-11-26T11:33:28Z",
         "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build10/Yingxia-1.8.13-build10-iOS16.2-NoJava-unsigned.ipa",
         "size": 112768842
@@ -690,12 +668,6 @@
         "date": "2026-11-26T04:16:58Z",
         "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build09/Yingxia-1.8.13-build09-iOS16.2-NoJava-unsigned.ipa",
         "size": 113132809
-      },
-      {
-        "version": "1.8.13",
-        "date": "2026-11-23T15:06:21Z",
-        "downloadURL": "https://github.com/lmentor/tvbox-silicon/releases/download/build08/Yingxia-1.8.13-build08-iOS16.2-NoJava-unsigned.ipa",
-        "size": 106340223
       }
     ]
   },
@@ -736,6 +708,12 @@
     "category": "utilities",
     "versions": [
       {
+        "version": "1.0.8",
+        "date": "2026-11-28T02:48:12Z",
+        "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.8/Erosion_v1.0.8_Bilingual.ipa",
+        "size": 7081576
+      },
+      {
         "version": "1.0.7",
         "date": "2026-11-25T03:13:04Z",
         "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.7/Erosion_v1.0.7_Bilingual.ipa",
@@ -746,12 +724,6 @@
         "date": "2026-11-19T13:48:12Z",
         "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.6/Erosion_v1.0.6_Bilingual.ipa",
         "size": 6948787
-      },
-      {
-        "version": "1.0.5",
-        "date": "2026-11-17T23:33:43Z",
-        "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.5/Erosion_v1.0.5_Bilingual.ipa",
-        "size": 6875541
       }
     ]
   },
@@ -906,20 +878,48 @@
       {
         "version": "0.5.2",
         "date": "2026-11-08T13:40:16Z",
-        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-prealpha-latest/Poki-external-0.5.2-2916.ipa",
-        "size": 139662098
+        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/ios-prealpha-latest/Poki-external-0.5.2-2922.ipa",
+        "size": 139963740
       },
       {
         "version": "0.5.2",
         "date": "2026-11-09T11:54:14Z",
-        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-prealpha-latest/Poki-external-0.5.2-2916.ipa",
-        "size": 139662098
+        "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-prealpha-latest/Poki-external-0.5.2-2922.ipa",
+        "size": 139963740
       },
       {
         "version": "0.5.1",
         "date": "2026-11-27T05:36:09Z",
         "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.1/Poki-external-0.5.1-2912.ipa",
         "size": 139662091
+      }
+    ]
+  },
+  {
+    "repo": "twobirdsfly/Hentai-Park",
+    "bundle_id": "com.hentaipark.hentaiPark",
+    "name": "HentaiPark",
+    "icon_url": "https://raw.githubusercontent.com/LTYOS/IOSAPPS/main/icons/com.hentaipark.hentaiPark.png",
+    "subtitle": "跨平台成人内容聚合客户端：图集、视频、音声、小说与游戏资源，支持聚合搜索、排行榜、阅读播放、订阅追更、离线下载与隐私保护 | Cross-platform adult content client for images, videos, asmr, novels and game resources; unified search, rankings, reading, playback, subscriptions, offline downloads and privacy controls",
+    "category": "utilities",
+    "versions": [
+      {
+        "version": "0.15.4",
+        "date": "2026-11-20T02:09:37Z",
+        "downloadURL": "https://github.com/twobirdsfly/Hentai-Park/releases/download/v0.15.4/HentaiPark-0.15.4-85-ios-arm64-unsigned.ipa",
+        "size": 18027346
+      },
+      {
+        "version": "0.15.3",
+        "date": "2026-11-19T10:19:57Z",
+        "downloadURL": "https://github.com/twobirdsfly/Hentai-Park/releases/download/v0.15.3/HentaiPark-0.15.3-84-ios-arm64-unsigned.ipa",
+        "size": 18035069
+      },
+      {
+        "version": "0.15.2",
+        "date": "2026-11-19T04:42:15Z",
+        "downloadURL": "https://github.com/twobirdsfly/Hentai-Park/releases/download/v0.15.2/HentaiPark-0.15.2-83-ios-arm64-unsigned.ipa",
+        "size": 18025060
       }
     ]
   }
